@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>  
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Authors>Leader Analytics</Authors>
+    <Company>Leader Analytics</Company>
+    <Product>LeaderAnalytics.LeaderPivot.TestData</Product>
+    <Description>Test data for use when debugging / developing LeaderPivot</Description>
+    <Copyright>2021 Leader Analytics</Copyright>
+    <PackageProjectUrl>https://github.com/leaderanalytics/LeaderPivot.TestData</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/leaderanalytics/LeaderPivot.TestData</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Leader Analytics LeaderAnalytics Pivot Table Pivot Grid Pivot Matrix</PackageTags>
+    <PackageReleaseNotes>See Repository</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SubhadraSolutions.Utils.Pivoting\SubhadraSolutions.Utils.Pivoting.csproj" />
+  </ItemGroup>
+
+  <Target Name="CopyPackage" AfterTargets="Pack" Condition=" '$(Configuration)'=='Debug' ">
+    <Copy SourceFiles="$(OutputPath)..\$(PackageId).$(PackageVersion).nupkg" DestinationFolder="c:\NugetPackages\" />
+    <Copy SourceFiles="$(OutputPath)..\$(PackageId).$(PackageVersion).snupkg" DestinationFolder="c:\NugetPackages\" />
+  </Target>
+</Project>

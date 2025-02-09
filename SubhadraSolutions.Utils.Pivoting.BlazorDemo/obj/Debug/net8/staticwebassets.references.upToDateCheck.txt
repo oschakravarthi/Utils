@@ -1,0 +1,12 @@
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.BlazorDemo.Client\obj\Debug\net8\staticwebassets.build.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Debug\net8\staticwebassets.build.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.BlazorDemo.Client\obj\Debug\net8\staticwebassets.build.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Debug\net8\staticwebassets.build.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.BlazorDemo.Client\obj\Debug\net8\staticwebassets.build.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Debug\net8\staticwebassets.build.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.BlazorDemo.Client\obj\Debug\net8\staticwebassets.build.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Debug\net8\staticwebassets.build.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.BlazorDemo.Client\obj\Debug\net8\staticwebassets.build.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Debug\net8\staticwebassets.build.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.BlazorDemo.Client\obj\Debug\net8\staticwebassets.build.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Debug\net8\staticwebassets.build.json

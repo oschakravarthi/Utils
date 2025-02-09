@@ -1,0 +1,7 @@
+@inherits AbstractSmartComponent
+
+@if (Metrics is { Count: > 0 })
+{
+    var list = BuildListForDataGrid();
+    <SmartChartAndGridCombo Data="@list" KMNumberFormat="false" ChartMode="false" AllowSwitchingMode="true"></SmartChartAndGridCombo>
+}

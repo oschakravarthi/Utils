@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>SwissEphNet</AssemblyName>
+    <RootNamespace>SwissEphNet</RootNamespace>
+    <PackageId>SwissEphNet</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2.8.0.2</Version>
+    <Authors>Yan Grenier</Authors>
+    <Company>Yan Grenier</Company>
+    <Product>SwissEphNet</Product>
+    <Description>Swiss Ephemeris .Net portage</Description>
+    <Copyright>Copyright © Yan Grenier 2014-2019</Copyright>
+    <PackageLicenseUrl>
+    </PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ygrenier/SwissEphNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ygrenier/SwissEphNet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Swiss Ephemeris</PackageTags>
+    <PackageReleaseNotes>2.8.0.2:
+- Fix the #41 issue
+
+2.8.0.1:
+- Update to version 2.08 of SwissEphemeris
+
+2.7.1.3:
+- Update to version 2.07.1 of SwissEphemeris
+- Inlcude the PR #34 - swe_house_pos: parameter geolon is actually geolat - thanks to aleksamagicka
+
+2.6.0.24:
+- Include the PR #32 - Make fixed star name parameter ref  - thanks to aleksamagicka
+
+2.6.0.23:
+- Fix the #29 issue
+
+2.6.0.22:
+- Fix the #27 issue
+
+2.6.0.21:
+- Update to VS 2017 project
+
+2.6.0.18:
+- Update the code to the Swiss Ephemeris 2.06.00 version.
+</PackageReleaseNotes>
+    <NeutralLanguage>Anglais</NeutralLanguage>
+    <PackageLicenseFile></PackageLicenseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG;</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;RELEASE;</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard1.0' ">
+    <DefineConstants>$(DefineConstants);NETSTANDARD1_0;NETSTANDARD;NOTYPECODE;USETYPEINFO;NOASMATTRIBUTES</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net40' ">
+    <DefineConstants>$(DefineConstants);NET40;NOASMATTRIBUTES</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+</Project>

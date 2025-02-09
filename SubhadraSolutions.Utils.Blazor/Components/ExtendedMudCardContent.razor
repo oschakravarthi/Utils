@@ -1,0 +1,7 @@
+@inherits MudCardContent
+
+<CascadingValue Value="this" IsFixed="true">
+    <div @attributes="UserAttributes" class="@Classname" style="@Style">
+        @ChildContent
+    </div>
+</CascadingValue>

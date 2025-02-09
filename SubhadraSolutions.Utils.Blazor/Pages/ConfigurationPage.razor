@@ -1,0 +1,20 @@
+@page "/Diagnostics/Configuration"
+@inherits AbstractSmartPage
+<DocsPage MaxWidth="MaxWidth.ExtraExtraLarge" EnableContentNavigation="false" PrintView="@this.PrintView">
+    <DocsPageContent>
+        <DocsPageSection>
+            <SectionHeader Title="Configuration">
+            </SectionHeader>
+            <SectionContent>
+                @if (configuration != null)
+                {
+                    <SmartChartAndGridCombo Data="@configuration" ChartMode="false" AllowSwitchingMode="false" PageSize="10000"></SmartChartAndGridCombo>
+                }
+                else
+                {
+                    <SmartOverlay></SmartOverlay>
+                }
+            </SectionContent>
+        </DocsPageSection>
+    </DocsPageContent>
+</DocsPage>

@@ -1,0 +1,77 @@
+@using System.Text.RegularExpressions
+@*html head (for server prerendering)*@
+<PageTitle>@(GetTitle())</PageTitle>
+<HeadContent>
+	<meta Name="keywords" Content="@GetKeywords()" />
+	<meta Property="og:title" Content="@GetTitle()" />
+	@if (!string.IsNullOrEmpty(SubTitle))
+	{
+		<meta Name="description" Content="@(SubTitle)" />
+		<meta Property="og:description" Content="@SubTitle" />
+	}
+</HeadContent>
+@if (!string.IsNullOrEmpty(@Title) || this.Description != null)
+{
+	<div class="docs-page-header mt-6 mb-2">
+		<MudText Typo="@Typo.h3">@Title</MudText>
+		<MudText>@GetSubTitle() @Description</MudText>
+		@* <DocsRenderBenchmark/>*@
+	</div>
+}
+
+@if (SpecialHeaderContent != null)
+{
+	<div class="docs-page-header my-2">
+		@SpecialHeaderContent
+		@*<DocsRenderBenchmark/>*@
+	</div>
+}
+
+@code {
+
+	[Inject]
+	private NavigationManager NavigationManager { get; set; }
+
+	//[Inject] IMenuService MenuService { get; set; }
+
+	[Parameter]
+	public string Title { get; set; }
+
+	[Parameter]
+	public string SubTitle { get; set; }
+
+	[Parameter]
+	public string Keywords { get; set; }
+
+	[Parameter]
+	public RenderFragment Description { get; set; }
+
+	[Parameter]
+	public RenderFragment SpecialHeaderContent { get; set; }
+
+	[Parameter]
+	public string ComponentLink { get; set; }
+
+	string GetTitle()
+	{
+		return Title;
+	}
+
+	string GetSubTitle()
+	{
+		if (string.IsNullOrEmpty(SubTitle))
+		{
+			return "";
+		}
+		return SubTitle.TrimEnd('.') + ".";
+	}
+
+	string GetKeywords()
+	{
+		var keywords = new HashSet<string>(Regex.Split(Keywords ?? "", @",\s")) { Title };
+		keywords.Remove("");
+		keywords.Remove(null);
+		return string.Join(", ", keywords);
+	}
+
+}

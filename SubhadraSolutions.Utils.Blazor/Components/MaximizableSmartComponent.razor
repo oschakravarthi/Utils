@@ -1,0 +1,18 @@
+@inherits AbstractMaximizableSmartComponent
+
+<MudCard Outlined="@Outlined" Elevation="@Elevation" Square="@Square" Class="@GetClass()" Style="@GetStyle()" Tag="@Tag" UserAttributes="@UserAttributes">
+    <MudCardHeader>
+        <CardHeaderContent>
+        </CardHeaderContent>
+        <CardHeaderActions>
+            <div class="d-md-flex align-center d-print-none">
+                <MudTooltip Duration="1000" Text="@GetMinMaxIconTooltop()">
+                    <MudIconButton Color="Color.Default" Icon="@GetMinMaxIcon()" OnClick="@ToggleMinMax" aria-label="@GetMinMaxIconTooltop()"/>
+                </MudTooltip>
+            </div>
+        </CardHeaderActions>
+    </MudCardHeader>
+    <MudCardContent>
+        @ChildContent
+    </MudCardContent>
+</MudCard>

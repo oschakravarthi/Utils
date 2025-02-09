@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HtmlTableCSS" xml:space="preserve">
+    <value>table { page-break-inside:auto }tr { page-break-inside:avoid;page-break-after:avoid; }thead { display:table-header-group }tfoot { display:table-footer-group }table.tbl{font-family:verdana,arial,sans-serif;font-size:11px;color:#333;border-width:1px;border-color:#666;border-collapse:collapse}th.h{border-width:1px;padding:2px;border-style:solid;border-color:#666;background-color:#dedede;text-align:center}td.n{border-width:1px;padding:2px;border-style:solid;border-color:#666;background-color:#fff;text-align:right}td.c{border-width:1px;padding:2px;border-style:solid;border-color:#666;background-color:#fff;text-align:left;vertical-align:text-top;white-space:pre-line;word-break:break-all}td.g{border-width:1px;padding:2px;border-style:solid;border-color:#666;background-color:#fff;text-align:left;white-space:pre-line;word-break:break-all}table.example{border:1px solid #000;border-collapse:collapse}table.example td,table.example th{border:1px solid #aaa;padding:2px 15px 2px 15px}table.example thead th{background-color:#ccf}table.example tfoot td{background-color:#fcf}table.example tr.tbody_header{background-color:#ddd;font-weight:700;text-align:center}table.example a.pagelink{border:1px solid #666;margin:0 5px 0 5px;padding-left:5px;padding-right:5px}table.example a.currentpage{background-color:#ff0}tr.alternate{background-color:#ffc}th.table-sortable{background-image:url("sortable.gif");background-position:center left;background-repeat:no-repeat;cursor:pointer;padding-left:12px}th.table-sorted-asc{background-image:url("sorted_up.gif");background-position:center left;background-repeat:no-repeat}th.table-sorted-desc{background-image:url("sorted_down.gif");background-position:center left;background-repeat:no-repeat}th.table-filtered{background-image:url("filter.gif");background-position:center left;background-repeat:no-repeat}select.table-autofilter{font-size:smaller}table.altstripe tr.alternate2{background-color:#cff}table.sort01 th.table-sortable{background-image:url("icons/01_unsorted.gif")}table.sort01 th.table-sorted-asc{background-image:url("icons/01_ascending.gif")}table.sort01 th.table-sorted-desc{background-image:url("icons/01_descending.gif")}table.sort02 th.table-sortable{background-image:none;padding-left:16px}table.sort02 th.table-sorted-asc{background-image:url("icons/02_ascending.gif")}table.sort02 th.table-sorted-desc{background-image:url("icons/02_descending.gif")}table.sort03 th.table-sortable{background-image:none}table.sort03 th.table-sorted-asc{background-image:url("icons/03_ascending.gif")}table.sort03 th.table-sorted-desc{background-image:url("icons/03_descending.gif")}table.sort04 th.table-sortable{background-image:none}table.sort04 th.table-sorted-asc{background-image:url("icons/04_ascending.gif")}table.sort04 th.table-sorted-desc{background-image:url("icons/04_descending.gif")}table.sort05 th.table-sortable{background-image:url("icons/05_unsorted.gif");padding-left:16px}table.sort05 th.table-sorted-asc{background-image:url("icons/05_ascending.gif")}table.sort05 th.table-sorted-desc{background-image:url("icons/05_descending.gif")}table.sort06 th.table-sortable{background-image:none;padding-left:16px}table.sort06 th.table-sorted-asc{background-image:url("icons/06_ascending.gif")}table.sort06 th.table-sorted-desc{background-image:url("icons/06_descending.gif")}table.sort07 th.table-sortable{background-image:none}table.sort07 th.table-sorted-asc{background-image:url("icons/07_ascending.gif")}table.sort07 th.table-sorted-desc{background-image:url("icons/07_descending.gif")}table.sort08 th.table-sortable{background-image:none}table.sort08 th.table-sorted-asc{background-image:url("icons/08_ascending.gif")}table.sort08 th.table-sorted-desc{background-image:url("icons/08_descending.gif")}table.sort09 th.table-sortable{background-image:none;padding-left:30px}table.sort09 th.table-sorted-asc{background-image:url("icons/09_ascending.gif")}table.sort09 th.table-sorted-desc{background-image:url("icons/09_descending.gif")}table.sort10 th.table-sortable{background-image:url("icons/10_unsorted.gif")}table.sort10 th.table-sorted-asc{background-image:url("icons/10_ascending.gif")}table.sort10 th.table-sorted-desc{background-image:url("icons/10_descending.gif")}table.sort11 th.table-sortable{background-image:url("icons/11_unsorted.gif");padding-left:24px}table.sort11 th.table-sorted-asc{background-image:url("icons/11_ascending.gif")}table.sort11 th.table-sorted-desc{background-image:url("icons/11_descending.gif")}table.sort12 th.table-sortable{background-image:none}table.sort12 th.table-sorted-asc{background-image:url("icons/12_ascending.gif")}table.sort12 th.table-sorted-desc{background-image:url("icons/12_descending.gif")}table.sort13 th.table-sortable{background-image:none}table.sort13 th.table-sorted-asc{background-image:url("icons/13_ascending.gif")}table.sort13 th.table-sorted-desc{background-image:url("icons/13_descending.gif")}table.sort14 th.table-sortable{background-image:none}table.sort14 th.table-sorted-asc{background-image:url("icons/14_ascending.gif")}table.sort14 th.table-sorted-desc{background-image:url("icons/14_descending.gif")}table.sort15 th.table-sortable{background-image:none}table.sort15 th.table-sorted-asc{background-image:url("icons/15_ascending.gif")}table.sort15 th.table-sorted-desc{background-image:url("icons/15_descending.gif")}table.sort16 th.table-sortable{background-image:none}table.sort16 th.table-sorted-asc{background-image:url("icons/16_ascending.gif")}table.sort16 th.table-sorted-desc{background-image:url("icons/16_descending.gif")}table.sort17 th.table-sortable{background-image:none}table.sort17 th.table-sorted-asc{background-image:url("icons/17_ascending.gif")}table.sort17 th.table-sorted-desc{background-image:url("icons/17_descending.gif")}table.sort18 th.table-sortable{background-image:url("icons/18_unsorted.gif")}table.sort18 th.table-sorted-asc{background-image:url("icons/18_ascending.gif")}table.sort18 th.table-sorted-desc{background-image:url("icons/18_descending.gif")}table.sort19 th.table-sortable{background-image:url("icons/19_unsorted.gif");padding-left:24px}table.sort19 th.table-sorted-asc{background-image:url("icons/19_ascending.gif")}table.sort19 th.table-sorted-desc{background-image:url("icons/19_descending.gif")}.iconset{border:1px solid #ccc;border-color:#ccc #666 #666 #ccc;cursor:pointer;margin:5px;text-align:center;width:100px}.iconset img{margin:3px}tr.doc_section{background-color:#ddd;font-weight:700;text-align:center}input.filter{background:#fff url('filter.gif') no-repeat left center;width:100%}body,html,textarea{margin:0;padding:0;border:0;width:100%;height:100%}textarea{vertical-align:top}</value>
+  </data>
+</root>

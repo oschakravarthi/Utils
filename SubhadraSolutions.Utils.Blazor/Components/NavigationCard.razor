@@ -1,0 +1,12 @@
+@inherits AbstractSmartComponent
+@if (NavigationInfo == null)
+{
+    return;
+}
+<MudCard Outlined="@Outlined" Elevation="@Elevation" Square="@Square" Class="@GetClass()" Style="@GetStyle()" Tag="@Tag" UserAttributes="@UserAttributes">
+    <MudCardContent>
+        <MudTooltip Duration="1000" Text="@this.Tooltip">
+            <MudFab Size="Size.Small" Color="Color.Info" StartIcon="@Icons.Material.Filled.Link" OnClick="() => Navigate(NavigationInfo)" aria-label="Navigate to the details page"/>
+        </MudTooltip>
+    </MudCardContent>
+</MudCard>

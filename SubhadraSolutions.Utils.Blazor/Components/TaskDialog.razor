@@ -1,0 +1,40 @@
+﻿@inherits AbstractSmartComponent
+@typeparam T
+
+<MudDialog DisableSidePadding="true">
+	<DialogContent>
+		@if (this.jObject != null)
+		{
+			<MudCard Outlined="@Outlined" Elevation="@Elevation" Square="@Square" Class="@GetClass()" Style="@GetStyle()" Tag="@Tag" UserAttributes="@UserAttributes">
+				<MudCardHeader>
+					<CardHeaderContent>
+						<MudText Typo="Typo.h6" Color="Color.Error"><MudIcon Icon="@this.Icon" Color="Color.Error" Class="mr-3" />@this.Title</MudText>
+					
+						@* @if (this.isErrored)
+						{
+							<MudText Typo="Typo.h5" Color="Color.Error">Error</MudText>
+						} *@
+					</CardHeaderContent>
+					<CardHeaderActions>
+						<MudIconButton Color="Color.Default" Icon="@GetMinMaxIcon()" OnClick="@ToggleMinMax" aria-label="minmax"/>
+					</CardHeaderActions>
+				</MudCardHeader>
+				<MudCardContent>
+					<MudContainer Style="max-height: 300px; overflow-y: scroll">
+						@if(this.isErrored)
+						{
+							<MudText Color="MudBlazor.Color.Error" Style="white-space: pre-wrap;">@this.GetContent()</MudText>
+						}
+						else
+						{
+							<MudElement HtmlTag="pre" Class="ms-1">@this.GetContent()</MudElement>
+						}
+					</MudContainer>
+				</MudCardContent>
+			</MudCard>
+		}
+	</DialogContent>
+	<DialogActions>
+		<MudButton Color="Color.Primary" OnClick="this.Submit">Ok</MudButton>
+	</DialogActions>
+</MudDialog>

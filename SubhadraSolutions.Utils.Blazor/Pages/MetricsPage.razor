@@ -1,0 +1,50 @@
+@page "/Diagnostics/Metrics"
+@inherits AbstractSmartPage
+<DocsPage MaxWidth="MaxWidth.ExtraExtraLarge" EnableContentNavigation="true" PrintView="@this.PrintView"ties>
+    <HeaderContent>
+        <DocsPageHeader>
+            <SpecialHeaderContent>
+                <MudCard Outlined="false" Elevation="0">
+                    <MudCardHeader Style="display: flex; padding: 0px; align-items: center; border-top-left-radius: inherit; border-top-right-radius: inherit;">
+                        <CardHeaderContent>
+                        </CardHeaderContent>
+                        <CardHeaderActions>
+                            <div class="d-md-flex align-center d-print-none">
+                                <MudTooltip Duration="1000" Text="Refresh">
+                                    <MudIconButton Color="Color.Default" Icon="@Icons.Material.Filled.Refresh" OnClick="ResetAsync" aria-label="Refresh" />
+                                </MudTooltip>
+                                <MudTooltip Duration="1000" Text="Reset">
+                                    <MudIconButton Color="Color.Default" Icon="@Icons.Material.Filled.RestartAlt" OnClick="ResetMetricsAsync" aria-label="Reset" />
+                                </MudTooltip>
+                            </div>
+                        </CardHeaderActions>
+                    </MudCardHeader>
+                </MudCard>
+            </SpecialHeaderContent>
+        </DocsPageHeader>
+    </HeaderContent>
+    <PageContent>
+        <DocsPageContent>
+            @if (metricsGroups != null)
+            {
+                foreach (var g in metricsGroups)
+                {
+                    <DocsPageSection>
+                        <SectionHeader Title="@g.Key">
+                        </SectionHeader>
+                        <SectionContent>
+                            @{
+                                var list = g.ToList();
+                                <ComponentMetricsComponent Metrics="@list"></ComponentMetricsComponent>
+                            }
+                        </SectionContent>
+                    </DocsPageSection>
+                }
+            }
+            else
+            {
+                <SmartOverlay></SmartOverlay>
+            }
+        </DocsPageContent>
+    </PageContent>
+</DocsPage>

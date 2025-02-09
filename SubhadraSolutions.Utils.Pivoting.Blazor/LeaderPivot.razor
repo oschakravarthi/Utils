@@ -1,0 +1,165 @@
+﻿@namespace SubhadraSolutions.Utils.Pivoting.Blazor
+@using SubhadraSolutions.Utils.Pivoting 
+@typeparam T
+@inherits BaseComponent
+
+<div class="@(PivotStyle.Container) leader-pivot-container">
+    @if (!(Matrix?.Rows?.Any() ?? false))
+    { 
+        <label>NO DATA</label>
+    }
+
+    <table class="@(PivotStyle.Table) " height="1px" style="@PivotStyle.TableStyle"> @*1px height required to make control div expand to 100% height.*@
+        @if (Matrix?.Rows?.Any() ?? false)
+        {
+            @foreach (var row in Matrix.Rows.Select((x, y) => new { Item = x, Index = y }))
+            {
+                <Tr>
+                @foreach (var c in row.Item.Cells.Select((x, y) => new { Item = x, Index = y }))
+                {
+                    switch (c.Item.CellType)
+                    {
+                        case CellType.Measure:
+
+
+                            <td class="@PivotStyle.MeasureCell" style="@PivotStyle.CellStyle" rowspan="@c.Item.RowSpan" colspan="@c.Item.ColSpan" >
+                                @c.Item.Value
+                            </td>
+
+
+                            break;
+                        case CellType.Total:
+
+
+                            <td class="@PivotStyle.TotalCell" style="@PivotStyle.CellStyle" rowspan="@c.Item.RowSpan" colspan="@c.Item.ColSpan" >
+                                @c.Item.Value
+                            </td>
+
+                            
+                            break;
+                        case CellType.GrandTotal:
+                            
+
+                            <td class="@PivotStyle.GrandTotalCell" style="@PivotStyle.CellStyle" rowspan="@c.Item.RowSpan" colspan="@c.Item.ColSpan" >
+                                @c.Item.Value
+                            </td>
+                            
+                            
+                            break;
+                        case CellType.GroupHeader:
+
+                
+                                <td class="@PivotStyle.GroupHeaderCell" style="@PivotStyle.CellStyle" rowspan="@c.Item.RowSpan" colspan="@c.Item.ColSpan">
+                                @if (c.Item.CanToggleExapansion)
+                                {
+
+                                    <div style="white-space:nowrap">
+                                            <button type="button" class="@PivotStyle.GroupHeaderButton" @onclick="(() => ToggleNodeExpansion(c.Item.NodeID))" style="padding:2px 0px 0px 0px;width:27px;height:27px;">
+
+                                            @if (c.Item.IsExpanded)
+                                            {
+                                                <span class="oi oi-caret-bottom" title="Collapse" aria-hidden="true"></span>
+                                            }
+                                            else
+                                            {
+                                                <span class="oi oi-caret-right" title="Expand" aria-hidden="true"></span>
+                                            }
+
+                                        </button>
+                                        @c.Item.Value
+                                    </div>
+                                }
+                                else
+                                {
+                                    @c.Item.Value
+                                }
+                            </td>
+
+
+                            break;
+                        case CellType.TotalHeader:
+                            
+
+                            <td class="@PivotStyle.TotalHeaderCell" style="@PivotStyle.CellStyle" rowspan="@c.Item.RowSpan" colspan="@c.Item.ColSpan">
+                                @c.Item.Value
+                            </td>
+
+
+                            break;
+                        case CellType.GrandTotalHeader:
+
+
+                            <td class="@PivotStyle.GrandTotalHeaderCell" style="@PivotStyle.CellStyle" rowspan="@c.Item.RowSpan" colspan="@c.Item.ColSpan">
+                                @c.Item.Value
+                            </td>
+
+                            
+                            break;
+                        case CellType.MeasureTotalLabel:
+
+
+                            <td class="@PivotStyle.TotalHeaderCell" style="@PivotStyle.CellStyle" rowspan="@c.Item.RowSpan" colspan="@c.Item.ColSpan">
+                                @c.Item.Value
+                            </td>
+
+                            break;
+                        case CellType.MeasureLabel:
+                            
+
+                            <td class="@PivotStyle.MeasureHeaderCell" style="@PivotStyle.CellStyle" rowspan="@c.Item.RowSpan" colspan="@c.Item.ColSpan">
+
+                                @if (row.Index == 0 && c.Index == 0)
+                                {
+                                    <MeasureContainer T="T"
+                                        RowDimensions="RowDimensions"
+                                        HiddenDimensions="HiddenDimensions"
+                                        Measures="Measures"
+                                        DisplayGrandTotals="DisplayGrandTotals"
+                                        DisplayGrandTotalOption="DisplayGrandTotalOption"
+                                        DisplayDimensionButtons="DisplayDimensionButtons"
+                                        DisplayMeasureSelectors="DisplayMeasureSelectors"
+                                        DisplayReloadDataButton="DisplayReloadDataButton"
+                                        DisplayHiddenDimSelector="DisplayHiddenDimSelector"
+                                        ReloadData="ReloadData"
+                                        RenderTable="RenderTable"
+                                        DimensionsChanged="DimensionsChanged"
+                                        GrandTotalsCheckedChanged="GrandTotalsCheckedChanged"
+                                        MaxDimensionsPerAxis="MaxDimensionsPerAxis"
+                                        PivotStyle="@PivotStyle">
+
+                                    </MeasureContainer>
+                                }
+                                else if (row.Index == 0 && c.Index == 1 && DisplayDimensionButtons)
+                                {
+                                    <div class="leader-pivot-d-flex leader-pivot-align-self-center" style="margin-top:-1vh;">
+                                        <DimensionContainer T="T" 
+                                            Dimensions="ColumnDimensions" 
+                                            RenderTable="RenderTable" 
+                                            DimensionsChanged="DimensionsChanged" 
+                                            MaxDimensions="MaxDimensionsPerAxis" 
+                                            IsRows="false" 
+                                            PivotStyle="@PivotStyle">
+                                        </DimensionContainer>  
+                                    </div>
+                                }
+                                else
+                                {
+                                    @c.Item.Value;
+                                }
+
+                            </td>
+                            
+                            
+                            break;
+                        default:
+                            throw new Exception($"CellType {c.Item.CellType.ToString()} is not recognized.");
+                    }
+                }
+                </Tr>
+            }
+        }
+    </table>
+</div>
+
+
+

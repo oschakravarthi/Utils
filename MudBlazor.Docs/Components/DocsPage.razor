@@ -1,0 +1,20 @@
+
+<MudMainContent Class="mudblazor-main-content">
+    <MudContainer MaxWidth="@MaxWidth">
+        <div id="docspage" class="docs-page">
+            <CascadingValue Value="this" IsFixed>
+                @if(!this.PrintView)
+                {
+                    @HeaderContent
+                }
+                @PageContent
+            </CascadingValue>
+        </div>
+    </MudContainer>
+    @if (EnableContentNavigation &&!this.PrintView)
+    {
+        <MudDrawer Class="docs-page-content-navigation-drawer d-print-none" @bind-Open="_contentDrawerOpen" Breakpoint="Breakpoint.Lg" Anchor="Anchor.End" ClipMode="DrawerClipMode.Always" Elevation="0" Color="Color.Transparent">
+            <MudPageContentNavigation SectionClassSelector="docs-section-header" @ref="_contentNavigation" ActivateFirstSectionAsDefault="true"/>
+        </MudDrawer>
+    }
+</MudMainContent>

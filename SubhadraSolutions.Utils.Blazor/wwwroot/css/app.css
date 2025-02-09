@@ -1,0 +1,200 @@
+@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+.product-brand {
+    margin: 2px 0 0;
+    padding: 0;
+}
+
+    .product-brand:hover {
+        cursor: pointer;
+        color: var(--mud-palette-primary);
+        transition: color 250ms cubic-bezier(.4,0,.2,1) 0ms,box-shadow 250ms cubic-bezier(.4,0,.2,1) 0ms,border 250ms cubic-bezier(.4,0,.2,1) 0ms;
+    }
+
+    .product-brand > .mudblazor-svg {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a, .btn-link {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.content {
+    padding-top: 1.1rem;
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+
+.invalid {
+    outline: 1px solid red;
+}
+
+.validation-message {
+    color: red;
+}
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+
+.mud-nav-link:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+.mudblazor-appbar-band {
+    background-image: url(/img/ProductLogoSmall.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    overflow: hidden;
+    background-size: contain;
+}
+
+.appEmptyNavigationLink {
+    color: #e50000;
+    font-weight: bold;
+    font-size: smaller
+}
+
+.appNavigationLink {
+    color: blue;
+    font-weight: bold
+}
+
+.mud-carousel-item.mud-carousel-item-msred {
+    background-color: #f35220;
+}
+
+.mud-carousel-item.mud-carousel-item-msgreen {
+    background-color: #82bd01;
+}
+
+.mud-carousel-item.mud-carousel-item-msblue {
+    background-color: #00a7f0;
+}
+
+.mud-carousel-item.mud-carousel-item-msyellow {
+    background-color: #ffbb02;
+}
+
+.mud-card-header {
+    display: flex !important;
+    padding: 2px !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    align-items: center !important;
+    border-top-left-radius: inherit !important;
+    border-top-right-radius: inherit !important;
+}
+
+.mud-carousel {
+    display: flex !important;
+    position: static !important;
+    margin: 0px !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 2px !important;
+    margin-left: 0px !important;
+    clip-path: inset(0 0 0 0);
+    overflow: hidden;
+}
+
+.mud-nav-link {
+    width: 100%;
+    font-weight: 350 !important;
+    padding: 8px 16px 8px 16px;
+    color: inherit;
+    line-height: 1.5 !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-transform: inherit;
+    background-color: transparent;
+    transition: background-color 250ms cubic-bezier(.4,0,.2,1) 0ms,box-shadow 250ms cubic-bezier(.4,0,.2,1) 0ms,border 250ms cubic-bezier(.4,0,.2,1) 0ms,padding 250ms cubic-bezier(.4,0,.2,1) 0ms;
+    align-items: flex-start;
+}
+
+.pa-2 {
+    padding: 2px !important;
+}
+
+.mud-navmenu.mud-navmenu-margin-dense .mud-nav-link {
+    margin: 0px 0 !important;
+}
+
+/*.mud-icon-size-medium {
+    font-size: 1rem !important;
+}
+*/
+mud-navmenu.mud-navmenu-dense .mud-nav-link {
+    padding: 1px 1px 1px 1px !important;
+}
+
+.docs-page-section .docs-section-header .mud-typography-h5 {
+    margin-top: 1px !important;
+    margin-bottom: 0px;
+}
+
+.docs-page-section .docs-section-header .mud-typography-h6 {
+    margin-top: 1px !important;
+    margin-bottom: 0px;
+}
+
+.mud-nav-group > .mud-nav-link > .mud-nav-link-text {
+    font-weight: 400 !important;
+}
+
+.docs-page-section {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.mud-card-content {
+    padding: 2px !important;
+}
+
+.longword {
+    word-wrap: break-word;
+}
+
+.b-release {
+    color: var(--mud-palette-success) !important;
+    font-weight: bold;
+}
+
+.c-release {
+    font-weight: 1200;
+    color: var(--mud-palette-secondary) !important;
+}
+.no-header {
+    display: none !important;
+}

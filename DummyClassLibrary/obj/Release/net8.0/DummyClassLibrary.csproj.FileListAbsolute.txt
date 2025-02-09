@@ -1,0 +1,12 @@
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\DummyClassLibrary\bin\Release\net8.0\DummyClassLibrary.deps.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\DummyClassLibrary\bin\Release\net8.0\DummyClassLibrary.dll
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\DummyClassLibrary\bin\Release\net8.0\DummyClassLibrary.pdb
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\DummyClassLibrary\obj\Release\net8.0\DummyClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\DummyClassLibrary\obj\Release\net8.0\DummyClassLibrary.AssemblyInfoInputs.cache
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\DummyClassLibrary\obj\Release\net8.0\DummyClassLibrary.AssemblyInfo.cs
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\DummyClassLibrary\obj\Release\net8.0\DummyClassLibrary.csproj.CoreCompileInputs.cache
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\DummyClassLibrary\obj\Release\net8.0\DummyClassLibrary.sourcelink.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\DummyClassLibrary\obj\Release\net8.0\DummyClassLibrary.dll
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\DummyClassLibrary\obj\Release\net8.0\refint\DummyClassLibrary.dll
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\DummyClassLibrary\obj\Release\net8.0\DummyClassLibrary.pdb
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\DummyClassLibrary\obj\Release\net8.0\ref\DummyClassLibrary.dll

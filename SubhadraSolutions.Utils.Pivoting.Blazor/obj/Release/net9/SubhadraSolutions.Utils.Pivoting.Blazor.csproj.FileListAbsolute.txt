@@ -1,0 +1,7 @@
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net9\SubhadraSolutions.Utils.Pivoting.Blazor.csproj.AssemblyReference.cache
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net9\SubhadraSolutions.Utils.Pivoting.Blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net9\SubhadraSolutions.Utils.Pivoting.Blazor.AssemblyInfoInputs.cache
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net9\SubhadraSolutions.Utils.Pivoting.Blazor.AssemblyInfo.cs
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net9\SubhadraSolutions.Utils.Pivoting.Blazor.csproj.CoreCompileInputs.cache
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net9\SubhadraSolutions.Utils.Pivoting.LeaderPivot.Blazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net9\SubhadraSolutions.Utils.Pivoting.Blazor.sourcelink.json

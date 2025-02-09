@@ -1,0 +1,49 @@
+@inherits AbstractSmartComponent
+@if (isInDataFetchingMode)
+{
+    <SmartOverlay/>
+    return;
+}
+<MudCard Outlined="@Outlined" Elevation="@Elevation" Square="@Square" Class="@GetClass()" Style="@GetStyle()" Tag="@Tag" UserAttributes="@UserAttributes">
+    <MudCardHeader>
+        <CardHeaderContent>
+            @if (IsPercentage == null || !IsPercentage.Value)
+            {
+                <MudText Typo="Typo.h5" Color="@color">@stringValue</MudText>
+            }
+            else
+            {
+                <MudText Typo="Typo.h5" Color="@color">@stringValue<sup>%</sup></MudText>
+            }
+            <MudDivider DividerType="DividerType.FullWidth" Light="true" Class="my-0"/>
+            <MudText Typo="Typo.subtitle1" Color="Color.Primary">@Title</MudText>
+            @if (Subtitle != null)
+            {
+                <MudText Typo="Typo.subtitle2" Color="Color.Secondary">@Subtitle</MudText>
+            }
+        </CardHeaderContent>
+        <CardHeaderActions>
+            <div class="d-md-flex align-center d-print-none">
+                @if (IsPositiveValuePositive != null && IsPercentage.Value)
+                {
+                    <MudIcon Color="@color" Icon="@icon"/>
+                }
+                @if (this.Navigations != null)
+                {
+                    foreach (var navigation in this.Navigations)
+                    {
+                        <MudTooltip Duration="1000" Text="@navigation.Tooltip">
+                            <MudIconButton Color="Color.Default" Icon="@Icons.Material.Filled.Link" OnClick="() => Navigate(navigation)" aria-label="Navigate" />
+                        </MudTooltip>
+                    }
+                }
+                @if (!string.IsNullOrWhiteSpace(Documentation))
+                {
+                    <MudTooltip Text="@Documentation">
+                        <MudIcon Color="Color.Default" Icon="@Icons.Material.Filled.Help"/>
+                    </MudTooltip>
+                }
+            </div>
+        </CardHeaderActions>
+    </MudCardHeader>
+</MudCard>

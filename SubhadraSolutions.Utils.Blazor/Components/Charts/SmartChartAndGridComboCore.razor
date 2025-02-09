@@ -1,0 +1,143 @@
+@using SubhadraSolutions.Utils.Blazor.Components.Charts.Helpers
+@inherits AbstractMaximizableSmartComponent
+@if (this.isInDataFetchingMode)
+{
+    <SmartOverlay/>
+}
+else
+{
+    <MudCard Outlined="@(this.Outlined)" Elevation="@(this.Elevation)" Square="@(this.Square)" Class="@(this.GetClass())" Style="@(this.GetStyle())" Tag="@(this.Tag)" UserAttributes="@(this.UserAttributes)">
+        <MudCardHeader>
+            <CardHeaderContent>
+            @if(!this.Chart.SimpleGridView)
+            {
+                @if (this.Chart.Title != null)
+                {
+                    <MudText Typo="Typo.h6">@(this.Chart.Title)</MudText>
+                }
+                @if (this.Chart.SubTitle != null /*Todo: style*/)
+                {
+                    <MudText Typo="Typo.body1">@(this.Chart.SubTitle)</MudText>
+                }
+                @HeaderContent
+            }
+            </CardHeaderContent>
+            
+            <CardHeaderActions>
+                @if (!this.Chart.SimpleGridView && !this.Chart.Readonly)
+                {
+                    <div class="d-md-flex align-center d-print-none">
+                        @if (this.chartDecorator.Records is { Count: > 0 })
+                        {
+                            @if ((!string.IsNullOrWhiteSpace(this.Chart.Documentation)))
+                            {
+                                <MudTooltip Text="@(this.Chart.Documentation)">
+                                    <MudIcon Color="Color.Default" Icon="@Icons.Material.Filled.Help"/>
+                                </MudTooltip>
+                            }
+                            @if (this.Chart.NavigationInfo != null)
+                            {
+                                <MudTooltip Duration="1000" Text="Navigate to the details page">
+                                    <MudIconButton Color="Color.Default" Icon="@Icons.Material.Filled.Link" OnClick="(() => this.Navigate(this.Chart.NavigationInfo))" aria-label="Navigate to the details page"/>
+                                </MudTooltip>
+                                <MudDivider Vertical="true" FlexItem="true" DividerType="DividerType.Middle" Class="mx-4 my-3"/>
+                            }
+                            <MudTooltip Duration="1000" Text="Export to Excel">
+                                <MudIconButton Color="Color.Default" Icon="@Icons.Custom.FileFormats.FileExcel" OnClick="ExportToExcel" aria-label="Export to Excel"/>
+                            </MudTooltip>
+
+                            @if (this.Chart.AllowSwitchingMode)
+                            {
+                                <MudTooltip Duration="1000" Text="Toggle chart-mode and table-mode">
+                                    <MudIconButton Color="Color.Default" Icon="@GetGridOrChartToggleIcon()" OnClick="HandleChartAndTableModeToggle" aria-label="Toggle chart-mode and table-mode"/>
+                                </MudTooltip>
+                            }
+                            <MudTooltip Duration="1000" Text="Toggle KM number format">
+                                <MudSwitch T="bool" @bind-Checked="@(this.Chart.KMNumberFormat)" ThumbIcon="@Icons.Material.Filled._1k" aria-label="Toggle KM Number format"/>
+                            </MudTooltip>
+                            @if (this.Chart.ChartMode)
+                            {
+                                @if (ChartHelper.SupportsDataLabels(this.Chart.ChartType))
+                                {
+                                    <MudTooltip Duration="1000" Text="Toggle data labels">
+                                        <MudSwitch T="bool" @bind-Checked="@(this.Chart.ShowDataLabels)" ThumbIcon="@Icons.Material.Filled.Workspaces" aria-label="Toggle data labels"/>
+                                    </MudTooltip>
+                                }
+                                @if (CanCompare())
+                                {
+                                    <MudTooltip Duration="1000" Text="Toggle comparison">
+                                        <MudSwitch T="bool" Checked="@(this.Chart.ComparisonMode == ComparisonMode.Enabled)" CheckedChanged="@ComparisonChanged" ThumbIcon="@Icons.Material.Filled.Compare" aria-label="Toggle comparison"/>
+                                    </MudTooltip>
+                                }
+                                @if (this.IsStackable())
+                                {
+                                    <MudTooltip Duration="1000" Text="Toggle Stack Mode">
+                                        <MudSwitch T="bool" @bind-Checked="@(this.Chart.Stacked)" ThumbIcon="@Icons.Material.Filled.StackedBarChart" aria-label="Toggle Stack chart"/>
+                                    </MudTooltip>
+                                }
+                                <MudMenu EndIcon="@Icons.Material.Filled.KeyboardArrowDown" Icon="@Icons.Material.Filled.MultilineChart" Dense="true" AnchorOrigin="Origin.BottomLeft" TransformOrigin="Origin.TopLeft">
+                                    <ActivatorContent>
+                                        <MudTooltip Duration="1000" Text="Change chart type">
+                                            <MudIconButton Color="Color.Default" Icon="@Icons.Material.Filled.MultilineChart" aria-label="select chart type"/>
+                                        </MudTooltip>
+                                    </ActivatorContent>
+                                    <ChildContent>
+                                        @foreach (var chartType in GetChartTypes())
+                                        {
+                                            <MudMenuItem OnClick="(e) => OnChartTypeChanged(chartType.ToString())">@chartType.ToString()</MudMenuItem>
+                                        }
+                                    </ChildContent>
+                                </MudMenu>
+                            }
+                        }
+                        @HeaderActions
+                        @if (this.chartDecorator.Records is { Count: > 0 })
+                        {
+                            if (this.Chart.AllowMinMax)
+                            {
+                                var tooltip = this.GetMinMaxIconTooltop();
+                                var icon = this.GetMinMaxIcon();
+                                <MudTooltip Duration="1000" Text="@tooltip">
+                                    <MudIconButton Color="Color.Default" Icon="@icon" OnClick="@(this.ToggleMinMax)" aria-label="@tooltip"/>
+                                </MudTooltip>
+                            }
+                        }
+                    </div>
+                }
+                else
+                {
+                    @if (!string.IsNullOrWhiteSpace(this.Chart.Documentation))
+                    {
+                        <div class="d-md-flex align-center d-print-none">
+                            <MudTooltip Text="@(this.Chart.Documentation)">
+                                <MudIcon Color="Color.Default" Icon="@Icons.Material.Filled.Help"/>
+                            </MudTooltip>
+                        </div>
+                    }
+                }
+            </CardHeaderActions>
+        </MudCardHeader>
+        <MudCardContent>
+            @if (this.chartDecorator.Records is { Count: > 0 })
+            {
+                @if (this.Chart.ChartMode)
+                {
+                    var maxWidth = MaxWidth.Large;
+                    <CenterAlignedContainer>
+                        <MudContainer MaxWidth="@maxWidth">
+                            @RenderCoreComponents()
+                        </MudContainer>
+                    </CenterAlignedContainer>
+                }
+                else
+                {
+                    @RenderCoreComponents()
+                }
+            }
+            else
+            {
+                @*<NoRecordsComponent Outlined="@this.Outlined" Elevation="@this.Elevation" Square="@this.Square" Class="@this.GetClass()" Style="@this.GetStyle()" Tag="@this.Tag" UserAttributes="@this.UserAttributes"></NoRecordsComponent>*@
+            }
+        </MudCardContent>
+    </MudCard>
+}

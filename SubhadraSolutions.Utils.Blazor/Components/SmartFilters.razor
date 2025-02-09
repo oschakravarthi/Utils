@@ -1,0 +1,24 @@
+﻿@typeparam T
+@inherits AbstractSmartComponent
+
+<MudExpansionPanels MultiExpansion="true">
+    @{
+        var keys = this.Items.Keys.ToList();
+        keys.Sort();
+        @foreach (var key in keys)
+        {
+            var value = this.Items[key]; 
+            <MudExpansionPanel Text="@key" IsInitiallyExpanded="false">
+                <MudChipSet T="@T" ReadOnly="false" MultiSelection="true" Filter="true" SelectedChipsChanged="(chips)=>SelectedChipsChanged(key, chips)">
+                    @foreach (var item in value)
+                    {
+                        var selected = this.IsSelected(key, item);
+                        var text = item.ToString();
+                        //var disabled = this.ShouldDisableDimensionChip(dimension);
+                        <MudChip T="@T" Value="@item" Text="@text" Default="@selected" Disabled="false">@text</MudChip>
+                    }
+                </MudChipSet>
+            </MudExpansionPanel>
+        }
+    }
+</MudExpansionPanels> 

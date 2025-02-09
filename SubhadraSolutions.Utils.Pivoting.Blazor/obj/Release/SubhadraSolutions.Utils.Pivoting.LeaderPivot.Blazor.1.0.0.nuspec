@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SubhadraSolutions.Utils.Pivoting.LeaderPivot.Blazor</id>
+    <version>1.0.0</version>
+    <authors>Leader Analytics</authors>
+    <projectUrl>https://github.com/SubhadraSolutions.Utils.Pivoting/LeaderPivot.Blazor</projectUrl>
+    <description>Pivot table control for Blazor applications</description>
+    <releaseNotes>See Repository</releaseNotes>
+    <copyright>2021 Leader Analytics</copyright>
+    <tags>Leader Analytics SubhadraSolutions.Utils.Pivoting Pivot Table Matrix Blazor</tags>
+    <repository type="git" url="https://github.com/SubhadraSolutions.Utils.Pivoting/LeaderPivot.Blazor" commit="e82b4c64ad023b330b8e6a70c040a04a9f734529" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="SubhadraSolutions.Utils.Pivoting.LeaderPivot" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="blazor-dragdrop" version="2.6.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\bin\Release\net8\SubhadraSolutions.Utils.Pivoting.LeaderPivot.Blazor.dll" target="lib\net8.0\SubhadraSolutions.Utils.Pivoting.LeaderPivot.Blazor.dll" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net8\scopedcss\projectbundle\SubhadraSolutions.Utils.Pivoting.LeaderPivot.Blazor.bundle.scp.css" target="staticwebassets\SubhadraSolutions.Utils.Pivoting.LeaderPivot.Blazor.aveb3y88bh.bundle.scp.css" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\wwwroot\leader-pivot-css\open-iconic\FONT-LICENSE" target="staticwebassets\leader-pivot-css\open-iconic\FONT-LICENSE" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\wwwroot\leader-pivot-css\open-iconic\ICON-LICENSE" target="staticwebassets\leader-pivot-css\open-iconic\ICON-LICENSE" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\wwwroot\leader-pivot-css\open-iconic\README.md" target="staticwebassets\leader-pivot-css\open-iconic\README.md" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\wwwroot\leader-pivot-css\open-iconic\font\css\open-iconic-bootstrap.min.css" target="staticwebassets\leader-pivot-css\open-iconic\font\css\open-iconic-bootstrap.min.css" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\wwwroot\leader-pivot-css\open-iconic\font\fonts\open-iconic.eot" target="staticwebassets\leader-pivot-css\open-iconic\font\fonts\open-iconic.eot" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\wwwroot\leader-pivot-css\open-iconic\font\fonts\open-iconic.otf" target="staticwebassets\leader-pivot-css\open-iconic\font\fonts\open-iconic.otf" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\wwwroot\leader-pivot-css\open-iconic\font\fonts\open-iconic.svg" target="staticwebassets\leader-pivot-css\open-iconic\font\fonts\open-iconic.svg" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\wwwroot\leader-pivot-css\open-iconic\font\fonts\open-iconic.ttf" target="staticwebassets\leader-pivot-css\open-iconic\font\fonts\open-iconic.ttf" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\wwwroot\leader-pivot-css\open-iconic\font\fonts\open-iconic.woff" target="staticwebassets\leader-pivot-css\open-iconic\font\fonts\open-iconic.woff" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\wwwroot\leader-pivot.css" target="staticwebassets\leader-pivot.css" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\wwwroot\leader-pivot.min.css" target="staticwebassets\leader-pivot.min.css" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\wwwroot\leader-pivot.scss" target="staticwebassets\leader-pivot.scss" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\wwwroot\scripts.js" target="staticwebassets\scripts.js" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net8\staticwebassets\msbuild.SubhadraSolutions.Utils.Pivoting.LeaderPivot.Blazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" target="build\Microsoft.AspNetCore.StaticWebAssetEndpoints.props" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net8\staticwebassets\msbuild.SubhadraSolutions.Utils.Pivoting.LeaderPivot.Blazor.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net8\staticwebassets\msbuild.build.SubhadraSolutions.Utils.Pivoting.LeaderPivot.Blazor.props" target="build\SubhadraSolutions.Utils.Pivoting.LeaderPivot.Blazor.props" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net8\staticwebassets\msbuild.buildMultiTargeting.SubhadraSolutions.Utils.Pivoting.LeaderPivot.Blazor.props" target="buildMultiTargeting\SubhadraSolutions.Utils.Pivoting.LeaderPivot.Blazor.props" />
+    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net8\staticwebassets\msbuild.buildTransitive.SubhadraSolutions.Utils.Pivoting.LeaderPivot.Blazor.props" target="buildTransitive\SubhadraSolutions.Utils.Pivoting.LeaderPivot.Blazor.props" />
+  </files>
+</package>

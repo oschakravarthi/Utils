@@ -1,0 +1,29 @@
+﻿@inherits AbstractMaximizableSmartComponent
+@using ApexCharts
+
+@if (this.Data is { Count: > 0 })
+{
+	<MudCard Outlined="@(this.Outlined)" Elevation="@(this.Elevation)" Square="@(this.Square)" Class="@(this.GetClass())" Style="@(this.GetStyle())" Tag="@(this.Tag)" UserAttributes="@(this.UserAttributes)">
+		<MudCardHeader>
+			<CardHeaderContent></CardHeaderContent>
+			<CardHeaderActions>
+				<MudTooltip Duration="1000" Text="@this.GetMinMaxIconTooltop()">
+					<MudIconButton Color="MudBlazor.Color.Default" Icon="@this.GetMinMaxIcon()" OnClick="@(this.ToggleMinMax)" aria-label="@this.GetMinMaxIconTooltop()"/>
+				</MudTooltip>
+			</CardHeaderActions>
+		</MudCardHeader>
+		<MudCardContent>
+			<ApexChart Height="@this.Height" TItem="DateTimeRanged<string>"
+			Title="@this.Title"
+			Options="@options"
+			XAxisType="XAxisType.Datetime">
+				<ApexRangeSeries TItem="DateTimeRanged<string>"
+				Items="@this.Data"
+				XValue="@(e => e.Info)"
+				YMinValue="@(e =>e.From.ToUnixTimeMilliseconds())"
+				YMaxValue="@(e =>e.Upto.ToUnixTimeMilliseconds())"
+				PointColor="e=> this.GetColor(e)" />
+			</ApexChart>
+		</MudCardContent>
+	</MudCard>
+}

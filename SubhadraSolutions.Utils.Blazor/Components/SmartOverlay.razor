@@ -1,0 +1,11 @@
+@*  @inherits AbstractSmartComponent
+    <MudPaper Outlined="@this.Outlined" Elevation="@this.Elevation" Square="@this.Square" Class="@this.GetClass()" Style="@this.GetStyle()" Tag="@this.Tag" UserAttributes="@this.UserAttributes">
+    <MudOverlay Visible="true" DarkBackground="true" Absolute="true">
+    <MudProgressCircular Color="Color.Secondary" Indeterminate="true" />
+    </MudOverlay>
+    </MudPaper>*@
+
+<MudOverlay Visible="true" DarkBackground="true" Absolute="true" Style="position: relative;">
+    <MudProgressCircular Color="Color.Secondary" Indeterminate="true" aria-label="Loading">
+    </MudProgressCircular>
+</MudOverlay>

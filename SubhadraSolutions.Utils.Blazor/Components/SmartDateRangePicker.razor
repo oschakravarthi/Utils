@@ -1,0 +1,27 @@
+﻿@inherits ExtendedMudField
+@if (this.AllowedDateRange == null)
+{
+    <SmartOverlay />
+    return;
+}
+
+@{
+    var label = this.Label;
+    var error = false;
+    if (this.StaleDays is >= 0 && this.AllowedDateRange.End != null)
+    {
+        label = string.Format("{0}\t[ Data available upto {1} ]", label, this.AllowedDateRange.End.Value.ToString(GlobalSettings.Instance.ShortDateFormat, DateTimeFormatInfo.InvariantInfo));
+        error = this.AllowedDateRange.End.Value.Date < GlobalSettings.Instance.DateTimeNow.Date.AddDays(-this.StaleDays.Value);
+    }
+    if (this.DateRange.Start != null && this.DateRange.End != null)
+    {
+        var days = (this.DateRange.End.Value.Date - this.DateRange.Start.Value.Date).TotalDays + 1;
+        label = string.Format("{0}\t[ {1} {2} selected ]", label, days, days == 1 ? "day" : "days");
+    }
+    <ExtendedDateRangePicker Adornment="@Adornment.Start" AdornmentAriaLabel="Please select Date Range" @ref="_picker" ShowWeekNumbers="true" MinDate="@this.AllowedDateRange.Start" MaxDate="@this.AllowedDateRange.End" DateRange="@this.GetDataRangeForDateRangePicker()" Culture="@CultureInfo.CurrentCulture" DateFormat="@GlobalSettings.Instance.ShortDateFormat" DateRangeChanged="@this.OnDateRangeSelection" Label="@label" Error="@error" Variant="@this.Variant" Margin="@this.Margin" Class="@this.Class" Style="@this.Style" Tag="@this.Tag" UserAttributes="@this.UserAttributes">
+        <PickerActions>
+            <MudButton OnClick="@(() => _picker.CloseAsync(false))">Cancel</MudButton>
+            <MudButton Color="Color.Primary" OnClick="@(() => _picker.CloseAsync(true))">Ok</MudButton>
+        </PickerActions>
+    </ExtendedDateRangePicker>
+}

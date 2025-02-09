@@ -1,0 +1,28 @@
+@inherits AbstractSmartComponent
+<MudDialog DisableSidePadding="true">
+    <TitleContent>
+        <MudText Typo="Typo.h6" Color="Color.Error"><MudIcon Icon="@Icons.Material.Filled.BugReport" Color="Color.Error" Class="mr-3"/> Exception</MudText>
+    </TitleContent>
+    <DialogContent>
+        <MudCard Outlined="@Outlined" Elevation="@Elevation" Square="@Square" Class="@GetClass()" Style="@GetStyle()" Tag="@Tag" UserAttributes="@UserAttributes">
+            <MudCardHeader>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.h5" Color="Color.Error">@Exception.Message</MudText>
+                </CardHeaderContent>
+            </MudCardHeader>
+            <MudCardContent>
+                <ExtendedMudField>
+                    <MudContainer Style="max-height: 300px; overflow-y: scroll">
+                        <MudText Style="white-space: pre-wrap;">@GetExceptionBody()</MudText>
+                    </MudContainer>
+                </ExtendedMudField>
+            </MudCardContent>
+            <MudCardActions>
+                <MudText Typo="Typo.body1" Color="Color.Success">The exception has been sent to the server and will be investigated by the development team.</MudText>
+            </MudCardActions>
+        </MudCard>
+    </DialogContent>
+    <DialogActions>
+        <MudButton Color="Color.Primary" OnClick="Close">Ok</MudButton>
+    </DialogActions>
+</MudDialog>

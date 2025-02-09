@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "PGr5IVg9CNU=",
+  "success": true,
+  "projectFilePath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.IO\\SubhadraSolutions.Utils.IO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\clrar\\.nuget\\packages\\aqua-core\\5.4.2\\aqua-core.5.4.2.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\aqua-core-newtonsoft-json\\5.4.2\\aqua-core-newtonsoft-json.5.4.2.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\aqua-core-text-json\\5.4.2\\aqua-core-text-json.5.4.2.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\microsoft.extensions.logging\\8.0.1\\microsoft.extensions.logging.8.0.1.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\microsoft.extensions.logging.eventlog\\8.0.1\\microsoft.extensions.logging.eventlog.8.0.1.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\portable.system.datetimeonly\\8.0.1\\portable.system.datetimeonly.8.0.1.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\remote.linq\\7.2.2\\remote.linq.7.2.2.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\remote.linq.newtonsoft.json\\7.2.2\\remote.linq.newtonsoft.json.7.2.2.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\remote.linq.text.json\\7.2.2\\remote.linq.text.json.7.2.2.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.1\\system.diagnostics.eventlog.8.0.1.nupkg.sha512",
+    "C:\\Users\\clrar\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

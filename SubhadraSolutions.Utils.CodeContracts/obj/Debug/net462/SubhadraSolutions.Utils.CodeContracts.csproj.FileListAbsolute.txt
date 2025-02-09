@@ -1,0 +1,10 @@
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.CodeContracts\bin\Debug\net462\SubhadraSolutions.Utils.CodeContracts.dll
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.CodeContracts\bin\Debug\net462\SubhadraSolutions.Utils.CodeContracts.pdb
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.CodeContracts\obj\Debug\net462\SubhadraSolutions.Utils.CodeContracts.csproj.AssemblyReference.cache
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.CodeContracts\obj\Debug\net462\SubhadraSolutions.Utils.CodeContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.CodeContracts\obj\Debug\net462\SubhadraSolutions.Utils.CodeContracts.AssemblyInfoInputs.cache
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.CodeContracts\obj\Debug\net462\SubhadraSolutions.Utils.CodeContracts.AssemblyInfo.cs
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.CodeContracts\obj\Debug\net462\SubhadraSolutions.Utils.CodeContracts.csproj.CoreCompileInputs.cache
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.CodeContracts\obj\Debug\net462\SubhadraSolutions.Utils.CodeContracts.sourcelink.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.CodeContracts\obj\Debug\net462\SubhadraSolutions.Utils.CodeContracts.dll
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.CodeContracts\obj\Debug\net462\SubhadraSolutions.Utils.CodeContracts.pdb

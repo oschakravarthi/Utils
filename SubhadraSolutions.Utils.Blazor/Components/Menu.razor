@@ -1,0 +1,10 @@
+@inherits AbstractMenu
+
+<MudNavGroup Title="Diagnostics"
+                     Icon="fab fa-solid fa-heart-pulse"
+                     Expanded="@(NavMenu != null && NavMenu.Section == "Diagnostics")"
+                     ExpandIcon="@Icons.Material.Filled.ExpandMore">
+
+    <MudNavLink Href="/Diagnostics/Metrics" Icon="fab fa-solid fa-magnifying-glass-chart">Metrics</MudNavLink>
+    <MudNavLink Href="/Diagnostics/Configuration" Icon="fab fa-solid fa-gear">Configuration</MudNavLink>
+</MudNavGroup>

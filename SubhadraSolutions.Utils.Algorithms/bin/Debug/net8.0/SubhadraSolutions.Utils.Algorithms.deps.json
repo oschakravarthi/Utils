@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SubhadraSolutions.Utils.Algorithms/1.0.0": {
+        "dependencies": {
+          "SubhadraSolutions.Utils.CodeContracts": "1.0.0"
+        },
+        "runtime": {
+          "SubhadraSolutions.Utils.Algorithms.dll": {}
+        }
+      },
+      "SubhadraSolutions.Utils.CodeContracts/1.0.0": {
+        "runtime": {
+          "SubhadraSolutions.Utils.CodeContracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SubhadraSolutions.Utils.Algorithms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SubhadraSolutions.Utils.CodeContracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

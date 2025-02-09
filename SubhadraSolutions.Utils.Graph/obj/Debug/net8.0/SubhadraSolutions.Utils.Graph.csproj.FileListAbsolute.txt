@@ -1,0 +1,16 @@
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\bin\Debug\net8.0\SubhadraSolutions.Utils.Graph.deps.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\bin\Debug\net8.0\SubhadraSolutions.Utils.Graph.dll
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\bin\Debug\net8.0\SubhadraSolutions.Utils.Graph.pdb
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\bin\Debug\net8.0\SubhadraSolutions.Utils.CodeContracts.dll
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\bin\Debug\net8.0\SubhadraSolutions.Utils.CodeContracts.pdb
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\obj\Debug\net8.0\SubhadraSolutions.Utils.Graph.csproj.AssemblyReference.cache
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\obj\Debug\net8.0\SubhadraSolutions.Utils.Graph.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\obj\Debug\net8.0\SubhadraSolutions.Utils.Graph.AssemblyInfoInputs.cache
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\obj\Debug\net8.0\SubhadraSolutions.Utils.Graph.AssemblyInfo.cs
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\obj\Debug\net8.0\SubhadraSolutions.Utils.Graph.csproj.CoreCompileInputs.cache
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\obj\Debug\net8.0\SubhadraSolutions.Utils.Graph.sourcelink.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\obj\Debug\net8.0\Subhadra.0E8C2075.Up2Date
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\obj\Debug\net8.0\SubhadraSolutions.Utils.Graph.dll
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\obj\Debug\net8.0\refint\SubhadraSolutions.Utils.Graph.dll
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\obj\Debug\net8.0\SubhadraSolutions.Utils.Graph.pdb
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Graph\obj\Debug\net8.0\ref\SubhadraSolutions.Utils.Graph.dll

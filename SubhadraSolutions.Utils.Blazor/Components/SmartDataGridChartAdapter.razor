@@ -1,0 +1,7 @@
+﻿@inherits AbstractSmartComponent
+@typeparam T
+
+@if (this.Queryable != null || this.Data != null)
+{
+	<SmartChartAndGridCombo Queryable="@this.Queryable" Data="@this.Data" KMNumberFormat="false" ChartMode="false" AllowSwitchingMode="false" ChildRowContent="@this.ChildRowContent" TemplateColumnContent="@this.TemplateColumnContent"></SmartChartAndGridCombo>
+}

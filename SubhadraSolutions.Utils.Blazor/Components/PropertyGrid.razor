@@ -1,0 +1,14 @@
+﻿@inherits AbstractSmartComponent
+<MudCard Outlined="@(this.Outlined)" Elevation="@(this.Elevation)" Square="@(this.Square)" Class="@(this.GetClass())" Style="@(this.GetStyle())" Tag="@(this.Tag)" UserAttributes="@(this.UserAttributes)">
+	<MudCardHeader>
+		<CardHeaderContent>
+			@if (this.Title != null)
+			{
+				<MudText Typo="Typo.h6">@(this.Title)</MudText>
+			}
+		</CardHeaderContent>
+	</MudCardHeader>
+	<MudCardContent>
+		<SmartChartAndGridCombo Data="@this.GetAsKeyValuePairs()" SimpleGridView="true" KMNumberFormat="false" ChartMode="false" AllowSwitchingMode="false"></SmartChartAndGridCombo>
+	</MudCardContent>
+</MudCard>

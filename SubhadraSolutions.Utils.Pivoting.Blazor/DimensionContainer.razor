@@ -1,0 +1,40 @@
+﻿@namespace SubhadraSolutions.Utils.Pivoting.Blazor
+@typeparam T;
+
+
+
+<Dropzone TItem="Dimension<T>" Items="Dimensions" OnItemDrop="@((p) => OnItemDrop(p))" MaxItems="MaxDimensions" Class="leader-pivot-d-flex leader-pivot-flex-row leader-pivot-flex-wrap"  >
+    @{Dimension<T> tmpDim = context;}
+        
+    <button class="@PivotStyle.DimensionButton" @onclick="@(x => DimensionClicked(tmpDim.DisplayValue))">
+        @if (tmpDim.IsAscending)
+        {
+            <span class="oi oi-caret-top" title="Sort ascending" aria-hidden="true" style="margin-right:4px;"></span>
+        }
+        else
+        {
+            <span class="oi oi-caret-bottom" title="Sort descending" aria-hidden="true" style="margin-right:4px;"></span>
+        }
+        @tmpDim.DisplayValue
+    </button>
+</Dropzone>
+
+
+@code {
+
+    [Parameter] public List<Dimension<T>> Dimensions { get; set; }
+    [Parameter] public EventCallback<Tuple<List<Dimension<T>>, Dimension<T>, DropZone>> DimensionsChanged { get; set; }
+    [Parameter] public EventCallback RenderTable { get; set; }
+    [Parameter] public LeaderPivotStyle PivotStyle { get; set; }
+    [Parameter] public int MaxDimensions { get; set; }
+    [Parameter] public bool IsRows { get; set; }
+
+    public async Task DimensionClicked(string id)
+    {
+        Dimension<T> dim = Dimensions.First(x => x.DisplayValue == id);
+        dim.IsAscending = !dim.IsAscending;
+        await RenderTable.InvokeAsync(null);
+    }
+
+    public void OnItemDrop(Dimension<T> dim) => DimensionsChanged.InvokeAsync(Tuple.Create(Dimensions, dim, IsRows ? DropZone.Rows : DropZone.Columns));
+}

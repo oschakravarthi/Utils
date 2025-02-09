@@ -1,0 +1,149 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-4.1.3-dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.BlazorDemo\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8\\staticwebassets\\msbuild.SubhadraSolutions.Utils.Pivoting.BlazorDemo.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8\\staticwebassets\\msbuild.SubhadraSolutions.Utils.Pivoting.BlazorDemo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8\\staticwebassets\\msbuild.build.SubhadraSolutions.Utils.Pivoting.BlazorDemo.props",
+      "PackagePath": "build\\SubhadraSolutions.Utils.Pivoting.BlazorDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8\\staticwebassets\\msbuild.buildMultiTargeting.SubhadraSolutions.Utils.Pivoting.BlazorDemo.props",
+      "PackagePath": "buildMultiTargeting\\SubhadraSolutions.Utils.Pivoting.BlazorDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8\\staticwebassets\\msbuild.buildTransitive.SubhadraSolutions.Utils.Pivoting.BlazorDemo.props",
+      "PackagePath": "buildTransitive\\SubhadraSolutions.Utils.Pivoting.BlazorDemo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

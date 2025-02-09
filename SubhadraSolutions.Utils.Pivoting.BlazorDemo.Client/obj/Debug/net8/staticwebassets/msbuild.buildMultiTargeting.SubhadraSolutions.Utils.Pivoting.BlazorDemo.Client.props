@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SubhadraSolutions.Utils.Pivoting.BlazorDemo.Client.props" />
+</Project>

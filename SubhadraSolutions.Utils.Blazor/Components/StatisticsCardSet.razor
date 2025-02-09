@@ -1,0 +1,12 @@
+@inherits AbstractSmartComponent
+@if (isInDataFetchingMode || actualValue == null)
+{
+    <SmartOverlay/>
+    return;
+}
+<CenterAlignedContainer Outlined="@Outlined" Elevation="@Elevation" Square="@Square" Class="@GetClass()" Style="@GetStyle()" Tag="@Tag" UserAttributes="@UserAttributes">
+    @foreach (var kvp in GetPropertiesAndValues())
+    {
+        <StatisticsCard Title="@kvp.Key" Value="@kvp.Value"></StatisticsCard>
+    }
+</CenterAlignedContainer>

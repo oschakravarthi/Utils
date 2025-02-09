@@ -1,0 +1,4 @@
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net8\staticwebassets.build.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net8\staticwebassets.build.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net8\staticwebassets.build.json
+C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Pivoting.Blazor\obj\Release\net8\staticwebassets.build.json

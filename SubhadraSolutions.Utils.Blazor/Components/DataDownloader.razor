@@ -1,0 +1,9 @@
+@inherits AbstractSmartComponent
+@if (isBusy)
+{
+    <SmartOverlay></SmartOverlay>
+}
+else
+{
+    <MudButton OnClick="@ExportToExcel" Variant="Variant.Text" StartIcon="@Icons.Custom.FileFormats.FileExcel" Color="Color.Primary" aria-label="@Title">@Title</MudButton>
+}

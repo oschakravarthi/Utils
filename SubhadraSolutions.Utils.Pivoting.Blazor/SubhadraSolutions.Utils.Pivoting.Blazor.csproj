@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net8</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>  
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Authors>Leader Analytics</Authors>
+    <Company>Leader Analytics</Company>
+    <Product>SubhadraSolutions.Utils.Pivoting.Blazor</Product>
+    <Description>Pivot table control for Blazor applications</Description>
+    <Copyright>2021 Leader Analytics</Copyright>
+    <PackageProjectUrl>https://github.com/SubhadraSolutions.Utils.Pivoting/LeaderPivot.Blazor</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SubhadraSolutions.Utils.Pivoting/LeaderPivot.Blazor</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Leader Analytics SubhadraSolutions.Utils.Pivoting Pivot Table Matrix Blazor</PackageTags>
+    <PackageReleaseNotes>See Repository</PackageReleaseNotes>
+  </PropertyGroup>
+  
+  
+  <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+  
+  
+  <ItemGroup>
+    <None Remove="selectJs.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\leader-pivot.css" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="blazor-dragdrop" Version="2.6.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components" Version="8.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.12" />
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <None Include="wwwroot\scripts.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SubhadraSolutions.Utils.Pivoting\SubhadraSolutions.Utils.Pivoting.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<None Update="Pages/*.razor.css" CssScope="leader-pivot-blazor" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Update="Nerdbank.GitVersioning" Version="3.6.146" />
+	</ItemGroup>
+
+  <PropertyGroup>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <GenerateMvcApplicationPartsAssemblyAttributes>true</GenerateMvcApplicationPartsAssemblyAttributes>
+    <RazorCompileOnBuild>true</RazorCompileOnBuild>
+    <IncludeRazorContentInPack>false</IncludeRazorContentInPack>
+    <GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
+    <EnableDefaultRazorGenerateItems>true</EnableDefaultRazorGenerateItems>
+  </PropertyGroup>
+  
+
+</Project>

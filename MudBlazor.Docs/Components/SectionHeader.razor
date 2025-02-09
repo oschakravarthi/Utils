@@ -1,0 +1,25 @@
+<div @ref="@SectionReference" id="@GetSectionId()" class="@Classname">
+
+	<div class="mud-card-header-content">
+		@if (!string.IsNullOrWhiteSpace(Title) && HideTitle == false)
+		{
+			<MudText Typo="@GetTitleTypo()"><b>@Title</b></MudText>
+		}
+	</div>
+	@if (this.HeaderActions != null)
+	{
+		<div class="mud-card-header-actions mud-card-actions">@HeaderActions</div>
+	}
+	@if (TitleContent != null)
+	{
+		@TitleContent
+	}
+	@if (SubTitle != null)
+	{
+		<MudText Typo="Typo.h6">@SubTitle</MudText>
+	}
+	@if (Description != null)
+	{
+		<MudText Class="mb-5">@Description</MudText>
+	}
+</div>

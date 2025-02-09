@@ -1,0 +1,7 @@
+@inherits AbstractSmartChartAndGridCombo
+@if (Queryable == null && Data == null)
+{
+    <SmartOverlay/>
+    return;
+}
+<SmartChartAndGridComboCore Strategy="@strategy" Chart="@(this)" Outlined="@Outlined" Elevation="@Elevation" Square="@Square" Class="@GetClass()" Style="@GetStyle()" Tag="@Tag" UserAttributes="@UserAttributes"></SmartChartAndGridComboCore>
