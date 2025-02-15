@@ -1487,11 +1487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Storage\\SubhadraSolutions.Utils.Azure.Storage.csproj",
+      "projectUniqueName": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Azure.Storage\\SubhadraSolutions.Utils.Azure.Storage.csproj",
       "projectName": "SubhadraSolutions.Utils.Azure.Storage",
-      "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Storage\\SubhadraSolutions.Utils.Azure.Storage.csproj",
+      "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Azure.Storage\\SubhadraSolutions.Utils.Azure.Storage.csproj",
       "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Storage\\obj\\",
+      "outputPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Azure.Storage\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1512,11 +1512,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj"
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj"
             },
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj"
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj"
             }
           }
         }

@@ -903,11 +903,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pooling\\SubhadraSolutions.Utils.Pooling.csproj",
+      "projectUniqueName": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Pooling\\SubhadraSolutions.Utils.Pooling.csproj",
       "projectName": "SubhadraSolutions.Utils.Pooling",
-      "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pooling\\SubhadraSolutions.Utils.Pooling.csproj",
+      "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Pooling\\SubhadraSolutions.Utils.Pooling.csproj",
       "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pooling\\obj\\",
+      "outputPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Pooling\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -928,8 +928,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj"
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj"
             }
           }
         }

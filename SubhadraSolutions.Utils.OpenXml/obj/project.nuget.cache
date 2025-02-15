@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7y/+g2S2uiw=",
+  "dgSpecHash": "z1jx1SIsZ4Q=",
   "success": true,
-  "projectFilePath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.OpenXml\\SubhadraSolutions.Utils.OpenXml.csproj",
+  "projectFilePath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.OpenXml\\SubhadraSolutions.Utils.OpenXml.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\clrar\\.nuget\\packages\\aqua-core\\5.4.2\\aqua-core.5.4.2.nupkg.sha512",
     "C:\\Users\\clrar\\.nuget\\packages\\aqua-core-newtonsoft-json\\5.4.2\\aqua-core-newtonsoft-json.5.4.2.nupkg.sha512",

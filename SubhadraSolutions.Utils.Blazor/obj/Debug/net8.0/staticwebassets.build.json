@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "zymcqqjiXdaNIfqKk32PWVt8T6EtmQGvcWUcjMBLAog=",
+  "Hash": "D2hjZXTKDg76/i6I0dGeaCdIMpOV/Hs4dTCYIiUUrOU=",
   "Source": "SubhadraSolutions.Utils.Blazor",
   "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\MudBlazor.Docs.csproj",
+      "Identity": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\MudBlazor.Docs.csproj",
       "Version": 2,
       "Source": "MudBlazor.Docs",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor.Templater\\SubhadraSolutions.Utils.Blazor.Templater.csproj",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor.Templater\\SubhadraSolutions.Utils.Blazor.Templater.csproj",
       "Version": 2,
       "Source": "SubhadraSolutions.Utils.Blazor.Templater",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -33,24 +33,24 @@
     {
       "Name": "MudBlazor.Docs\\wwwroot",
       "Source": "MudBlazor.Docs",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\",
       "BasePath": "_content/MudBlazor.Docs",
       "Pattern": "**"
     },
     {
       "Name": "SubhadraSolutions.Utils.Blazor\\wwwroot",
       "Source": "SubhadraSolutions.Utils.Blazor",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css",
+      "Identity": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css",
       "SourceId": "MudBlazor.Docs",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\",
       "BasePath": "_content/MudBlazor.Docs",
       "RelativePath": "css/MudBlazor#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "Integrity": "LJjokYYcF2GhM64CgZt075VA4VFwYpFiNGmYVuEAYtc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css"
+      "OriginalItemSpec": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css",
+      "Identity": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css",
       "SourceId": "MudBlazor.Docs",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\",
       "BasePath": "_content/MudBlazor.Docs",
       "RelativePath": "css/MudBlazorDocs.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -86,13 +86,13 @@
       "Integrity": "xDoqT0mq6EvuyvsdI2AtZKIC1u/ezELQ+CisoGkvMD0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css"
+      "OriginalItemSpec": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js",
+      "Identity": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js",
       "SourceId": "MudBlazor.Docs",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\",
       "BasePath": "_content/MudBlazor.Docs",
       "RelativePath": "JS/docs#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -107,13 +107,13 @@
       "Integrity": "7gLvvgnGIGFiy+oE04AYxWqIpgSAAaqEN8PMM1dh5Gs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js"
+      "OriginalItemSpec": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\app.css",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\app.css",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -152,10 +152,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -173,10 +173,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\images\\ui-icons_ffffff_256x240.png",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\images\\ui-icons_ffffff_256x240.png",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/images/ui-icons_ffffff_256x240#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -194,10 +194,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\ui-icons_ffffff_256x240.png"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery.layout.complex.css",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery.layout.complex.css",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/jquery.layout.complex#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -215,10 +215,10 @@
       "OriginalItemSpec": "wwwroot\\css\\jquery.layout.complex.css"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery.layout.css",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery.layout.css",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/jquery.layout#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -236,10 +236,10 @@
       "OriginalItemSpec": "wwwroot\\css\\jquery.layout.css"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery-ui.min.css",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery-ui.min.css",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/jquery-ui.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -257,10 +257,10 @@
       "OriginalItemSpec": "wwwroot\\css\\jquery-ui.min.css"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -278,10 +278,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -299,10 +299,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
       "AssetKind": "All",
@@ -320,10 +320,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -341,10 +341,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -362,10 +362,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -383,10 +383,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -404,10 +404,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -446,10 +446,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\tabler-docs.css",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\tabler-docs.css",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/tabler-docs#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -467,10 +467,10 @@
       "OriginalItemSpec": "wwwroot\\css\\tabler-docs.css"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\tabler-docs.min.css",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\tabler-docs.min.css",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "css/tabler-docs.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -488,10 +488,10 @@
       "OriginalItemSpec": "wwwroot\\css\\tabler-docs.min.css"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\digital-7-mono.eot",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\digital-7-mono.eot",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/digital-7-mono#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -509,10 +509,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\digital-7-mono.eot"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\digital-7-mono.ttf",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\digital-7-mono.ttf",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/digital-7-mono#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\digital-7-mono.ttf"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\fonts.css",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\fonts.css",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/fonts#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -551,10 +551,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fonts.css"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\MaterialIcons-Regular.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\MaterialIcons-Regular.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/MaterialIcons-Regular#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -572,10 +572,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\MaterialIcons-Regular.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\repetition.ttf",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\repetition.ttf",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/repetition#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -593,10 +593,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\repetition.ttf"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-300.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-300.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/roboto-v15-latin-300#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -614,10 +614,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\roboto-v15-latin-300.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-700.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-700.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/roboto-v15-latin-700#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -635,10 +635,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\roboto-v15-latin-700.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-regular.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-regular.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/roboto-v15-latin-regular#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -656,10 +656,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\roboto-v15-latin-regular.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Black.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Black.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/SourceSansPro-Black#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -677,10 +677,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\SourceSansPro-Black.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-BlackIt.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-BlackIt.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/SourceSansPro-BlackIt#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -698,10 +698,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\SourceSansPro-BlackIt.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Bold.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Bold.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/SourceSansPro-Bold#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -719,10 +719,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\SourceSansPro-Bold.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-BoldIt.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-BoldIt.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/SourceSansPro-BoldIt#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -740,10 +740,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\SourceSansPro-BoldIt.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-ExtraLight.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-ExtraLight.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/SourceSansPro-ExtraLight#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -761,10 +761,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\SourceSansPro-ExtraLight.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-ExtraLightIt.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-ExtraLightIt.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/SourceSansPro-ExtraLightIt#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\SourceSansPro-ExtraLightIt.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-It.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-It.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/SourceSansPro-It#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -803,10 +803,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\SourceSansPro-It.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Light.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Light.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/SourceSansPro-Light#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -824,10 +824,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\SourceSansPro-Light.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-LightIt.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-LightIt.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/SourceSansPro-LightIt#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -845,10 +845,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\SourceSansPro-LightIt.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Regular.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Regular.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/SourceSansPro-Regular#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -866,10 +866,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\SourceSansPro-Regular.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Semibold.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Semibold.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/SourceSansPro-Semibold#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -887,10 +887,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\SourceSansPro-Semibold.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-SemiboldIt.woff",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-SemiboldIt.woff",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/SourceSansPro-SemiboldIt#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -908,10 +908,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\SourceSansPro-SemiboldIt.woff"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\TickingTimebombBB.ttf",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\TickingTimebombBB.ttf",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "fonts/TickingTimebombBB#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\TickingTimebombBB.ttf"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\img\\404.svg",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\img\\404.svg",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "img/404#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -950,10 +950,10 @@
       "OriginalItemSpec": "wwwroot\\img\\404.svg"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\img\\no-records.png",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\img\\no-records.png",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "img/no-records#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -971,10 +971,10 @@
       "OriginalItemSpec": "wwwroot\\img\\no-records.png"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\js\\utils.js",
+      "Identity": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\js\\utils.js",
       "SourceId": "SubhadraSolutions.Utils.Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\",
       "BasePath": "_content/SubhadraSolutions.Utils.Blazor",
       "RelativePath": "js/utils#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -5878,7 +5878,7 @@
     },
     {
       "Route": "_content/MudBlazor.Docs/css/MudBlazor.8zyv9rz6ei.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5923,7 +5923,7 @@
     },
     {
       "Route": "_content/MudBlazor.Docs/css/MudBlazor.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5960,7 +5960,7 @@
     },
     {
       "Route": "_content/MudBlazor.Docs/css/MudBlazorDocs.min.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5997,7 +5997,7 @@
     },
     {
       "Route": "_content/MudBlazor.Docs/css/MudBlazorDocs.min.ki2ayij2ly.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6042,7 +6042,7 @@
     },
     {
       "Route": "_content/MudBlazor.Docs/JS/docs.27b9ioziwf.js",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6087,7 +6087,7 @@
     },
     {
       "Route": "_content/MudBlazor.Docs/JS/docs.js",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6288,7 +6288,7 @@
     },
     {
       "Route": "css/app.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\app.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6325,7 +6325,7 @@
     },
     {
       "Route": "css/app.uvvzqwarnm.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\app.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6370,7 +6370,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6407,7 +6407,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.kao5znno1s.map",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6452,7 +6452,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6489,7 +6489,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.o2wlpouf80.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6534,7 +6534,7 @@
     },
     {
       "Route": "css/images/ui-icons_ffffff_256x240.obu6llhmlq.png",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\images\\ui-icons_ffffff_256x240.png",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\images\\ui-icons_ffffff_256x240.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6579,7 +6579,7 @@
     },
     {
       "Route": "css/images/ui-icons_ffffff_256x240.png",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\images\\ui-icons_ffffff_256x240.png",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\images\\ui-icons_ffffff_256x240.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6616,7 +6616,7 @@
     },
     {
       "Route": "css/jquery.layout.complex.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery.layout.complex.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery.layout.complex.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6653,7 +6653,7 @@
     },
     {
       "Route": "css/jquery.layout.complex.slpqqmyz7s.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery.layout.complex.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery.layout.complex.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6698,7 +6698,7 @@
     },
     {
       "Route": "css/jquery.layout.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery.layout.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery.layout.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6735,7 +6735,7 @@
     },
     {
       "Route": "css/jquery.layout.h9eoapspds.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery.layout.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery.layout.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6780,7 +6780,7 @@
     },
     {
       "Route": "css/jquery-ui.min.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery-ui.min.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery-ui.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6817,7 +6817,7 @@
     },
     {
       "Route": "css/jquery-ui.min.m1b0dydlg0.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery-ui.min.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\jquery-ui.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6862,7 +6862,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6907,7 +6907,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6944,7 +6944,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.c37b59w3ck.svg",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6989,7 +6989,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.eot",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7026,7 +7026,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.fmqgn5x5d3.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7071,7 +7071,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.jmj83y2f2j.ttf",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7116,7 +7116,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.m7uh4urg32.otf",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7161,7 +7161,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.otf",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7198,7 +7198,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.qii2vvhinl.eot",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7243,7 +7243,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.svg",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7280,7 +7280,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7317,7 +7317,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7354,7 +7354,7 @@
     },
     {
       "Route": "css/open-iconic/FONT-LICENSE",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7391,7 +7391,7 @@
     },
     {
       "Route": "css/open-iconic/FONT-LICENSE.tmrac9y5ie",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7436,7 +7436,7 @@
     },
     {
       "Route": "css/open-iconic/ICON-LICENSE",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7473,7 +7473,7 @@
     },
     {
       "Route": "css/open-iconic/ICON-LICENSE.3cg08az021",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7518,7 +7518,7 @@
     },
     {
       "Route": "css/open-iconic/README.9knfekfc70.md",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\README.md",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7563,7 +7563,7 @@
     },
     {
       "Route": "css/open-iconic/README.md",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\README.md",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\open-iconic\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7600,7 +7600,7 @@
     },
     {
       "Route": "css/tabler-docs.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\tabler-docs.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\tabler-docs.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7637,7 +7637,7 @@
     },
     {
       "Route": "css/tabler-docs.min.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\tabler-docs.min.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\tabler-docs.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7674,7 +7674,7 @@
     },
     {
       "Route": "css/tabler-docs.min.wtqn0zibuf.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\tabler-docs.min.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\tabler-docs.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7719,7 +7719,7 @@
     },
     {
       "Route": "css/tabler-docs.xdpwanmok6.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\tabler-docs.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\css\\tabler-docs.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7764,7 +7764,7 @@
     },
     {
       "Route": "fonts/digital-7-mono.dw82edacku.eot",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\digital-7-mono.eot",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\digital-7-mono.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7809,7 +7809,7 @@
     },
     {
       "Route": "fonts/digital-7-mono.eot",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\digital-7-mono.eot",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\digital-7-mono.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7846,7 +7846,7 @@
     },
     {
       "Route": "fonts/digital-7-mono.sf2uojhsxn.ttf",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\digital-7-mono.ttf",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\digital-7-mono.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7891,7 +7891,7 @@
     },
     {
       "Route": "fonts/digital-7-mono.ttf",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\digital-7-mono.ttf",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\digital-7-mono.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7928,7 +7928,7 @@
     },
     {
       "Route": "fonts/fonts.7taibujzuz.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\fonts.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\fonts.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7973,7 +7973,7 @@
     },
     {
       "Route": "fonts/fonts.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\fonts.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\fonts.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8010,7 +8010,7 @@
     },
     {
       "Route": "fonts/MaterialIcons-Regular.qr1zhuv3bt.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\MaterialIcons-Regular.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\MaterialIcons-Regular.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8055,7 +8055,7 @@
     },
     {
       "Route": "fonts/MaterialIcons-Regular.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\MaterialIcons-Regular.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\MaterialIcons-Regular.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8092,7 +8092,7 @@
     },
     {
       "Route": "fonts/repetition.kei6ixd2pt.ttf",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\repetition.ttf",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\repetition.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8137,7 +8137,7 @@
     },
     {
       "Route": "fonts/repetition.ttf",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\repetition.ttf",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\repetition.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8174,7 +8174,7 @@
     },
     {
       "Route": "fonts/roboto-v15-latin-300.dyjht61vjr.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-300.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-300.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8219,7 +8219,7 @@
     },
     {
       "Route": "fonts/roboto-v15-latin-300.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-300.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-300.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8256,7 +8256,7 @@
     },
     {
       "Route": "fonts/roboto-v15-latin-700.f53y3uww4t.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-700.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-700.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8301,7 +8301,7 @@
     },
     {
       "Route": "fonts/roboto-v15-latin-700.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-700.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-700.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8338,7 +8338,7 @@
     },
     {
       "Route": "fonts/roboto-v15-latin-regular.1i7qj41kfj.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-regular.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-regular.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8383,7 +8383,7 @@
     },
     {
       "Route": "fonts/roboto-v15-latin-regular.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-regular.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\roboto-v15-latin-regular.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8420,7 +8420,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-Black.0wh9jp51ky.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Black.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Black.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8465,7 +8465,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-Black.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Black.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Black.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8502,7 +8502,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-BlackIt.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-BlackIt.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-BlackIt.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8539,7 +8539,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-BlackIt.zrjrk89x2n.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-BlackIt.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-BlackIt.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8584,7 +8584,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-Bold.d6b4pfdt1e.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Bold.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Bold.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8629,7 +8629,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-Bold.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Bold.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Bold.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8666,7 +8666,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-BoldIt.fu26mom9mv.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-BoldIt.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-BoldIt.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8711,7 +8711,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-BoldIt.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-BoldIt.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-BoldIt.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8748,7 +8748,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-ExtraLight.g1n31ct8gi.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-ExtraLight.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-ExtraLight.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8793,7 +8793,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-ExtraLight.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-ExtraLight.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-ExtraLight.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8830,7 +8830,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-ExtraLightIt.0n9dyvlhkf.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-ExtraLightIt.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-ExtraLightIt.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8875,7 +8875,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-ExtraLightIt.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-ExtraLightIt.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-ExtraLightIt.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8912,7 +8912,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-It.prews9sn5z.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-It.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-It.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8957,7 +8957,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-It.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-It.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-It.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8994,7 +8994,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-Light.4p55d2hwhs.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Light.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Light.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9039,7 +9039,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-Light.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Light.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Light.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9076,7 +9076,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-LightIt.bcbrky9b3b.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-LightIt.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-LightIt.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9121,7 +9121,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-LightIt.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-LightIt.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-LightIt.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9158,7 +9158,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-Regular.ko0efz9uht.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Regular.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Regular.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9203,7 +9203,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-Regular.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Regular.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Regular.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9240,7 +9240,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-Semibold.j36kcj829a.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Semibold.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Semibold.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9285,7 +9285,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-Semibold.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Semibold.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-Semibold.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9322,7 +9322,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-SemiboldIt.u78ivgeacp.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-SemiboldIt.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-SemiboldIt.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9367,7 +9367,7 @@
     },
     {
       "Route": "fonts/SourceSansPro-SemiboldIt.woff",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-SemiboldIt.woff",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\SourceSansPro-SemiboldIt.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9404,7 +9404,7 @@
     },
     {
       "Route": "fonts/TickingTimebombBB.ttf",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\TickingTimebombBB.ttf",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\TickingTimebombBB.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9441,7 +9441,7 @@
     },
     {
       "Route": "fonts/TickingTimebombBB.tzpv7o91du.ttf",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\TickingTimebombBB.ttf",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\fonts\\TickingTimebombBB.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9486,7 +9486,7 @@
     },
     {
       "Route": "img/404.svg",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\img\\404.svg",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\img\\404.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9523,7 +9523,7 @@
     },
     {
       "Route": "img/404.yw08ut3ex5.svg",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\img\\404.svg",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\img\\404.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9568,7 +9568,7 @@
     },
     {
       "Route": "img/no-records.3agyhw8biz.png",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\img\\no-records.png",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\img\\no-records.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9613,7 +9613,7 @@
     },
     {
       "Route": "img/no-records.png",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\img\\no-records.png",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\img\\no-records.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9650,7 +9650,7 @@
     },
     {
       "Route": "js/utils.2lkoi4p1ng.js",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\js\\utils.js",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\js\\utils.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9695,7 +9695,7 @@
     },
     {
       "Route": "js/utils.js",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\js\\utils.js",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\wwwroot\\js\\utils.js",
       "Selectors": [],
       "ResponseHeaders": [
         {

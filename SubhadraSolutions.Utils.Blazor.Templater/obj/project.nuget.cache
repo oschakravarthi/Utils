@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z4joEC+aqWA=",
+  "dgSpecHash": "eSJ5PeKBeRA=",
   "success": true,
-  "projectFilePath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor.Templater\\SubhadraSolutions.Utils.Blazor.Templater.csproj",
+  "projectFilePath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor.Templater\\SubhadraSolutions.Utils.Blazor.Templater.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\clrar\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.12\\microsoft.aspnetcore.authorization.8.0.12.nupkg.sha512",
     "C:\\Users\\clrar\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.12\\microsoft.aspnetcore.components.8.0.12.nupkg.sha512",

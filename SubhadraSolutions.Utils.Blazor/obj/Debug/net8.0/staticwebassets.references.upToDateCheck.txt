@@ -4,3 +4,9 @@ C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Bla
 C:\Personal\Github\SubhadraSolutions.Astrology\Utils\MudBlazor.Docs\obj\Debug\net8.0\staticwebassets.build.json
 C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.Blazor.Templater\obj\Debug\net8.0\staticwebassets.build.json
 C:\Personal\Github\SubhadraSolutions.Astrology\Utils\MudBlazor.Docs\obj\Debug\net8.0\staticwebassets.build.json
+C:\Personal\Github\Utils\SubhadraSolutions.Utils.Blazor.Templater\obj\Debug\net8.0\staticwebassets.build.json
+C:\Personal\Github\Utils\MudBlazor.Docs\obj\Debug\net8.0\staticwebassets.build.json
+C:\Personal\Github\Utils\SubhadraSolutions.Utils.Blazor.Templater\obj\Debug\net8.0\staticwebassets.build.json
+C:\Personal\Github\Utils\MudBlazor.Docs\obj\Debug\net8.0\staticwebassets.build.json
+C:\Personal\Github\Utils\SubhadraSolutions.Utils.Blazor.Templater\obj\Debug\net8.0\staticwebassets.build.json
+C:\Personal\Github\Utils\MudBlazor.Docs\obj\Debug\net8.0\staticwebassets.build.json

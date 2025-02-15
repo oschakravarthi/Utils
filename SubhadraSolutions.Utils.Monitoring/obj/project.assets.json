@@ -1461,11 +1461,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Monitoring\\SubhadraSolutions.Utils.Monitoring.csproj",
+      "projectUniqueName": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Monitoring\\SubhadraSolutions.Utils.Monitoring.csproj",
       "projectName": "SubhadraSolutions.Utils.Monitoring",
-      "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Monitoring\\SubhadraSolutions.Utils.Monitoring.csproj",
+      "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Monitoring\\SubhadraSolutions.Utils.Monitoring.csproj",
       "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Monitoring\\obj\\",
+      "outputPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Monitoring\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1486,8 +1486,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.SlidingWindows\\SubhadraSolutions.Utils.SlidingWindows.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.SlidingWindows\\SubhadraSolutions.Utils.SlidingWindows.csproj"
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.SlidingWindows\\SubhadraSolutions.Utils.SlidingWindows.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.SlidingWindows\\SubhadraSolutions.Utils.SlidingWindows.csproj"
             }
           }
         }

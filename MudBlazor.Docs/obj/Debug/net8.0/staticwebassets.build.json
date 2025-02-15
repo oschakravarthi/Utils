@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xU+3nu5vskCFodIhvf5FeuG2YlgA6Bj4mMRxe95yczY=",
+  "Hash": "t3vEd89UsJLCtEeb7vqgoplNUCPk57DiL6GvKQ/PlMI=",
   "Source": "MudBlazor.Docs",
   "BasePath": "_content/MudBlazor.Docs",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MudBlazor.Docs\\wwwroot",
       "Source": "MudBlazor.Docs",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\",
       "BasePath": "_content/MudBlazor.Docs",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css",
+      "Identity": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css",
       "SourceId": "MudBlazor.Docs",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\",
       "BasePath": "_content/MudBlazor.Docs",
       "RelativePath": "css/MudBlazor#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\css\\MudBlazor.css"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css",
+      "Identity": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css",
       "SourceId": "MudBlazor.Docs",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\",
       "BasePath": "_content/MudBlazor.Docs",
       "RelativePath": "css/MudBlazorDocs.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\css\\MudBlazorDocs.min.css"
     },
     {
-      "Identity": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js",
+      "Identity": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js",
       "SourceId": "MudBlazor.Docs",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\",
+      "ContentRoot": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\",
       "BasePath": "_content/MudBlazor.Docs",
       "RelativePath": "JS/docs#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -289,7 +289,7 @@
     },
     {
       "Route": "css/MudBlazor.8zyv9rz6ei.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -334,7 +334,7 @@
     },
     {
       "Route": "css/MudBlazor.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -371,7 +371,7 @@
     },
     {
       "Route": "css/MudBlazorDocs.min.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -408,7 +408,7 @@
     },
     {
       "Route": "css/MudBlazorDocs.min.ki2ayij2ly.css",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -453,7 +453,7 @@
     },
     {
       "Route": "JS/docs.27b9ioziwf.js",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -498,7 +498,7 @@
     },
     {
       "Route": "JS/docs.js",
-      "AssetFile": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js",
+      "AssetFile": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js",
       "Selectors": [],
       "ResponseHeaders": [
         {

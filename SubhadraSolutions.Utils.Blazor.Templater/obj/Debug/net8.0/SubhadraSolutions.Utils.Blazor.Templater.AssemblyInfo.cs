@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubhadraSolutions.Utils.Blazor.Templater")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29d5c81673d72c230f0d5715677d5ee57f52179d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45f8dff0b25811c2782a4c832fef5dde50b14de4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubhadraSolutions.Utils.Blazor.Templater")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubhadraSolutions.Utils.Blazor.Templater")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

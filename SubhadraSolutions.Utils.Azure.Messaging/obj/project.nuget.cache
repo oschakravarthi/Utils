@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hBRwe6GpJN4=",
+  "dgSpecHash": "XoTHUXWinXk=",
   "success": true,
-  "projectFilePath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Messaging\\SubhadraSolutions.Utils.Azure.Messaging.csproj",
+  "projectFilePath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Azure.Messaging\\SubhadraSolutions.Utils.Azure.Messaging.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\clrar\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\clrar\\.nuget\\packages\\azure.core.amqp\\1.3.1\\azure.core.amqp.1.3.1.nupkg.sha512",

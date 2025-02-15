@@ -1,15 +1,15 @@
 {
   "Files": [
     {
-      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js",
+      "Id": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\JS\\docs.js",
       "PackagePath": "staticwebassets\\JS\\docs.js"
     },
     {
-      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css",
+      "Id": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazor.css",
       "PackagePath": "staticwebassets\\css\\MudBlazor.css"
     },
     {
-      "Id": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css",
+      "Id": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\wwwroot\\css\\MudBlazorDocs.min.css",
       "PackagePath": "staticwebassets\\css\\MudBlazorDocs.min.css"
     },
     {

@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = SubhadraSolutions.Utils.ApplicationInsights
-build_property.ProjectDir = C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SubhadraSolutions.Utils.ApplicationInsights\
+build_property.ProjectDir = C:\Personal\Github\Utils\SubhadraSolutions.Utils.ApplicationInsights\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

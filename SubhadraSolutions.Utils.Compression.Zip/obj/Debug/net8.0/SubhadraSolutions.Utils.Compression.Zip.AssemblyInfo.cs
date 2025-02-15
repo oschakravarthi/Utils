@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubhadraSolutions.Utils.Compression.Zip")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45f8dff0b25811c2782a4c832fef5dde50b14de4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubhadraSolutions.Utils.Compression.Zip")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubhadraSolutions.Utils.Compression.Zip")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

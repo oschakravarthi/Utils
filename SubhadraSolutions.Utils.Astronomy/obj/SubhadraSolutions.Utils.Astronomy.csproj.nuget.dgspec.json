@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Astronomy\\SubhadraSolutions.Utils.Astronomy.csproj": {}
+    "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Astronomy\\SubhadraSolutions.Utils.Astronomy.csproj": {}
   },
   "projects": {
-    "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Astronomy\\SubhadraSolutions.Utils.Astronomy.csproj": {
+    "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Astronomy\\SubhadraSolutions.Utils.Astronomy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Astronomy\\SubhadraSolutions.Utils.Astronomy.csproj",
+        "projectUniqueName": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Astronomy\\SubhadraSolutions.Utils.Astronomy.csproj",
         "projectName": "SubhadraSolutions.Utils.Astronomy",
-        "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Astronomy\\SubhadraSolutions.Utils.Astronomy.csproj",
+        "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Astronomy\\SubhadraSolutions.Utils.Astronomy.csproj",
         "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
-        "outputPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Astronomy\\obj\\",
+        "outputPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Astronomy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

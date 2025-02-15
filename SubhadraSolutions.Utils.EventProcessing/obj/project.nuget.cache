@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pvVtFqKhi38=",
+  "dgSpecHash": "+tn03iUIAG0=",
   "success": true,
-  "projectFilePath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.EventProcessing\\SubhadraSolutions.Utils.EventProcessing.csproj",
+  "projectFilePath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.EventProcessing\\SubhadraSolutions.Utils.EventProcessing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\clrar\\.nuget\\packages\\aqua-core\\5.4.2\\aqua-core.5.4.2.nupkg.sha512",
     "C:\\Users\\clrar\\.nuget\\packages\\aqua-core-newtonsoft-json\\5.4.2\\aqua-core-newtonsoft-json.5.4.2.nupkg.sha512",

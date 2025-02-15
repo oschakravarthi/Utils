@@ -2822,11 +2822,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\SubhadraSolutions.Utils.Blazor.csproj",
+      "projectUniqueName": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\SubhadraSolutions.Utils.Blazor.csproj",
       "projectName": "SubhadraSolutions.Utils.Blazor",
-      "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\SubhadraSolutions.Utils.Blazor.csproj",
+      "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\SubhadraSolutions.Utils.Blazor.csproj",
       "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor\\obj\\",
+      "outputPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2847,20 +2847,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\MudBlazor.Docs.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\MudBlazor.Docs\\MudBlazor.Docs.csproj"
+            "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\MudBlazor.Docs.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\MudBlazor.Docs\\MudBlazor.Docs.csproj"
             },
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.ApiClient\\SubhadraSolutions.Utils.ApiClient.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.ApiClient\\SubhadraSolutions.Utils.ApiClient.csproj"
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.ApiClient\\SubhadraSolutions.Utils.ApiClient.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.ApiClient\\SubhadraSolutions.Utils.ApiClient.csproj"
             },
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor.Templater\\SubhadraSolutions.Utils.Blazor.Templater.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Blazor.Templater\\SubhadraSolutions.Utils.Blazor.Templater.csproj"
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor.Templater\\SubhadraSolutions.Utils.Blazor.Templater.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Blazor.Templater\\SubhadraSolutions.Utils.Blazor.Templater.csproj"
             },
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.OpenXml\\SubhadraSolutions.Utils.OpenXml.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.OpenXml\\SubhadraSolutions.Utils.OpenXml.csproj"
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.OpenXml\\SubhadraSolutions.Utils.OpenXml.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.OpenXml\\SubhadraSolutions.Utils.OpenXml.csproj"
             },
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Shared\\SubhadraSolutions.Utils.Shared.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Shared\\SubhadraSolutions.Utils.Shared.csproj"
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Shared\\SubhadraSolutions.Utils.Shared.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Shared\\SubhadraSolutions.Utils.Shared.csproj"
             }
           }
         }
