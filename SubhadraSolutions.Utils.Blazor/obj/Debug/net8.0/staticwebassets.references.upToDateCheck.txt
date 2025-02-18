@@ -18,3 +18,9 @@ C:\Personal\Github\Utils\SubhadraSolutions.Utils.Blazor.Templater\obj\Debug\net8
 C:\Personal\Github\Utils\MudBlazor.Docs\obj\Debug\net8.0\staticwebassets.build.json
 C:\Personal\Github\Utils\SubhadraSolutions.Utils.Blazor.Templater\obj\Debug\net8.0\staticwebassets.build.json
 C:\Personal\Github\Utils\MudBlazor.Docs\obj\Debug\net8.0\staticwebassets.build.json
+C:\Personal\Github\Utils\SubhadraSolutions.Utils.Blazor.Templater\obj\Debug\net8.0\staticwebassets.build.json
+C:\Personal\Github\Utils\MudBlazor.Docs\obj\Debug\net8.0\staticwebassets.build.json
+C:\Personal\Github\Utils\SubhadraSolutions.Utils.Blazor.Templater\obj\Debug\net8.0\staticwebassets.build.json
+C:\Personal\Github\Utils\MudBlazor.Docs\obj\Debug\net8.0\staticwebassets.build.json
+C:\Personal\Github\Utils\SubhadraSolutions.Utils.Blazor.Templater\obj\Debug\net8.0\staticwebassets.build.json
+C:\Personal\Github\Utils\MudBlazor.Docs\obj\Debug\net8.0\staticwebassets.build.json
