@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute("SquareWidget.Astronomy.Core is a code library for .NET that supports common astro" +
     "nomical calculations and algorithms.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.3.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45f8dff0b25811c2782a4c832fef5dde50b14de4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2b72962e1658ce823474312e9633b9d9644e6c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubhadraSolutions.Utils.Astronomy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubhadraSolutions.Utils.Astronomy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.3.0")]

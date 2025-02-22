@@ -703,6 +703,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "SubhadraSolutions.Utils.Reflection": "1.0.0",
           "SubhadraSolutions.Utils.Shared": "1.0.0",
           "System.Text.Json": "8.0.5"
@@ -1913,11 +1914,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\DummyConsoleApp\\DummyConsoleApp.csproj",
+      "projectUniqueName": "C:\\Personal\\Github\\Utils\\DummyConsoleApp\\DummyConsoleApp.csproj",
       "projectName": "DummyConsoleApp",
-      "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\DummyConsoleApp\\DummyConsoleApp.csproj",
+      "projectPath": "C:\\Personal\\Github\\Utils\\DummyConsoleApp\\DummyConsoleApp.csproj",
       "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\DummyConsoleApp\\obj\\",
+      "outputPath": "C:\\Personal\\Github\\Utils\\DummyConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1938,20 +1939,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\DummyClassLibrary\\DummyClassLibrary.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\DummyClassLibrary\\DummyClassLibrary.csproj"
+            "C:\\Personal\\Github\\Utils\\DummyClassLibrary\\DummyClassLibrary.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\DummyClassLibrary\\DummyClassLibrary.csproj"
             },
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.ApplicationInsights\\SubhadraSolutions.Utils.ApplicationInsights.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.ApplicationInsights\\SubhadraSolutions.Utils.ApplicationInsights.csproj"
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.ApplicationInsights\\SubhadraSolutions.Utils.ApplicationInsights.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.ApplicationInsights\\SubhadraSolutions.Utils.ApplicationInsights.csproj"
             },
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Compression.Wim\\SubhadraSolutions.Utils.Compression.Wim.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Compression.Wim\\SubhadraSolutions.Utils.Compression.Wim.csproj"
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Compression.Wim\\SubhadraSolutions.Utils.Compression.Wim.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Compression.Wim\\SubhadraSolutions.Utils.Compression.Wim.csproj"
             },
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Instrumentation\\SubhadraSolutions.Utils.Instrumentation.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Instrumentation\\SubhadraSolutions.Utils.Instrumentation.csproj"
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Instrumentation\\SubhadraSolutions.Utils.Instrumentation.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Instrumentation\\SubhadraSolutions.Utils.Instrumentation.csproj"
             },
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.IO\\SubhadraSolutions.Utils.IO.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.IO\\SubhadraSolutions.Utils.IO.csproj"
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.IO\\SubhadraSolutions.Utils.IO.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.IO\\SubhadraSolutions.Utils.IO.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zdWLY5HBEas=",
+  "dgSpecHash": "hdXovmC6qKA=",
   "success": true,
-  "projectFilePath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Pivoting.Blazor\\SubhadraSolutions.Utils.Pivoting.Blazor.csproj",
+  "projectFilePath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Pivoting.Blazor\\SubhadraSolutions.Utils.Pivoting.Blazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\clrar\\.nuget\\packages\\aqua-core\\5.4.2\\aqua-core.5.4.2.nupkg.sha512",
     "C:\\Users\\clrar\\.nuget\\packages\\aqua-core-newtonsoft-json\\5.4.2\\aqua-core-newtonsoft-json.5.4.2.nupkg.sha512",

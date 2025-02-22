@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\SubhadraSolutions.Utils.Pivoting.BlazorDemo.props" />
-</Project>

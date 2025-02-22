@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubhadraSolutions.Utils.Geography")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45f8dff0b25811c2782a4c832fef5dde50b14de4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2b72962e1658ce823474312e9633b9d9644e6c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubhadraSolutions.Utils.Geography")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubhadraSolutions.Utils.Geography")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

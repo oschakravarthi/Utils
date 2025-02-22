@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubhadraSolutions.Utils.Pivoting.BlazorDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6c7b13d252670fadce66b192c9eb89fe1204010")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2b72962e1658ce823474312e9633b9d9644e6c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubhadraSolutions.Utils.Pivoting.BlazorDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubhadraSolutions.Utils.Pivoting.BlazorDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

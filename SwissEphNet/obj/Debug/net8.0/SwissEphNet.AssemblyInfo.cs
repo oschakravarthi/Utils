@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © Yan Grenier 2014-2019")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Swiss Ephemeris .Net portage")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.8.0.2")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.8.0.2+45f8dff0b25811c2782a4c832fef5dde50b14de4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.8.0.2+e2b72962e1658ce823474312e9633b9d9644e6c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SwissEphNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SwissEphNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.8.0.2")]

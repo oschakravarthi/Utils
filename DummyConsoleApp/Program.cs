@@ -22,9 +22,7 @@ internal class Program
 
     private static void Main(string[] args)
     {
-        var x = DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss:tt.fff");
-		FindReplaceHelper.ReplaceInDirectoriesAndFiles(@"C:\Professional\Git\wsd.trackit\DPT", ".DPT.", ".RAMP.", true, true, true, "*.*");
-		TestWim();
+        FindReplaceHelper.ReplaceInDirectoriesAndFiles(@"C:\Personal\Github\SubhadraSolutions\PAA", "Astrology", "PAA", true, true, true, "*.*");
     }
 
     private static void TestInstrumentation()

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\DummyClassLibrary\\DummyClassLibrary.csproj",
+      "projectUniqueName": "C:\\Personal\\Github\\Utils\\DummyClassLibrary\\DummyClassLibrary.csproj",
       "projectName": "DummyClassLibrary",
-      "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\DummyClassLibrary\\DummyClassLibrary.csproj",
+      "projectPath": "C:\\Personal\\Github\\Utils\\DummyClassLibrary\\DummyClassLibrary.csproj",
       "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\DummyClassLibrary\\obj\\",
+      "outputPath": "C:\\Personal\\Github\\Utils\\DummyClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

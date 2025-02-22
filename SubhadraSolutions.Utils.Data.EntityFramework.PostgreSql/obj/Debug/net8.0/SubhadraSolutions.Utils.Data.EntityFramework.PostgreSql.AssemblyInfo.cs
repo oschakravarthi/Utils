@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubhadraSolutions.Utils.Data.EntityFramework.PostgreSql")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5cc6d9a06148fef4a8af6341705588841ca9bb6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2b72962e1658ce823474312e9633b9d9644e6c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubhadraSolutions.Utils.Data.EntityFramework.PostgreSql")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubhadraSolutions.Utils.Data.EntityFramework.PostgreSql")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
