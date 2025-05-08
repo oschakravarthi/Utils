@@ -1571,39 +1571,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\clrar\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/5198638/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Reflection.ILSpy\\SubhadraSolutions.Utils.Reflection.ILSpy.csproj",
+      "projectUniqueName": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Reflection.ILSpy/SubhadraSolutions.Utils.Reflection.ILSpy.csproj",
       "projectName": "SubhadraSolutions.Utils.Reflection.ILSpy",
-      "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Reflection.ILSpy\\SubhadraSolutions.Utils.Reflection.ILSpy.csproj",
-      "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Reflection.ILSpy\\obj\\",
+      "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Reflection.ILSpy/SubhadraSolutions.Utils.Reflection.ILSpy.csproj",
+      "packagesPath": "/Users/5198638/.nuget/packages/",
+      "outputPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Reflection.ILSpy/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\clrar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/5198638/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj"
+            "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj": {
+              "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj"
             }
           }
         }
@@ -1617,8 +1610,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -1657,7 +1649,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/5198638/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

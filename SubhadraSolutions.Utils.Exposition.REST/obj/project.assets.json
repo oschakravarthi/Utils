@@ -5014,42 +5014,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\clrar\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/5198638/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Exposition.REST\\SubhadraSolutions.Utils.Exposition.REST.csproj",
+      "projectUniqueName": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Exposition.REST/SubhadraSolutions.Utils.Exposition.REST.csproj",
       "projectName": "SubhadraSolutions.Utils.Exposition.REST",
-      "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Exposition.REST\\SubhadraSolutions.Utils.Exposition.REST.csproj",
-      "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Exposition.REST\\obj\\",
+      "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Exposition.REST/SubhadraSolutions.Utils.Exposition.REST.csproj",
+      "packagesPath": "/Users/5198638/.nuget/packages/",
+      "outputPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Exposition.REST/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\clrar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/5198638/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.ApplicationInsights.AspNetCore\\SubhadraSolutions.Utils.ApplicationInsights.AspNetCore.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.ApplicationInsights.AspNetCore\\SubhadraSolutions.Utils.ApplicationInsights.AspNetCore.csproj"
+            "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.ApplicationInsights.AspNetCore/SubhadraSolutions.Utils.ApplicationInsights.AspNetCore.csproj": {
+              "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.ApplicationInsights.AspNetCore/SubhadraSolutions.Utils.ApplicationInsights.AspNetCore.csproj"
             },
-            "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.OpenApi\\SubhadraSolutions.Utils.OpenApi.csproj": {
-              "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.OpenApi\\SubhadraSolutions.Utils.OpenApi.csproj"
+            "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.OpenApi/SubhadraSolutions.Utils.OpenApi.csproj": {
+              "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.OpenApi/SubhadraSolutions.Utils.OpenApi.csproj"
             }
           }
         }
@@ -5066,8 +5059,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -5121,7 +5113,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/5198638/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

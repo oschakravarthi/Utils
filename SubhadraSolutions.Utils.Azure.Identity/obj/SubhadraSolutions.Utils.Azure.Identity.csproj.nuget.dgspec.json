@@ -1,55 +1,49 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Identity\\SubhadraSolutions.Utils.Azure.Identity.csproj": {}
+    "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Identity/SubhadraSolutions.Utils.Azure.Identity.csproj": {}
   },
   "projects": {
-    "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Identity\\SubhadraSolutions.Utils.Azure.Identity.csproj": {
+    "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Identity/SubhadraSolutions.Utils.Azure.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Identity\\SubhadraSolutions.Utils.Azure.Identity.csproj",
+        "projectUniqueName": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Identity/SubhadraSolutions.Utils.Azure.Identity.csproj",
         "projectName": "SubhadraSolutions.Utils.Azure.Identity",
-        "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Identity\\SubhadraSolutions.Utils.Azure.Identity.csproj",
-        "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
-        "outputPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Identity\\obj\\",
+        "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Identity/SubhadraSolutions.Utils.Azure.Identity.csproj",
+        "packagesPath": "/Users/5198638/.nuget/packages/",
+        "outputPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Identity/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\clrar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/5198638/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net462",
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Security\\SubhadraSolutions.Utils.Azure.Security.csproj": {
-                "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Security\\SubhadraSolutions.Utils.Azure.Security.csproj"
+              "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Security/SubhadraSolutions.Utils.Azure.Security.csproj": {
+                "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Security/SubhadraSolutions.Utils.Azure.Security.csproj"
               },
-              "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
-                "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj"
+              "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj": {
+                "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj"
               }
             }
           },
           "net462": {
             "targetAlias": "net462",
             "projectReferences": {
-              "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Security\\SubhadraSolutions.Utils.Azure.Security.csproj": {
-                "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Security\\SubhadraSolutions.Utils.Azure.Security.csproj"
+              "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Security/SubhadraSolutions.Utils.Azure.Security.csproj": {
+                "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Security/SubhadraSolutions.Utils.Azure.Security.csproj"
               },
-              "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
-                "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj"
+              "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj": {
+                "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj"
               }
             }
           }
@@ -66,8 +60,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -106,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/5198638/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
         },
         "net462": {
           "targetAlias": "net462",
@@ -119,6 +112,12 @@
               "target": "Package",
               "version": "[8.0.2, )"
             },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "System.Linq.Dynamic.Core": {
               "target": "Package",
               "version": "[1.6.0.1, )"
@@ -128,50 +127,44 @@
               "version": "[8.0.5, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/5198638/.dotnet/sdk/8.0.404/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Security\\SubhadraSolutions.Utils.Azure.Security.csproj": {
+    "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Security/SubhadraSolutions.Utils.Azure.Security.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Security\\SubhadraSolutions.Utils.Azure.Security.csproj",
+        "projectUniqueName": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Security/SubhadraSolutions.Utils.Azure.Security.csproj",
         "projectName": "SubhadraSolutions.Utils.Azure.Security",
-        "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Security\\SubhadraSolutions.Utils.Azure.Security.csproj",
-        "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
-        "outputPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Azure.Security\\obj\\",
+        "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Security/SubhadraSolutions.Utils.Azure.Security.csproj",
+        "packagesPath": "/Users/5198638/.nuget/packages/",
+        "outputPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Security/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\clrar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/5198638/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net462",
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
-                "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj"
+              "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj": {
+                "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj"
               }
             }
           },
           "net462": {
             "targetAlias": "net462",
             "projectReferences": {
-              "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
-                "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj"
+              "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj": {
+                "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj"
               }
             }
           }
@@ -185,8 +178,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -225,7 +217,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/5198638/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
         },
         "net462": {
           "targetAlias": "net462",
@@ -238,6 +230,12 @@
               "target": "Package",
               "version": "[4.7.0, )"
             },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "System.Linq.Dynamic.Core": {
               "target": "Package",
               "version": "[1.6.0.1, )"
@@ -247,34 +245,28 @@
               "version": "[8.0.5, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/5198638/.dotnet/sdk/8.0.404/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj": {
+    "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj",
+        "projectUniqueName": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj",
         "projectName": "SubhadraSolutions.Utils.CodeContracts",
-        "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj",
-        "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
-        "outputPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.CodeContracts\\obj\\",
+        "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj",
+        "packagesPath": "/Users/5198638/.nuget/packages/",
+        "outputPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\clrar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/5198638/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net462",
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -296,8 +288,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -318,54 +309,56 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/5198638/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
         },
         "net462": {
           "targetAlias": "net462",
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/5198638/.dotnet/sdk/8.0.404/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
+    "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj",
+        "projectUniqueName": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj",
         "projectName": "SubhadraSolutions.Utils.Core",
-        "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj",
-        "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
-        "outputPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Core\\obj\\",
+        "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj",
+        "packagesPath": "/Users/5198638/.nuget/packages/",
+        "outputPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\clrar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/5198638/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net462",
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj": {
-                "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj"
+              "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj": {
+                "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj"
               }
             }
           },
           "net462": {
             "targetAlias": "net462",
             "projectReferences": {
-              "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj": {
-                "projectPath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj"
+              "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj": {
+                "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj"
               }
             }
           }
@@ -382,8 +375,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -426,7 +418,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/5198638/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
         },
         "net462": {
           "targetAlias": "net462",
@@ -434,6 +426,12 @@
             "Microsoft.Extensions.Logging.EventLog": {
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
             },
             "Portable.System.DateTimeOnly": {
               "target": "Package",
@@ -452,7 +450,7 @@
               "version": "[8.0.5, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/5198638/.dotnet/sdk/8.0.404/RuntimeIdentifierGraph.json"
         }
       }
     }

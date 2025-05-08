@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "o31d4Q6KdGG/wPC0MfnlAz1gF3jARlhpMlqrVywrCMY=",
+  "Hash": "axxHgtEzR+xtOVJPE8NtF5agV1YAWWC4OLu5FHTR2cI=",
   "Source": "SubhadraSolutions.Utils.Blazor.Templater",
   "BasePath": "_content/SubhadraSolutions.Utils.Blazor.Templater",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

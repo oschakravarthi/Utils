@@ -1,8 +1,5 @@
 is_global = true
 build_property.RootNamespace = SubhadraSolutions.Utils.Core
-build_property.ProjectDir = C:\Personal\Github\Utils\SubhadraSolutions.Utils.Core\
+build_property.ProjectDir = /Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 
-build_property.EnableCodeStyleSeverity = 

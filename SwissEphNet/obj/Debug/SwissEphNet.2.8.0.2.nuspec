@@ -32,12 +32,12 @@
 - Update the code to the Swiss Ephemeris 2.06.00 version.</releaseNotes>
     <copyright>Copyright © Yan Grenier 2014-2019</copyright>
     <tags>Swiss Ephemeris</tags>
-    <repository type="git" url="https://github.com/ygrenier/SwissEphNet" commit="29d5c81673d72c230f0d5715677d5ee57f52179d" />
+    <repository type="git" url="https://github.com/ygrenier/SwissEphNet" commit="45f8dff0b25811c2782a4c832fef5dde50b14de4" />
     <dependencies>
       <group targetFramework="net8.0" />
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Personal\Github\SubhadraSolutions.Astrology\Utils\SwissEphNet\bin\Debug\net8.0\SwissEphNet.dll" target="lib\net8.0\SwissEphNet.dll" />
+    <file src="/Users/5198638/Personal/github/Utils/SwissEphNet/bin/Debug/net8.0/SwissEphNet.dll" target="lib/net8.0/SwissEphNet.dll" />
   </files>
 </package>

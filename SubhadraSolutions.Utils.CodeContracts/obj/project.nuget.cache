@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8E+YZL57uZo=",
+  "dgSpecHash": "MmH+J6TJZJQ=",
   "success": true,
-  "projectFilePath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj",
+  "expectedPackageFiles": [
+    "/Users/5198638/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/Users/5198638/.nuget/packages/microsoft.netframework.referenceassemblies.net462/1.0.3/microsoft.netframework.referenceassemblies.net462.1.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

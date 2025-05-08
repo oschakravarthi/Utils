@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\buildMultiTargeting\SubhadraSolutions.Utils.Blazor.Templater.props" />
+  <Import Project="../buildMultiTargeting/SubhadraSolutions.Utils.Blazor.Templater.props" />
 </Project>
