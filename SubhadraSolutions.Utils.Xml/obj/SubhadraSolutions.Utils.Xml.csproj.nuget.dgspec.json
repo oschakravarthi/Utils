@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Xml/SubhadraSolutions.Utils.Xml.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj",
         "packagesPath": "/Users/5198638/.nuget/packages/",
         "outputPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/obj/",
+=======
+    "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Xml\\SubhadraSolutions.Utils.Xml.csproj": {}
+  },
+  "projects": {
+    "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj",
+        "projectName": "SubhadraSolutions.Utils.CodeContracts",
+        "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj",
+        "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\obj\\",
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -80,6 +94,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -88,6 +103,16 @@
         "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj",
         "packagesPath": "/Users/5198638/.nuget/packages/",
         "outputPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/obj/",
+=======
+    "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj",
+        "projectName": "SubhadraSolutions.Utils.Core",
+        "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj",
+        "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\obj\\",
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -104,16 +129,26 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< HEAD
               "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj": {
                 "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj"
+=======
+              "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj": {
+                "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj"
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
               }
             }
           },
           "net462": {
             "targetAlias": "net462",
             "projectReferences": {
+<<<<<<< HEAD
               "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj": {
                 "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj"
+=======
+              "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj": {
+                "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj"
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
               }
             }
           }
@@ -209,6 +244,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.IO/SubhadraSolutions.Utils.IO.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -217,6 +253,16 @@
         "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.IO/SubhadraSolutions.Utils.IO.csproj",
         "packagesPath": "/Users/5198638/.nuget/packages/",
         "outputPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.IO/obj/",
+=======
+    "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.IO\\SubhadraSolutions.Utils.IO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.IO\\SubhadraSolutions.Utils.IO.csproj",
+        "projectName": "SubhadraSolutions.Utils.IO",
+        "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.IO\\SubhadraSolutions.Utils.IO.csproj",
+        "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.IO\\obj\\",
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/5198638/.nuget/NuGet/NuGet.Config"
@@ -231,8 +277,13 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< HEAD
               "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj": {
                 "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj"
+=======
+              "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
+                "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj"
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
               }
             }
           }
@@ -277,6 +328,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Shared/SubhadraSolutions.Utils.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -285,6 +337,16 @@
         "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Shared/SubhadraSolutions.Utils.Shared.csproj",
         "packagesPath": "/Users/5198638/.nuget/packages/",
         "outputPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Shared/obj/",
+=======
+    "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Shared\\SubhadraSolutions.Utils.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Shared\\SubhadraSolutions.Utils.Shared.csproj",
+        "projectName": "SubhadraSolutions.Utils.Shared",
+        "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Shared\\SubhadraSolutions.Utils.Shared.csproj",
+        "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Shared\\obj\\",
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/5198638/.nuget/NuGet/NuGet.Config"
@@ -299,8 +361,13 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< HEAD
               "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj": {
                 "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj"
+=======
+              "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
+                "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj"
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
               }
             }
           }
@@ -361,6 +428,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Xml/SubhadraSolutions.Utils.Xml.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -369,6 +437,16 @@
         "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Xml/SubhadraSolutions.Utils.Xml.csproj",
         "packagesPath": "/Users/5198638/.nuget/packages/",
         "outputPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Xml/obj/",
+=======
+    "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Xml\\SubhadraSolutions.Utils.Xml.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Xml\\SubhadraSolutions.Utils.Xml.csproj",
+        "projectName": "SubhadraSolutions.Utils.Xml",
+        "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Xml\\SubhadraSolutions.Utils.Xml.csproj",
+        "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Xml\\obj\\",
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/5198638/.nuget/NuGet/NuGet.Config"
@@ -383,11 +461,19 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< HEAD
               "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.IO/SubhadraSolutions.Utils.IO.csproj": {
                 "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.IO/SubhadraSolutions.Utils.IO.csproj"
               },
               "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Shared/SubhadraSolutions.Utils.Shared.csproj": {
                 "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Shared/SubhadraSolutions.Utils.Shared.csproj"
+=======
+              "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.IO\\SubhadraSolutions.Utils.IO.csproj": {
+                "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.IO\\SubhadraSolutions.Utils.IO.csproj"
+              },
+              "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Shared\\SubhadraSolutions.Utils.Shared.csproj": {
+                "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Shared\\SubhadraSolutions.Utils.Shared.csproj"
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
               }
             }
           }

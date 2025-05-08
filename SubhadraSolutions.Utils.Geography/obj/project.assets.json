@@ -976,11 +976,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Geography/SubhadraSolutions.Utils.Geography.csproj",
       "projectName": "SubhadraSolutions.Utils.Geography",
       "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Geography/SubhadraSolutions.Utils.Geography.csproj",
       "packagesPath": "/Users/5198638/.nuget/packages/",
       "outputPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Geography/obj/",
+=======
+      "projectUniqueName": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Geography\\SubhadraSolutions.Utils.Geography.csproj",
+      "projectName": "SubhadraSolutions.Utils.Geography",
+      "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Geography\\SubhadraSolutions.Utils.Geography.csproj",
+      "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
+      "outputPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Geography\\obj\\",
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/5198638/.nuget/NuGet/NuGet.Config"
@@ -995,8 +1003,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj": {
               "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj"
+=======
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj"
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
             }
           }
         }

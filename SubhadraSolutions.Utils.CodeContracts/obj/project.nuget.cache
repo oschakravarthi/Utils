@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "MmH+J6TJZJQ=",
   "success": true,
   "projectFilePath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj",
@@ -7,5 +8,11 @@
     "/Users/5198638/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
     "/Users/5198638/.nuget/packages/microsoft.netframework.referenceassemblies.net462/1.0.3/microsoft.netframework.referenceassemblies.net462.1.0.3.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "2gRPvrnziuk=",
+  "success": true,
+  "projectFilePath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
   "logs": []
 }

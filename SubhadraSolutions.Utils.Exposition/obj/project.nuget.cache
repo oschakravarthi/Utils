@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "hbyBOjUEnmI=",
   "success": true,
   "projectFilePath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Exposition/SubhadraSolutions.Utils.Exposition.csproj",
+=======
+  "dgSpecHash": "fMOpuwdTBfM=",
+  "success": true,
+  "projectFilePath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Exposition\\SubhadraSolutions.Utils.Exposition.csproj",
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
   "expectedPackageFiles": [
     "/Users/5198638/.nuget/packages/aqua-core/5.4.2/aqua-core.5.4.2.nupkg.sha512",
     "/Users/5198638/.nuget/packages/aqua-core-newtonsoft-json/5.4.2/aqua-core-newtonsoft-json.5.4.2.nupkg.sha512",

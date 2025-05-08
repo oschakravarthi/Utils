@@ -7193,11 +7193,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.ApplicationInsights.AspNetCore/SubhadraSolutions.Utils.ApplicationInsights.AspNetCore.csproj",
       "projectName": "SubhadraSolutions.Utils.ApplicationInsights.AspNetCore",
       "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.ApplicationInsights.AspNetCore/SubhadraSolutions.Utils.ApplicationInsights.AspNetCore.csproj",
       "packagesPath": "/Users/5198638/.nuget/packages/",
       "outputPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.ApplicationInsights.AspNetCore/obj/",
+=======
+      "projectUniqueName": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.ApplicationInsights.AspNetCore\\SubhadraSolutions.Utils.ApplicationInsights.AspNetCore.csproj",
+      "projectName": "SubhadraSolutions.Utils.ApplicationInsights.AspNetCore",
+      "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.ApplicationInsights.AspNetCore\\SubhadraSolutions.Utils.ApplicationInsights.AspNetCore.csproj",
+      "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
+      "outputPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.ApplicationInsights.AspNetCore\\obj\\",
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
@@ -7214,6 +7222,7 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.ApplicationInsights/SubhadraSolutions.Utils.ApplicationInsights.csproj": {
               "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.ApplicationInsights/SubhadraSolutions.Utils.ApplicationInsights.csproj"
             },
@@ -7225,12 +7234,26 @@
             },
             "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj": {
               "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj"
+=======
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.ApplicationInsights\\SubhadraSolutions.Utils.ApplicationInsights.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.ApplicationInsights\\SubhadraSolutions.Utils.ApplicationInsights.csproj"
+            },
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Azure.Security\\SubhadraSolutions.Utils.Azure.Security.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Azure.Security\\SubhadraSolutions.Utils.Azure.Security.csproj"
+            },
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj"
+            },
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj"
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
             }
           }
         },
         "net462": {
           "targetAlias": "net462",
           "projectReferences": {
+<<<<<<< HEAD
             "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.ApplicationInsights/SubhadraSolutions.Utils.ApplicationInsights.csproj": {
               "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.ApplicationInsights/SubhadraSolutions.Utils.ApplicationInsights.csproj"
             },
@@ -7242,6 +7265,19 @@
             },
             "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj": {
               "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Core/SubhadraSolutions.Utils.Core.csproj"
+=======
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.ApplicationInsights\\SubhadraSolutions.Utils.ApplicationInsights.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.ApplicationInsights\\SubhadraSolutions.Utils.ApplicationInsights.csproj"
+            },
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Azure.Security\\SubhadraSolutions.Utils.Azure.Security.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Azure.Security\\SubhadraSolutions.Utils.Azure.Security.csproj"
+            },
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj"
+            },
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Core\\SubhadraSolutions.Utils.Core.csproj"
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
             }
           }
         }

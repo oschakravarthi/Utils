@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "GXJmPqvChaU=",
   "success": true,
   "projectFilePath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Graph/SubhadraSolutions.Utils.Graph.csproj",
+=======
+  "dgSpecHash": "QDasTkVh0FE=",
+  "success": true,
+  "projectFilePath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Graph\\SubhadraSolutions.Utils.Graph.csproj",
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
   "expectedPackageFiles": [
     "/Users/5198638/.nuget/packages/azure.core/1.44.1/azure.core.1.44.1.nupkg.sha512",
     "/Users/5198638/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

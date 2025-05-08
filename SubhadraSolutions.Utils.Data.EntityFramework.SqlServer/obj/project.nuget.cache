@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xoQ2vt3a0o4=",
+  "dgSpecHash": "sP0XK1+F5J8=",
   "success": true,
-  "projectFilePath": "C:\\Personal\\Github\\SubhadraSolutions.Astrology\\Utils\\SubhadraSolutions.Utils.Data.EntityFramework.SqlServer\\SubhadraSolutions.Utils.Data.EntityFramework.SqlServer.csproj",
+  "projectFilePath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Data.EntityFramework.SqlServer\\SubhadraSolutions.Utils.Data.EntityFramework.SqlServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\clrar\\.nuget\\packages\\aqua-core\\5.4.2\\aqua-core.5.4.2.nupkg.sha512",
     "C:\\Users\\clrar\\.nuget\\packages\\aqua-core-newtonsoft-json\\5.4.2\\aqua-core-newtonsoft-json.5.4.2.nupkg.sha512",

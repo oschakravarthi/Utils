@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\LeaderPivot.BlazorDemo.props" />
-</Project>

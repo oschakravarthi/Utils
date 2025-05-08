@@ -2366,11 +2366,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Messaging/SubhadraSolutions.Utils.Azure.Messaging.csproj",
       "projectName": "SubhadraSolutions.Utils.Azure.Messaging",
       "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Messaging/SubhadraSolutions.Utils.Azure.Messaging.csproj",
       "packagesPath": "/Users/5198638/.nuget/packages/",
       "outputPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.Azure.Messaging/obj/",
+=======
+      "projectUniqueName": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Azure.Messaging\\SubhadraSolutions.Utils.Azure.Messaging.csproj",
+      "projectName": "SubhadraSolutions.Utils.Azure.Messaging",
+      "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Azure.Messaging\\SubhadraSolutions.Utils.Azure.Messaging.csproj",
+      "packagesPath": "C:\\Users\\clrar\\.nuget\\packages\\",
+      "outputPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.Azure.Messaging\\obj\\",
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
@@ -2387,16 +2395,26 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj": {
               "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj"
+=======
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj"
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
             }
           }
         },
         "net462": {
           "targetAlias": "net462",
           "projectReferences": {
+<<<<<<< HEAD
             "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj": {
               "projectPath": "/Users/5198638/Personal/github/Utils/SubhadraSolutions.Utils.CodeContracts/SubhadraSolutions.Utils.CodeContracts.csproj"
+=======
+            "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj": {
+              "projectPath": "C:\\Personal\\Github\\Utils\\SubhadraSolutions.Utils.CodeContracts\\SubhadraSolutions.Utils.CodeContracts.csproj"
+>>>>>>> 0137ff71c35705e696b9ca41e8a65c68dba62c58
             }
           }
         }
