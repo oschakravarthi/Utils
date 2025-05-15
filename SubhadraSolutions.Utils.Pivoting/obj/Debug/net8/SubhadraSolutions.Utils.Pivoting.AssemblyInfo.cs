@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("2021 Leader Analytics")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Core logic for grouping data, rendering, and handling UI events")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44b9e1418b9673105d467b49933325f98c8625e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+128e86351e646f8d63d6f09d518c978f79882a21")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubhadraSolutions.Utils.Pivoting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubhadraSolutions.Utils.Pivoting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
