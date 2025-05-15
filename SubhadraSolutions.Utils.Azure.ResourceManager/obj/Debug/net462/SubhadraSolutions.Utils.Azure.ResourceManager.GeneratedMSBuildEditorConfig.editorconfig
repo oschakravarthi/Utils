@@ -1,8 +1,0 @@
-is_global = true
-build_property.RootNamespace = SubhadraSolutions.Utils.Azure.ResourceManager
-build_property.ProjectDir = C:\Personal\Github\Utils\SubhadraSolutions.Utils.Azure.ResourceManager\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 
-build_property.EnableCodeStyleSeverity = 
