@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Text;
 
 namespace SubhadraSolutions.Utils;
@@ -49,8 +49,12 @@ public static class TimeSpanHelper
 
         return timeSpan.ToString();
     }
-
     public static string ToYearsMonthsDaysHoursMinutesSeconds(this TimeSpan timeSpan)
+    {
+        return ToYearsMonthsDaysHoursMinutesSecondsWithLegends(timeSpan, null);
+    }
+
+    public static string ToYearsMonthsDaysHoursMinutesSecondsWithLegends(this TimeSpan timeSpan, string[] legends = null)
     {
         var ticks = timeSpan.Ticks;
         var sb = new StringBuilder();
@@ -58,7 +62,14 @@ public static class TimeSpanHelper
         {
             var b = BUCKETS[i];
             var v = (long)(ticks / b);
-            sb.Append($"{v}-");
+            if (legends != null)
+            {
+                sb.Append($"{v} {legends[i]} - ");
+            }
+            else
+            {
+                sb.Append($"{v}-");
+            }
             ticks %= b;
         }
         if (sb.Length > 0)
