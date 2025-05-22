@@ -20,24 +20,11 @@ public class DoublePair : ValuePairImpl<double, double>
     {
     }
 
-    [XmlIgnore]
-    public double Item1
-    {
-        get => _Item1;
-        set => _Item1 = value;
-    }
-
-    [XmlIgnore]
-    public double Item2
-    {
-        get => _Item2;
-        set => _Item2 = value;
-    }
-
+   
     [XmlAttribute("X")]
     public string Values
     {
-        get => _Item1 + Separator + _Item2;
+        get => Item1 + Separator + Item2;
         set
         {
             if (value != null)
@@ -51,8 +38,8 @@ public class DoublePair : ValuePairImpl<double, double>
                 {
                     int.TryParse(value.Substring(0, num), out var result);
                     int.TryParse(value.Substring(num + Separator.Length), out var result2);
-                    _Item1 = result;
-                    _Item2 = result2;
+                    Item1 = result;
+                    Item2 = result2;
                 }
             }
         }
