@@ -1,0 +1,15 @@
+﻿@inherits AbstractSmartComponent
+
+<MudDataGrid Items="@this.Items" Hover="true" Dense="true" Striped="true" Bordered="true"
+             ReadOnly="true" FixedHeader="true" Filterable="false" ColumnResizeMode="ResizeMode.Column"
+             RowsPerPage="20" HeaderClass="no-header">
+    <Columns>
+        <PropertyColumn Property="x=>x.Key">
+        </PropertyColumn>
+        <PropertyColumn Property="x => x.Value" HeaderStyle="white-space:nowrap">
+            <HeaderTemplate>
+                @((MarkupString)$"{string.Join("", Enumerable.Repeat("&nbsp;", 180))}")
+            </HeaderTemplate>
+        </PropertyColumn>
+    </Columns>
+</MudDataGrid>
