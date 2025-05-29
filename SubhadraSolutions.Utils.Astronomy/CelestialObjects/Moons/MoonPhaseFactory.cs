@@ -8,7 +8,7 @@ namespace SubhadraSolutions.Utils.Astronomy.CelestialObjects.Moons
     {
         public static MoonPhase Create(string phaseName, Moment moment)
         {
-            string[] phases = { PhaseName.NewMoon, PhaseName.FirstQuarter, PhaseName.FullMoon, PhaseName.LastQuarter };
+            string[] phases = [PhaseName.NewMoon, PhaseName.FirstQuarter, PhaseName.FullMoon, PhaseName.LastQuarter];
             if (!phases.Contains(phaseName))
             {
                 throw new ArgumentOutOfRangeException(nameof(phaseName), $"Unexpected phase name '{phaseName}'");

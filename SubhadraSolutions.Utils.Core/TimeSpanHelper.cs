@@ -5,7 +5,7 @@ namespace SubhadraSolutions.Utils;
 
 public static class TimeSpanHelper
 {
-    private static readonly long[] BUCKETS = new long[] { TimeSpan.FromDays(365).Ticks, TimeSpan.FromDays(30).Ticks, TimeSpan.FromDays(1).Ticks, TimeSpan.FromHours(1).Ticks, TimeSpan.FromMinutes(1).Ticks, TimeSpan.FromSeconds(1).Ticks };
+    private static readonly long[] BUCKETS = [TimeSpan.FromDays(365.25636).Ticks, TimeSpan.FromDays(30).Ticks, TimeSpan.FromDays(1).Ticks, TimeSpan.FromHours(1).Ticks, TimeSpan.FromMinutes(1).Ticks, TimeSpan.FromSeconds(1).Ticks];
 
     public static string DescribeTimeSpan(int milliseconds = 0, int seconds = 0, int minutes = 0)
     {
