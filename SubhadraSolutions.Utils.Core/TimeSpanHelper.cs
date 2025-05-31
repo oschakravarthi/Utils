@@ -49,11 +49,23 @@ public static class TimeSpanHelper
 
         return timeSpan.ToString();
     }
+    public static int[] ToBuckets(this TimeSpan timeSpan, params TimeSpan[] buckets)
+    {
+        var result = new int[6];
+        var ticks = timeSpan.Ticks;
+        for (int i = 0; i < buckets.Length; i++)
+        {
+            var b = buckets[i].Ticks;
+            var v = (int)(ticks / b);
+            result[i]= v;
+            ticks %= b;
+        }
+        return result;
+    }
     public static string ToYearsMonthsDaysHoursMinutesSeconds(this TimeSpan timeSpan)
     {
         return ToYearsMonthsDaysHoursMinutesSecondsWithLegends(timeSpan, null);
     }
-
     public static string ToYearsMonthsDaysHoursMinutesSecondsWithLegends(this TimeSpan timeSpan, string[] legends = null)
     {
         var ticks = timeSpan.Ticks;

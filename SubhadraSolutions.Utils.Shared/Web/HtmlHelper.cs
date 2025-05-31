@@ -376,7 +376,6 @@ public static class HtmlHelper
         writer.Write(column);
         writer.WriteLine("</th>");
     }
-
     public static void WriteTableHeaderCells(this TextWriter w, params string[] headers)
     {
         foreach (var header in headers)
