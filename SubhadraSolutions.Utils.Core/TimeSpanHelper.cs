@@ -51,7 +51,7 @@ public static class TimeSpanHelper
     }
     public static int[] ToBuckets(this TimeSpan timeSpan, params TimeSpan[] buckets)
     {
-        var result = new int[6];
+        var result = new int[buckets.Length];
         var ticks = timeSpan.Ticks;
         for (int i = 0; i < buckets.Length; i++)
         {
