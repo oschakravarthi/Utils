@@ -366,7 +366,7 @@ public static class HtmlHelper
     [DynamicallyInvoked]
     public static void WriteTableHeaderBegin(this TextWriter writer)
     {
-        writer.Write("<thead>");
+        writer.Write("<thead style=\"display:table-header-group\">");
     }
 
     [DynamicallyInvoked]
