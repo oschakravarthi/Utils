@@ -117,6 +117,19 @@ public static class ExcelHelper
         };
         AddSheet(table, workbook);
     }
+    public static void ExportToExcel(DataSet dataSet, string outputFileName)
+    {
+        using var workbook = SpreadsheetDocument.Create(outputFileName, SpreadsheetDocumentType.Workbook);
+        var workbookPart = workbook.AddWorkbookPart();
+        workbook.WorkbookPart.Workbook = new Workbook
+        {
+            Sheets = new Sheets()
+        };
+        foreach (DataTable table in dataSet.Tables)
+        {
+            AddSheet(table, workbook);
+        }
+    }
 
     public static string GetReference(int columnIndex, int rowIndex)
     {
