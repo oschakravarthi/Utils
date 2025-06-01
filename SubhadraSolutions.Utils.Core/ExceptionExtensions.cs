@@ -25,7 +25,6 @@ public static class ExceptionExtensions
 
     public static int GetMeaningfulHResult(this Exception exception)
     {
-        var text = "ExceptionExtensions.GetMeaningfulHResult()";
         int num;
         //TraceLogger.TraceInformation("{0}: Entry", text);
         //TraceLogger.TraceInformation("\t{0}: Looking for a meaningful HResult from the following exception:\n{1}", text, exception);
