@@ -4679,8 +4679,8 @@ namespace SwissEphNet.CPort
             plan_data pdp = swed.pldat[ipli];
             file_data fdp = swed.fidat[ifno];
             CFile fp = fdp.fptr;
-            int freord = (int)fdp.iflg & SEI_FILE_REORD;
-            int fendian = (int)fdp.iflg & SEI_FILE_LITENDIAN;
+            int freord = fdp.iflg & SEI_FILE_REORD;
+            int fendian = fdp.iflg & SEI_FILE_LITENDIAN;
             UInt32[] longs = new UInt32[MAXORD + 1];
             /* compute segment number */
             iseg = (Int32)((tjd - pdp.tfstart) / pdp.dseg);
@@ -4717,21 +4717,21 @@ namespace SwissEphNet.CPort
                     retc = do_fread(c.GetPointer(2), 1, 2, 1, ref fp, SEI_CURR_FPOS, freord, fendian, ifno, ref serr);
                     if (retc != OK)
                         goto return_error_gns;
-                    nsize[0] = (int)c[1] / 16;
-                    nsize[1] = (int)c[1] % 16;
-                    nsize[2] = (int)c[2] / 16;
-                    nsize[3] = (int)c[2] % 16;
-                    nsize[4] = (int)c[3] / 16;
-                    nsize[5] = (int)c[3] % 16;
+                    nsize[0] = c[1] / 16;
+                    nsize[1] = c[1] % 16;
+                    nsize[2] = c[2] / 16;
+                    nsize[3] = c[2] % 16;
+                    nsize[4] = c[3] / 16;
+                    nsize[5] = c[3] % 16;
                     nco = nsize[0] + nsize[1] + nsize[2] + nsize[3] + nsize[4] + nsize[5];
                 }
                 else
                 {
                     nsizes = 4;
-                    nsize[0] = (int)c[0] / 16;
-                    nsize[1] = (int)c[0] % 16;
-                    nsize[2] = (int)c[1] / 16;
-                    nsize[3] = (int)c[1] % 16;
+                    nsize[0] = c[0] / 16;
+                    nsize[1] = c[0] % 16;
+                    nsize[2] = c[1] / 16;
+                    nsize[3] = c[1] % 16;
                     nco = nsize[0] + nsize[1] + nsize[2] + nsize[3];
                 }
                 /* there may not be more coefficients than interpolation
@@ -4983,7 +4983,7 @@ namespace SwissEphNet.CPort
                 fendian = SEI_FILE_BIGENDIAN;
             else
                 fendian = SEI_FILE_LITENDIAN;
-            fdp.iflg = (Int32)freord | fendian;
+            fdp.iflg = freord | fendian;
             /************************************* 
              * length of file correct?           * 
              *************************************/
@@ -5031,7 +5031,7 @@ namespace SwissEphNet.CPort
                 goto file_damage;
             fdp.npl = nplan;
             /* which ones?                       */
-            retc = do_fread(fdp.ipl, nbytes_ipl, (int)nplan, sizeof(int), ref fp, SEI_CURR_FPOS,
+            retc = do_fread(fdp.ipl, nbytes_ipl, nplan, sizeof(int), ref fp, SEI_CURR_FPOS,
                 freord, fendian, ifno, ref serr);
             if (retc != OK)
                 goto return_error;
@@ -5101,7 +5101,7 @@ namespace SwissEphNet.CPort
             if (fp.Read(crcBuff, 0, fpos) != fpos)
                 goto file_damage;
             //#if 1
-            if (SE.SwephLib.swi_crc32(crcBuff, (int)fpos) != ulng)
+            if (SE.SwephLib.swi_crc32(crcBuff, fpos) != ulng)
                 goto file_damage;
             /*printf("crc %d %d\n", ulng2, ulng);*/
             //#endif
@@ -7740,7 +7740,7 @@ namespace SwissEphNet.CPort
                          */
                         if (s[0] == '?' || Char.IsDigit(s[1]))
                         {
-                            int ipli = (int)(ipl - SwissEph.SE_AST_OFFSET), iplf = 0;
+                            int ipli = ipl - SwissEph.SE_AST_OFFSET, iplf = 0;
                             CFile fp;
                             String sp;
                             //char si[AS_MAXCH], *sp, *sp2;

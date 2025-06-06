@@ -268,7 +268,7 @@ namespace SwissEphNet.CPort
                 have_leapsec = true;
                 dsec -= 1.0;
             }
-            dhour = ((double)ihour) + ((double)imin) / 60.0 + dsec / 3600.0;
+            dhour = ihour + imin / 60.0 + dsec / 3600.0;
             tjd = swe_julday(iyear, imonth, iday, 0, SwissEph.SE_GREG_CAL);
             dhour -= d_timezone;
             if (dhour < 0.0) {
@@ -281,9 +281,9 @@ namespace SwissEphNet.CPort
             }
             swe_revjul(tjd + 0.001, SwissEph.SE_GREG_CAL, ref iyear_out, ref imonth_out, ref iday_out, ref d);
             ihour_out = (int)dhour;
-            d = (dhour - (double)ihour_out) * 60;
+            d = (dhour - ihour_out) * 60;
             imin_out = (int)d;
-            dsec_out = (d - (double)imin_out) * 60;
+            dsec_out = (d - imin_out) * 60;
             if (have_leapsec)
                 dsec_out += 1.0;
         }
@@ -415,7 +415,7 @@ namespace SwissEphNet.CPort
                 serr = C.sprintf("invalid time: %d:%d:%.2f", ihour, imin, dsec);
                 return SwissEph.ERR;
             }
-            dhour = (double)ihour + ((double)imin) / 60.0 + dsec / 3600.0;
+            dhour = ihour + imin / 60.0 + dsec / 3600.0;
             /* 
              * before 1972, we treat input date as UT1 
              */
@@ -449,7 +449,7 @@ namespace SwissEphNet.CPort
              * Check, if delta_t - nleap - 32.184 > 0.9
              */
             d = SE.SwephLib.swe_deltat_ex(tjd_ut1, -1, ref sdummy) * 86400.0;
-            if (d - (double)nleap - 32.184 >= 1.0) {
+            if (d - nleap - 32.184 >= 1.0) {
                 dret[1] = tjd_ut1 + dhour / 24.0;
                 dret[0] = dret[1] + SE.SwephLib.swe_deltat_ex(dret[1], -1, ref sdummy);
                 return SwissEph.OK;
@@ -476,10 +476,10 @@ namespace SwissEphNet.CPort
             /* the number of days between input date and 1 jan 1972: */
             d = tjd_ut1 - J1972;
             /* SI time since 1972, ignoring leap seconds: */
-            d += (double)ihour / 24.0 + (double)imin / 1440.0 + dsec / 86400.0;
+            d += ihour / 24.0 + imin / 1440.0 + dsec / 86400.0;
             /* ET (TT) */
             tjd_et_1972 = J1972 + (32.184 + NLEAP_INIT) / 86400.0;
-            tjd_et = tjd_et_1972 + d + ((double)(nleap - NLEAP_INIT)) / 86400.0;
+            tjd_et = tjd_et_1972 + d + (nleap - NLEAP_INIT) / 86400.0;
             d = SE.SwephLib.swe_deltat_ex(tjd_et, -1, ref sdummy);
             tjd_ut1 = tjd_et - SE.SwephLib.swe_deltat_ex(tjd_et - d, -1, ref sdummy);
             tjd_ut1 = tjd_et - SE.SwephLib.swe_deltat_ex(tjd_ut1, -1, ref sdummy);
@@ -519,10 +519,10 @@ namespace SwissEphNet.CPort
             {
                 swe_revjul(tjd_ut, gregflag, ref iyear, ref imonth, ref iday, ref d);
                 ihour = (Int32)d;
-                d -= (double)ihour;
+                d -= ihour;
                 d *= 60;
                 imin = (Int32)d;
-                dsec = (d - (double)imin) * 60.0;
+                dsec = (d - imin) * 60.0;
                 return;
             }
             /* 
@@ -560,10 +560,10 @@ namespace SwissEphNet.CPort
             tjd = J1972 + (tjd_et - tjd_et_1972) - ((double)nleap + second_60) / 86400.0;
             swe_revjul(tjd, SwissEph.SE_GREG_CAL, ref iyear, ref imonth, ref iday, ref d);
             ihour = (Int32)d;
-            d -= (double)ihour;
+            d -= ihour;
             d *= 60;
             imin = (Int32)d;
-            dsec = (d - (double)imin) * 60.0 + second_60;
+            dsec = (d - imin) * 60.0 + second_60;
             /*
              * For input dates > today:
              * If leap seconds table is not up to date, we'd better interpret the
@@ -572,13 +572,13 @@ namespace SwissEphNet.CPort
              */
             d = SE.SwephLib.swe_deltat_ex(tjd_et, -1, ref sdummy);
             d = SE.SwephLib.swe_deltat_ex(tjd_et - d, -1, ref sdummy);
-            if (d * 86400.0 - (double)(nleap + NLEAP_INIT) - 32.184 >= 1.0) {
+            if (d * 86400.0 - (nleap + NLEAP_INIT) - 32.184 >= 1.0) {
                 swe_revjul(tjd_et - d, SwissEph.SE_GREG_CAL, ref iyear, ref imonth, ref iday, ref d);
                 ihour = (Int32)d;
-                d -= (double)ihour;
+                d -= ihour;
                 d *= 60;
                 imin = (Int32)d;
-                dsec = (d - (double)imin) * 60.0;
+                dsec = (d - imin) * 60.0;
             }
             if (gregflag == SwissEph.SE_JUL_CAL) {
                 tjd = swe_julday(iyear, imonth, iday, 0, SwissEph.SE_GREG_CAL);

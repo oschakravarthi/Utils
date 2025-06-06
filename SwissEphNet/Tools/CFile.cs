@@ -110,7 +110,7 @@ namespace SwissEphNet
         /// Read an Int32
         /// </summary>
         public bool Read(ref Int32 result) {
-            var buff = BitConverter.GetBytes((Int32)0);
+            var buff = BitConverter.GetBytes(0);
             if (Read(buff, 0, buff.Length) != buff.Length)
                 return false;
             result = BitConverter.ToInt32(buff, 0);

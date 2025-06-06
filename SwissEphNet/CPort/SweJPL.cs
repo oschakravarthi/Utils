@@ -513,9 +513,9 @@ namespace SwissEphNet.CPort
             double[] vc = js.vc;
             double[] ac = js.ac;
             double[] jc = js.jc;
-            int ncf = (int)ncfin;
-            int ncm = (int)ncmin;
-            int na = (int)nain;
+            int ncf = ncfin;
+            int ncm = ncmin;
+            int na = nain;
             /* Local variables */
             double temp;
             int i, j, ni;
@@ -826,7 +826,7 @@ namespace SwissEphNet.CPort
                     //reorder((char *) &ts[0], sizeof(double), 2);
                     reorder(ts, 0, 2);
                 //FSEEK(js.jplfptr, (off_t)((nseg + 2 - 1) * ((off_t)irecsz)), 0);
-                js.jplfptr.Seek((((Int64)nseg + 2 - 1) * ((Int64)irecsz)), SeekOrigin.Begin);
+                js.jplfptr.Seek((((Int64)nseg + 2 - 1) * irecsz), SeekOrigin.Begin);
                 //fread((void*)&ts[2], sizeof(double), 2, js.jplfptr);
                 nrd = js.jplfptr.ReadDoubles(ts, 2, 2);
                 if (nrd != 2) return Sweph.NOT_AVAILABLE;
@@ -909,12 +909,12 @@ namespace SwissEphNet.CPort
             }
             /*       do nutations if requested (and if on file) */
             if (list[10] > 0 && ipt[34] > 0) {
-                interp(buf.GetPointer((int)ipt[33] - 1), t, intv, ipt[34], 2, ipt[35],
+                interp(buf.GetPointer(ipt[33] - 1), t, intv, ipt[34], 2, ipt[35],
                      list[10], nut);
             }
             /*       get librations if requested (and if on file) */
             if (list[11] > 0 && ipt[37] > 0) {
-                interp(buf.GetPointer((int)ipt[36] - 1), t, intv, ipt[37], 3, ipt[38], list[1],
+                interp(buf.GetPointer(ipt[36] - 1), t, intv, ipt[37], 3, ipt[38], list[1],
                     pv + 60);
             }
             return SwissEph.OK;

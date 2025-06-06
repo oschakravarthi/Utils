@@ -145,20 +145,20 @@ namespace SwissEphNet
         public static long UnboxToLong(object Value, bool Round) {
             switch (Value.GetType().GetTypeCode()) {
                 case TypeCode.SByte:
-                    return (long)((sbyte)Value);
+                    return (sbyte)Value;
                 case TypeCode.Int16:
-                    return (long)((short)Value);
+                    return (short)Value;
                 case TypeCode.Int32:
-                    return (long)((int)Value);
+                    return (int)Value;
                 case TypeCode.Int64:
                     return (long)Value;
 
                 case TypeCode.Byte:
-                    return (long)((byte)Value);
+                    return (byte)Value;
                 case TypeCode.UInt16:
-                    return (long)((ushort)Value);
+                    return (ushort)Value;
                 case TypeCode.UInt32:
-                    return (long)((uint)Value);
+                    return (uint)Value;
                 case TypeCode.UInt64:
                     return (long)((ulong)Value);
 

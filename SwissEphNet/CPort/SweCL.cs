@@ -1146,13 +1146,13 @@ namespace SwissEphNet.CPort
                     if (d < 0) continue;
                     j = (int)d;
                     if ((d - j) * SAROS_CYCLE < 2) {
-                        attr[9] = (double)saros_data_solar[i].series_no;
+                        attr[9] = saros_data_solar[i].series_no;
                         attr[10] = (double)j + 1;
                         break;
                     }
                     k = j + 1;
                     if ((k - d) * SAROS_CYCLE < 2) {
-                        attr[9] = (double)saros_data_solar[i].series_no;
+                        attr[9] = saros_data_solar[i].series_no;
                         attr[10] = (double)k + 1;
                         break;
                     }
@@ -3399,13 +3399,13 @@ namespace SwissEphNet.CPort
                 if (d < 0) continue;
                 j = (int)d;
                 if ((d - j) * SAROS_CYCLE < 2) {
-                    attr[9] = (double)saros_data_lunar[i].series_no;
+                    attr[9] = saros_data_lunar[i].series_no;
                     attr[10] = (double)j + 1;
                     break;
                 }
                 k = j + 1;
                 if ((k - d) * SAROS_CYCLE < 2) {
-                    attr[9] = (double)saros_data_lunar[i].series_no;
+                    attr[9] = saros_data_lunar[i].series_no;
                     attr[10] = (double)k + 1;
                     break;
                 }
@@ -3890,7 +3890,7 @@ namespace SwissEphNet.CPort
             /*  
              * geocentric planet
              */
-            if ((retflag = SE.swe_calc(tjd, (int)ipl, iflag | SwissEph.SEFLG_XYZ, xx, ref serr)) == SwissEph.ERR)
+            if ((retflag = SE.swe_calc(tjd, ipl, iflag | SwissEph.SEFLG_XYZ, xx, ref serr)) == SwissEph.ERR)
                 /* int cast can be removed when swe_calc() gets int32 ipl definition */
                 return SwissEph.ERR;
             // check epheflag and adjust iflag
@@ -3903,7 +3903,7 @@ namespace SwissEphNet.CPort
                 iflagp |= epheflag2;
                 epheflag = epheflag2;
             }
-            if (SE.swe_calc(tjd, (int)ipl, iflag, lbr, ref serr) == SwissEph.ERR)
+            if (SE.swe_calc(tjd, ipl, iflag, lbr, ref serr) == SwissEph.ERR)
                 /* int cast can be removed when swe_calc() gets int32 ipl definition */
                 return SwissEph.ERR;
             /* if moon, we need sun as well, for magnitude */
@@ -3924,10 +3924,10 @@ namespace SwissEphNet.CPort
                 /* 
                  * heliocentric planet at tjd - dt
                  */
-                if (SE.swe_calc(tjd - dt, (int)ipl, iflagp | SwissEph.SEFLG_XYZ, xx2, ref  serr) == SwissEph.ERR)
+                if (SE.swe_calc(tjd - dt, ipl, iflagp | SwissEph.SEFLG_XYZ, xx2, ref  serr) == SwissEph.ERR)
                     /* int cast can be removed when swe_calc() gets int32 ipl definition */
                     return SwissEph.ERR;
-                if (SE.swe_calc(tjd - dt, (int)ipl, iflagp, lbr2, ref  serr) == SwissEph.ERR)
+                if (SE.swe_calc(tjd - dt, ipl, iflagp, lbr2, ref  serr) == SwissEph.ERR)
                     /* int cast can be removed when swe_calc() gets int32 ipl definition */
                     return SwissEph.ERR;
                 /*
@@ -4072,16 +4072,16 @@ namespace SwissEphNet.CPort
                 double sinhp; double[] xm = new double[6];
                 /* geocentric horizontal parallax */
                 /* Expl.Suppl. to the AA 1984, p.400 */
-                if (SE.swe_calc(tjd, (int)ipl, epheflag | SwissEph.SEFLG_TRUEPOS | SwissEph.SEFLG_EQUATORIAL | SwissEph.SEFLG_RADIANS, xm, ref serr) == SwissEph.ERR)
+                if (SE.swe_calc(tjd, ipl, epheflag | SwissEph.SEFLG_TRUEPOS | SwissEph.SEFLG_EQUATORIAL | SwissEph.SEFLG_RADIANS, xm, ref serr) == SwissEph.ERR)
                     /* int cast can be removed when swe_calc() gets int32 ipl definition */
                     return SwissEph.ERR;
                 sinhp = Sweph.EARTH_RADIUS / xm[2] / Sweph.AUNIT;
                 attr[5] = Math.Asin(sinhp) / SwissEph.DEGTORAD;
                 /* topocentric horizontal parallax */
                 if ((iflag & SwissEph.SEFLG_TOPOCTR) != 0) {
-                    if (SE.swe_calc(tjd, (int)ipl, epheflag | SwissEph.SEFLG_XYZ | SwissEph.SEFLG_TOPOCTR, xm, ref serr) == SwissEph.ERR)
+                    if (SE.swe_calc(tjd, ipl, epheflag | SwissEph.SEFLG_XYZ | SwissEph.SEFLG_TOPOCTR, xm, ref serr) == SwissEph.ERR)
                         return SwissEph.ERR;
-                    if (SE.swe_calc(tjd, (int)ipl, epheflag | SwissEph.SEFLG_XYZ, xx, ref serr) == SwissEph.ERR)
+                    if (SE.swe_calc(tjd, ipl, epheflag | SwissEph.SEFLG_XYZ, xx, ref serr) == SwissEph.ERR)
                         return SwissEph.ERR;
                     attr[5] = Math.Acos(SE.SwephLib.swi_dot_prod_unit(xm, xx)) / SwissEph.DEGTORAD;
                     //#if 0
@@ -6246,11 +6246,11 @@ static const double Gmsm_factor_AA[] = {
             }
             for (j = 0; j < ncnt; j++)
             {
-                eano = (double)j * dstep;
+                eano = j * dstep;
                 osc_get_ecl_pos(eano, pqro, xouter);
                 for (i = 0; i < ncnt; i++)
                 {
-                    eani = (double)i;
+                    eani = i;
                     osc_get_ecl_pos(eani, pqri, xinner);
                     r = get_dist_from_2_vectors(xouter, xinner);
                     /* maximum/minimum found; save positions and ecc. anomalies */

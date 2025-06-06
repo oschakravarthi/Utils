@@ -55,7 +55,7 @@ public abstract class AbstractHttpClient : AbstractDisposable, IHttpClient
 
     public ValueTask<T> CallAsync<T>(HttpMethod httpMethod, string uri, CancellationToken? cancellationToken = null)
     {
-        return CallAsync<T>(httpMethod, uri, (IDictionary<string, string>)null, cancellationToken)
+        return CallAsync<T>(httpMethod, uri, null, cancellationToken)
 ;
     }
 
@@ -70,7 +70,7 @@ public abstract class AbstractHttpClient : AbstractDisposable, IHttpClient
 
     public ValueTask<HttpResponseMessage> CallAsync(HttpMethod httpMethod, string uri, CancellationToken? cancellationToken = null)
     {
-        return CallAsync(httpMethod, uri, (IDictionary<string, string>)null, cancellationToken)
+        return CallAsync(httpMethod, uri, null, cancellationToken)
 ;
     }
 

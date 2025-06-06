@@ -608,7 +608,7 @@ namespace SwissEphNet.CPort
                     saved_sundec = h.sundec;
                 }
             }
-            retc = CalcH(armc, geolat, eps, (char)hsys, 2, h);
+            retc = CalcH(armc, geolat, eps, hsys, 2, h);
             cusp[0] = 0;
             for (i = 1; i <= ito; i++) {
                 cusp[i] = h.cusp[i];
@@ -1914,14 +1914,14 @@ namespace SwissEphNet.CPort
                     {
                         if (Math.Abs(SE.swe_difdeg2n(xpin[0], hcusp[i])) < MILLIARCSEC && xpin[1] == 0)
                         {
-                            hpos = (double)i;
+                            hpos = i;
                         }
                     }
                     for (i = 1; i <= 12; i += 3)
                     {
                         if (Math.Abs(SE.swe_difdeg2n(xpin[0], hcusp[i])) < MILLIARCSEC && xpin[1] == 0)
                         {
-                            xp[0] = (double)i;
+                            xp[0] = i;
                         }
                     }
                     if (hpos > 0)

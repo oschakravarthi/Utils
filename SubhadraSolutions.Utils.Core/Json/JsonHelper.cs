@@ -102,7 +102,7 @@ public static class JsonHelper
 
                     foreach (var property in jObject.Properties().OrderBy(x => x.Name))
                     {
-                        var value = property.Value as JToken;
+                        var value = property.Value;
                         if (value != null)
                         {
                             value = Normalize(value);

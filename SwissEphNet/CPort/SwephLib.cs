@@ -211,7 +211,7 @@ namespace SwissEphNet.CPort
             bjp2 = 0.0;
             bjpl = 0.0;
             for (j = ncf - 1; j >= 1; j--) {
-                dj = (double)(j + j);
+                dj = j + j;
                 xj = coef[j] * dj + xjp2;
                 bj = x2 * bjpl - bjp2 + xj;
                 bf = bjp2;
@@ -1821,11 +1821,11 @@ namespace SwissEphNet.CPort
                 inls = SweNut200a.NLS;
             for (i = inls - 1; i >= 0; i--) {
                 j = i * 5;
-                darg = swe_radnorm((double)nls[j + 0] * M +
-                           (double)nls[j + 1] * SM +
-                           (double)nls[j + 2] * F +
-                           (double)nls[j + 3] * D +
-                           (double)nls[j + 4] * OM);
+                darg = swe_radnorm(nls[j + 0] * M +
+                           nls[j + 1] * SM +
+                           nls[j + 2] * F +
+                           nls[j + 3] * D +
+                           nls[j + 4] * OM);
                 sinarg = Math.Sin(darg);
                 cosarg = Math.Cos(darg);
                 k = i * 6;
@@ -1868,25 +1868,25 @@ namespace SwissEphNet.CPort
                 deps = 0;
                 for (i = SweNut200a.NPL - 1; i >= 0; i--) {
                     j = i * 14;
-                    darg = swe_radnorm((double)npl[j + 0] * AL +
-                    (double)npl[j + 1] * ALSU +
-                    (double)npl[j + 2] * AF +
-                    (double)npl[j + 3] * AD +
-                    (double)npl[j + 4] * AOM +
-                    (double)npl[j + 5] * ALME +
-                    (double)npl[j + 6] * ALVE +
-                    (double)npl[j + 7] * ALEA +
-                    (double)npl[j + 8] * ALMA +
-                    (double)npl[j + 9] * ALJU +
-                    (double)npl[j + 10] * ALSA +
-                    (double)npl[j + 11] * ALUR +
-                    (double)npl[j + 12] * ALNE +
-                    (double)npl[j + 13] * APA);
+                    darg = swe_radnorm(npl[j + 0] * AL +
+                    npl[j + 1] * ALSU +
+                    npl[j + 2] * AF +
+                    npl[j + 3] * AD +
+                    npl[j + 4] * AOM +
+                    npl[j + 5] * ALME +
+                    npl[j + 6] * ALVE +
+                    npl[j + 7] * ALEA +
+                    npl[j + 8] * ALMA +
+                    npl[j + 9] * ALJU +
+                    npl[j + 10] * ALSA +
+                    npl[j + 11] * ALUR +
+                    npl[j + 12] * ALNE +
+                    npl[j + 13] * APA);
                     k = i * 4;
                     sinarg = Math.Sin(darg);
                     cosarg = Math.Cos(darg);
-                    dpsi += (double)icpl[k + 0] * sinarg + (double)icpl[k + 1] * cosarg;
-                    deps += (double)icpl[k + 2] * sinarg + (double)icpl[k + 3] * cosarg;
+                    dpsi += icpl[k + 0] * sinarg + icpl[k + 1] * cosarg;
+                    deps += icpl[k + 2] * sinarg + icpl[k + 3] * cosarg;
                 }
                 nutlo[0] += dpsi * SweNut200a.O1MAS2DEG;
                 nutlo[1] += deps * SweNut200a.O1MAS2DEG;

@@ -73,7 +73,7 @@ public static class TimeSpanHelper
         for (int i = 0; i < BUCKETS.Length; i++)
         {
             var b = BUCKETS[i];
-            var v = (long)(ticks / b);
+            var v = ticks / b;
             if (legends != null)
             {
                 sb.Append($"{v} {legends[i]} - ");
