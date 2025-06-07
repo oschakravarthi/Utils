@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SwissEphNet
+﻿namespace SwissEphNet
 {
     /// <summary>
     /// Some helpers
