@@ -5,7 +5,7 @@ namespace SubhadraSolutions.Utils;
 
 public static class TimeSpanHelper
 {
-    private static readonly long[] BUCKETS = [TimeSpan.FromDays(365.25636).Ticks, TimeSpan.FromDays(30).Ticks, TimeSpan.FromDays(1).Ticks, TimeSpan.FromHours(1).Ticks, TimeSpan.FromMinutes(1).Ticks, TimeSpan.FromSeconds(1).Ticks];
+    private static readonly TimeSpan[] BUCKETS = [TimeSpan.FromDays(365.25636), TimeSpan.FromDays(30), TimeSpan.FromDays(1), TimeSpan.FromHours(1), TimeSpan.FromMinutes(1), TimeSpan.FromSeconds(1)];
 
     public static string DescribeTimeSpan(int milliseconds = 0, int seconds = 0, int minutes = 0)
     {
@@ -57,32 +57,37 @@ public static class TimeSpanHelper
         {
             var b = buckets[i].Ticks;
             var v = (int)(ticks / b);
-            result[i]= v;
+            result[i] = v;
             ticks %= b;
         }
         return result;
     }
     public static string ToYearsMonthsDaysHoursMinutesSeconds(this TimeSpan timeSpan)
     {
-        return ToYearsMonthsDaysHoursMinutesSecondsWithLegends(timeSpan, null);
+        return ToBucketsWithLegends(timeSpan, BUCKETS, null);
     }
-    public static string ToYearsMonthsDaysHoursMinutesSecondsWithLegends(this TimeSpan timeSpan, string[] legends = null)
+    public static string ToBucketsWithLegends(this TimeSpan timeSpan, TimeSpan[] buckets, string[] legends = null)
     {
         var ticks = timeSpan.Ticks;
         var sb = new StringBuilder();
-        for (int i = 0; i < BUCKETS.Length; i++)
+        for (int i = 0; i < buckets.Length; i++)
         {
-            var b = BUCKETS[i];
-            var v = ticks / b;
+            var b = buckets[i];
+            var v = ticks / b.Ticks;
+            var vs = v.ToString();
+            if (vs.Length == 1)
+            {
+                vs = "0" + vs;
+            }
             if (legends != null)
             {
-                sb.Append($"{v} {legends[i]} - ");
+                sb.Append($"{vs} {legends[i]} - ");
             }
             else
             {
-                sb.Append($"{v}-");
+                sb.Append($"{vs}-");
             }
-            ticks %= b;
+            ticks %= b.Ticks;
         }
         if (sb.Length > 0)
         {
