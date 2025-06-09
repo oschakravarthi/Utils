@@ -79,7 +79,7 @@ public static class DateTimeHelper
     public static DateTime ToLocalMeanTime(this DateTime dateTime, double fromLongitude, double toLongitude)
     {
         var diff = (toLongitude - fromLongitude) / 360;
-        return new DateTime(dateTime.AddDays(diff).Ticks, toLongitude==0? DateTimeKind.Utc:DateTimeKind.Local)
+        return new DateTime(dateTime.AddDays(diff).Ticks, toLongitude == 0 ? DateTimeKind.Utc : DateTimeKind.Local);
     }
 
     //public static TimeOnly ToLMST(this DateTime dateTimeUTC, double longitude)
