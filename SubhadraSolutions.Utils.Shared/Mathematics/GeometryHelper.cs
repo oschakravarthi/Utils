@@ -743,9 +743,9 @@ public static class GeometryHelper
 
     public static bool IsAngleBetweenTwoAngles(double angleInDegrees, double from, double to)
     {
-        angleInDegrees = MakePositiveDegrees(angleInDegrees);
-        from = MakePositiveDegrees(from);
-        to = MakePositiveDegrees(to);
+        angleInDegrees = NormalizeDegrees(angleInDegrees);
+        from = NormalizeDegrees(from);
+        to = NormalizeDegrees(to);
 
         if (from < to)
         {
@@ -755,12 +755,12 @@ public static class GeometryHelper
     }
     public static double AngleDifference(double a, double b)
     {
-        a = MakePositiveDegrees(a);
-        b = MakePositiveDegrees(b);
+        a = NormalizeDegrees(a);
+        b = NormalizeDegrees(b);
         return Math.Abs(a - b);
     }
 
-    public static double MakePositive(double d, double n)
+    public static double Normalize(double d, double n)
     {
         if (d < 0)
         {
@@ -774,14 +774,14 @@ public static class GeometryHelper
     }
     public static double AbsoluteAngleDifference(double a, double b)
     {
-        a = MakePositiveDegrees(a);
-        b = MakePositiveDegrees(b);
+        a = NormalizeDegrees(a);
+        b = NormalizeDegrees(b);
         return Math.Min(Math.Min(Math.Abs(a - b), Math.Abs((a + 360) - b)), Math.Abs((b + 360) - a));
     }
 
-    public static double MakePositiveDegrees(double degrees)
+    public static double NormalizeDegrees(double degrees)
     {
-        return MakePositive(degrees, 360d);
+        return Normalize(degrees, 360d);
     }
 
 
