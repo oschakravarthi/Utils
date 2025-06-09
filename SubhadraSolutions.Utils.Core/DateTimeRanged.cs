@@ -1,10 +1,9 @@
-using SubhadraSolutions.Utils.Contracts;
 using System;
 using System.Text.Json.Serialization;
 
 namespace SubhadraSolutions.Utils;
 
-public class DateTimeRanged<I> : DateTimeRange, IToLocal<DateTimeRanged<I>>
+public class DateTimeRanged<I> : DateTimeRange
 {
     [Newtonsoft.Json.JsonConstructor]
     [JsonConstructor]
@@ -25,21 +24,6 @@ public class DateTimeRanged<I> : DateTimeRange, IToLocal<DateTimeRanged<I>>
 
     [JsonInclude]
     public I Info { get; private set; }
-
-    public new DateTimeRanged<I> ToLocal(TimeZoneInfo timezone)
-    {
-        var info = Info;
-        if (Info != null)
-        {
-            if (info is IToLocal<I> infoAsToLocal)
-            {
-                info = infoAsToLocal.ToLocal(timezone);
-            }
-        }
-
-        return new DateTimeRanged<I>(TimeZoneInfo.ConvertTimeFromUtc(From, timezone),
-            TimeZoneInfo.ConvertTimeFromUtc(Upto, timezone), info);
-    }
 
     public override string ToString()
     {

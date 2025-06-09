@@ -1,11 +1,10 @@
 using Newtonsoft.Json;
-using SubhadraSolutions.Utils.Contracts;
 using System;
 using System.Collections.Generic;
 
 namespace SubhadraSolutions.Utils;
 
-public class DateTimeRange : Range<DateTime>, IToLocal<DateTimeRange>
+public class DateTimeRange : Range<DateTime>
 {
     [JsonConstructor]
     [System.Text.Json.Serialization.JsonConstructor]
@@ -30,12 +29,6 @@ public class DateTimeRange : Range<DateTime>, IToLocal<DateTimeRange>
 
     [System.Text.Json.Serialization.JsonIgnore]
     public DateTime Mid => From.AddTicks(Duration.Ticks / 2);
-
-    public DateTimeRange ToLocal(TimeZoneInfo timezone)
-    {
-        return new DateTimeRange(TimeZoneInfo.ConvertTimeFromUtc(From, timezone),
-            TimeZoneInfo.ConvertTimeFromUtc(Upto, timezone));
-    }
 
     //public bool Contains(DateTime datetime)
     //{

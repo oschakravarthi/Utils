@@ -73,6 +73,11 @@ public static class DateTimeHelper
         return jd;
     }
 
+    public static DateTime ToLocalMeanTime(this DateTime dateTime, double fromLongitude, double toLongitude)
+    {
+        var diff = (toLongitude - fromLongitude) / 360;
+        return dateTime.AddDays(diff);
+    }
 
     //public static TimeOnly ToLMST(this DateTime dateTimeUTC, double longitude)
     //{
