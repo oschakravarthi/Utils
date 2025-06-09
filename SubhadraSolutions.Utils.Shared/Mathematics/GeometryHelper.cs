@@ -786,7 +786,7 @@ public static class GeometryHelper
 
 
     // normalize vector into a unit vector
-    public static PointF Normalize(PointF point)
+    public static PointF Normalize(this PointF point)
     {
         if (AlmostEqual(point.X * point.X + point.Y * point.Y,
                 1))
