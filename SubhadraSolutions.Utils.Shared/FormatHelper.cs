@@ -5,7 +5,7 @@ namespace SubhadraSolutions.Utils
 {
     public static class FormatHelper
     {
-        public static string ToCustomFormat(double value, double[] divisons)
+        public static string ToCustomFormat(double value, params double[] divisons)
         {
             if (double.IsNaN(value))
             {
