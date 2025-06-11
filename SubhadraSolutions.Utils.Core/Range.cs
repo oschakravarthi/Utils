@@ -46,7 +46,7 @@ public class Range<T> : IComparable<Range<T>> where T : IComparable<T>
         return range.From.CompareTo(From) >= 0 && range.Upto.CompareTo(Upto) < 0;
     }
 
-    public List<Range<T>> Exclude(params Range<T>[] others)
+    public List<Range<T>> Exclude(IEnumerable<Range<T>> others)
     {
         var result = new Queue<Range<T>>();
         result.Enqueue(this);
@@ -93,12 +93,38 @@ public class Range<T> : IComparable<Range<T>> where T : IComparable<T>
             return null;
         }
 
-        var from = b.From;
-        var upto = a.Upto.CompareTo(b.Upto) <= 0 ? a.Upto : b.Upto;
-
-        return new Range<T>(from, upto);
+        if(a.Upto.CompareTo(b.Upto) > 0)
+        {
+            return b;
+        }
+        return new Range<T>(b.From, a.Upto);
     }
-
+    public static List<Range<T>> Merge(IEnumerable<Range<T>> ranges)
+    {
+        var input = ranges.ToList();
+        if (input.Count == 0)
+        {
+            return new List<Range<T>>(0);
+        }
+        input.Sort((x, y) => x.From.CompareTo(y.From));
+        var result = new List<Range<T>>();
+        var previous = input[0];
+        for (int i = 1; i < input.Count; i++)
+        {
+            var current = input[i];
+            if (previous.Upto.CompareTo(current.From) >= 0)
+            {
+                previous = new Range<T>(previous.From, current.Upto);
+            }
+            else
+            {
+                result.Add(previous);
+                previous = current;
+            }
+        }
+        result.Add(previous);
+        return result;
+    }
     public bool OverlapsWith(Range<T> other)
     {
         if (IsZero || other.IsZero)
