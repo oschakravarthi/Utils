@@ -23,10 +23,13 @@ namespace SubhadraSolutions.Utils.Geography
             : this(latitude, longitude, timeZone, name, null, null, null)
         {
         }
-        
+
+        [JsonConstructor]
+        [Newtonsoft.Json.JsonConstructor]
         public Meridian(double latitude, double longitude, double timeZone, string name, string district, string state, string country)
             :base(latitude, longitude, timeZone)
         {
+            Name = name;
             District = district;
             State = state;
             Country = country;
