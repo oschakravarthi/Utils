@@ -1,4 +1,5 @@
 ﻿using SubhadraSolutions.Utils.Shared.Mathematics;
+using System.Text;
 using System.Text.Json.Serialization;
 
 namespace SubhadraSolutions.Utils.Geography
@@ -40,7 +41,7 @@ namespace SubhadraSolutions.Utils.Geography
         public string District { get; set; }
         public string State { get; set; }
         public string Country { get; set; }
-        
+
 
         //public static bool operator ==(City left, City right)
         //{
@@ -51,7 +52,23 @@ namespace SubhadraSolutions.Utils.Geography
 
         public override string ToString()
         {
-            return $"{Name} - {District} - {State} - {Country} ({Latitude}, {Longitude})";
+            var sb = new StringBuilder();
+
+            if (this.District != null)
+            {
+                sb.Append($" - {this.District}");
+            }
+            if (this.State != null)
+            {
+                sb.Append($" - {this.State}");
+            }
+            if (this.Country != null)
+            {
+                sb.Append($" - {this.Country}");
+            }
+
+
+            return $"{Name}{sb.ToString()} ({Latitude}, {Longitude})";
         }
     }
 }
