@@ -73,8 +73,9 @@ public class RestExposer : AbstractInitializable
             Info = new OpenApiInfo
             {
                 Version = productInfo.Version,
-                Title = productInfo.Name
+                Title = productInfo.Name,
             },
+            
         };
         CopyToOpenApiDocument(document);
 
@@ -132,6 +133,7 @@ public class RestExposer : AbstractInitializable
         {
             Initialize();
             openApiJson = openApiDocument.Serialize(OpenApiSpecVersion.OpenApi3_0, OpenApiFormat.Json);
+            openApiJson = openApiJson.Replace("3.0.4", "3.1.0");
         }
 
         return openApiJson;

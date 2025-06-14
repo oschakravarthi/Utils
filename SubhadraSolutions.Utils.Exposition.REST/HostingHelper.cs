@@ -18,7 +18,6 @@ public static class HostingHelper
         var restExposer = new RestExposer(expositionLookup, productInfo, httpTelemetryConfig, isResponceAnErrorFunc);
         restExposer.Initialize();
         restExposer.MapRoutes(app);
-
         app.UseSwaggerUI(o =>
         {
             o.SwaggerEndpoint($"{expositionLookup.ApiBaseUrl}/openapi", $"{productInfo.Name} API {productInfo.Version}");

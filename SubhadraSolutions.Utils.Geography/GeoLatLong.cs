@@ -1,15 +1,17 @@
 ﻿using SubhadraSolutions.Utils.Geography.Helpers;
+using System;
 using System.Text.Json.Serialization;
 
 namespace SubhadraSolutions.Utils.Geography
 {
-    public class GeoLatLong
+    public class GeoLatLong : IEquatable<GeoLatLong>
     {
         public GeoLatLong(double latitude, double longitude)
         {
             this.Latitude = latitude;
             this.Longitude = longitude;
         }
+
         [JsonInclude]
         public double Latitude { get; private set; }
 
@@ -21,6 +23,7 @@ namespace SubhadraSolutions.Utils.Geography
             var d = GeographyHelper.GetDistance(Latitude, Longitude, other.Latitude, other.Longitude);
             return d;
         }
+         
         public override bool Equals(object obj)
         {
             if (ReferenceEquals(this, obj))
@@ -33,7 +36,16 @@ namespace SubhadraSolutions.Utils.Geography
                 return false;
             }
 
-            return Equals(obj as Meridian);
+            return Equals(obj as GeoLatLong);
+        }
+
+        public bool Equals(GeoLatLong other)
+        {
+            if(other==null)
+            {
+                return false;
+            }
+            return this.Latitude == other.Latitude && this.Longitude == other.Longitude;
         }
     }
 }
