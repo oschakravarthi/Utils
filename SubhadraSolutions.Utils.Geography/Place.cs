@@ -14,7 +14,7 @@ namespace SubhadraSolutions.Utils.Geography
         public Place(double latitude, double longitude, TimeSpan utcOffset)
             :base(latitude, longitude)
         {
-            UtcOffset = UtcOffset;
+            UtcOffset = utcOffset;
         }
 
         [JsonInclude] 

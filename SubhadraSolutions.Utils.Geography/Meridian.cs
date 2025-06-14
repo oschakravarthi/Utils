@@ -7,6 +7,7 @@ namespace SubhadraSolutions.Utils.Geography
 {
     public class Meridian : Place
     {
+        public static readonly Meridian Mooresville = new Meridian(35.58486, -80.81007, TimeSpan.FromHours(-5), "Mooresville");
         public static readonly Meridian Rajamahendravaramu = new Meridian(17.18144, 81.36903, DefaultUtcOffset, "రాజమహేంద్రవరము");
         public static readonly Meridian Visakhapatnamu = new Meridian(17.7336, 83.3836, DefaultUtcOffset, "విశాఖపట్టణము");
         public static readonly Meridian Bengaluru = new Meridian(12.9944071, DMSHelper.FromDMS(77, 35, 0), DefaultUtcOffset, "బెంగళూరు");
