@@ -75,24 +75,25 @@ public static class TimeSpanHelper
             var b = buckets[i];
             var v = ticks / b.Ticks;
             var vs = v.ToString();
+            if (i > 0)
+            {
+                sb.Append(legends == null ? "-" : " - ");
+            }
             if (vs.Length == 1)
             {
                 vs = "0" + vs;
             }
             if (legends != null)
             {
-                sb.Append($"{vs} {legends[i]} - ");
+                sb.Append($"{vs} {legends[i]}");
             }
             else
             {
-                sb.Append($"{vs}-");
+                sb.Append($"{vs}");
             }
             ticks %= b.Ticks;
         }
-        if (sb.Length > 0)
-        {
-            sb.Length--;
-        }
+        
         return sb.ToString();
     }
 }
