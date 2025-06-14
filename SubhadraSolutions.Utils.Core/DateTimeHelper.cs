@@ -72,14 +72,14 @@ public static class DateTimeHelper
         }
         return jd;
     }
-    public static DateTime ToLocalMeanTime(this DateTime dateTimeUTC, double timeZone)
+    public static DateTime ToLocal(this DateTime dateTimeUTC, TimeSpan timeZone)
     {
-        return ToLocalMeanTime(dateTimeUTC, 0, timeZone);
+        return ToLocal(dateTimeUTC, TimeSpan.Zero, timeZone);
     }
-    public static DateTime ToLocalMeanTime(this DateTime dateTime, double fromTimeZone, double toTimeZone)
+    public static DateTime ToLocal(this DateTime dateTime, TimeSpan fromTimeZone, TimeSpan toTimeZone)
     {
-        var diff = (toTimeZone - fromTimeZone) / 360.0;
-        var result = new DateTime(dateTime.AddDays(diff).Ticks, toTimeZone == 0 ? DateTimeKind.Utc : DateTimeKind.Local);
+        var diff = (toTimeZone - fromTimeZone);
+        var result = new DateTime(dateTime.Add(diff).Ticks, toTimeZone == TimeSpan.Zero ? DateTimeKind.Utc : DateTimeKind.Local);
         return result;
     }
 

@@ -1,23 +1,24 @@
-﻿using System.Text.Json.Serialization;
+﻿using System;
+using System.Text.Json.Serialization;
 
 namespace SubhadraSolutions.Utils.Geography
 {
     public class Place : GeoLatLong
     {
-        public const double DefaultTimeZone = 82.5;
+        public static TimeSpan DefaultUtcOffset = TimeSpan.FromMinutes(330);
         /*Oslo GPS coordinates*/
 
         //public const double DefaultLatitude = 59.911491;
         //public const double DefaultLongitude = 10.757933;
 
-        public Place(double latitude, double longitude, double timeZone)
+        public Place(double latitude, double longitude, TimeSpan utcOffset)
             :base(latitude, longitude)
         {
-            TimeZone = timeZone;
+            UtcOffset = UtcOffset;
         }
 
         [JsonInclude] 
-        public double TimeZone { get; private set; }
+        public TimeSpan UtcOffset { get; private set; }
 
 
         //public string LatitudeDMS { get { return Ephemeris.ToDMS(this.Latitude); } }
