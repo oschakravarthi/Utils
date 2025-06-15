@@ -47,5 +47,14 @@ namespace SubhadraSolutions.Utils.Geography
             }
             return this.Latitude == other.Latitude && this.Longitude == other.Longitude;
         }
+
+        public override int GetHashCode()
+        {
+            return this.ToString().GetHashCode();
+        }
+        public override string ToString()
+        {
+            return $"{this.Latitude} - {this.Longitude}";
+        }
     }
 }
