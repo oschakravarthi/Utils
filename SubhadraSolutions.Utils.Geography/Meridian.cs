@@ -43,8 +43,10 @@ namespace SubhadraSolutions.Utils.Geography
         [JsonInclude]
         public string Name { get; private set; }
         //public string District { get; set; }
-        public string State { get; set; }
-        public string Country { get; set; }
+        [JsonInclude] 
+        public string State { get; private set; }
+        [JsonInclude] 
+        public string Country { get; private set; }
 
 
         //public static bool operator ==(City left, City right)
