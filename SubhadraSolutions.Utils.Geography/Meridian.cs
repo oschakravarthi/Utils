@@ -16,7 +16,7 @@ namespace SubhadraSolutions.Utils.Geography
         public static readonly Meridian Pedanandipalli = new Meridian(17.9273601, 82.9952979, DefaultUtcOffset, "పెదనందిపల్లి");
         public static readonly Meridian Chicago = new Meridian(41.85003, -87.65005, DefaultUtcOffset, "చికాగో");
         //public static readonly Place Ujjayini = new Place(23.18239, 75.77, DefaultAltitude, "ఉజ్జయినీ");
-        //public static readonly Meridian Ujjayini = new Meridian(DMSHelper.FromDMS(23, 11, 0), DMSHelper.FromDMS(75, 41, 0), DefaultUtcOffset, "ఉజ్జయినీ");//75.683333
+        public static readonly Meridian Ujjayini = new Meridian(DMSHelper.FromDMS(23, 11, 0), DMSHelper.FromDMS(75, 41, 0), DefaultUtcOffset, "ఉజ్జయినీ");//75.683333
         public static readonly Meridian Golkonda = new Meridian(17.3833, 78.4011, DefaultUtcOffset, "గోల్కొండ");
         public static readonly Meridian Kakinada = new Meridian(16.96036, 82.23809, DefaultUtcOffset, "Kakinada");
         public static readonly Meridian Default = Rajamahendravaramu;
