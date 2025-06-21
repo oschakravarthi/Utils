@@ -20,7 +20,12 @@ namespace SubhadraSolutions.Utils
             for (int i = 0; i < divisons.Length; i++)
             {
                 var x = (int)(v / divisons[i]);
-                sb.Append($"{x}");
+                var s = x.ToString();
+                if(s.Length==1)
+                {
+                    s = "0" + s;
+                }
+                sb.Append($"{s}");
                 if (i < divisons.Length - 1)
                 {
                     sb.Append("-");

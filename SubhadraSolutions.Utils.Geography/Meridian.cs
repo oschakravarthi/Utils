@@ -11,12 +11,12 @@ namespace SubhadraSolutions.Utils.Geography
 
         public static readonly Meridian Mooresville = new Meridian(35.58486, -80.81007, TimeSpan.FromHours(-5), "Mooresville");
         public static readonly Meridian Rajamahendravaramu = new Meridian(17.18144, 81.36903, DefaultUtcOffset, "రాజమహేంద్రవరము");
-        public static readonly Meridian Visakhapatnamu = new Meridian(17.7336, 83.3836, DefaultUtcOffset, "విశాఖపట్టణము");
+        public static readonly Meridian Visakhapatnamu = new Meridian(17.7336, DMSHelper.FromDMS(83, 13, 0), DefaultUtcOffset, "విశాఖపట్టణము");
         public static readonly Meridian Bengaluru = new Meridian(12.9944071, DMSHelper.FromDMS(77, 35, 0), DefaultUtcOffset, "బెంగళూరు");
         public static readonly Meridian Pedanandipalli = new Meridian(17.9273601, 82.9952979, DefaultUtcOffset, "పెదనందిపల్లి");
         public static readonly Meridian Chicago = new Meridian(41.85003, -87.65005, DefaultUtcOffset, "చికాగో");
         //public static readonly Place Ujjayini = new Place(23.18239, 75.77, DefaultAltitude, "ఉజ్జయినీ");
-        public static readonly Meridian Ujjayini = new Meridian(DMSHelper.FromDMS(23, 11, 0), DMSHelper.FromDMS(75, 41, 0), DefaultUtcOffset, "ఉజ్జయినీ");//75.683333
+        public static readonly Meridian Ujjayini = new Meridian(DMSHelper.FromDMS(23, 11, 0), DMSHelper.FromDMS(75, 45, 0), DefaultUtcOffset, "ఉజ్జయినీ");//75.683333
         public static readonly Meridian Golkonda = new Meridian(17.3833, 78.4011, DefaultUtcOffset, "గోల్కొండ");
         public static readonly Meridian Kakinada = new Meridian(16.96036, 82.23809, DefaultUtcOffset, "Kakinada");
         public static readonly Meridian Default = Rajamahendravaramu;
