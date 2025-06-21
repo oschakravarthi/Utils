@@ -1,5 +1,4 @@
-﻿using Svg;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using VectSharp;
@@ -71,7 +70,7 @@ namespace SubhadraSolutions.Utils.SVG
             var newX = x - size.Width / 2;
             var newY = y - size.Height / 2;
             g.FillText(newX, newY, text, font, brush);
-            var path = SVGHelper.ConvertTextToPathSvg(text, font.FontFamily.FamilyName, (float)font.FontSize);
+            //var path = SVGHelper.ConvertTextToPathSvg(text, font.FontFamily.FamilyName, (float)font.FontSize);
             //var svgPath= ParseSvgPath(path);
             //g.StrokePath(svgPath, brush);
 
