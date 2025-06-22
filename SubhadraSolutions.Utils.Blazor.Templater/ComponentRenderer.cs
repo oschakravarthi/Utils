@@ -72,7 +72,7 @@ namespace SubhadraSolutions.Utils.Blazor.Templater
         public ComponentRenderer<TComponent> AddService<TImplementation>(TImplementation implementation)
 
         {
-            templater.AddService<TImplementation>(implementation);
+            templater.AddService(implementation);
             return this;
         }
 
