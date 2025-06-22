@@ -24,7 +24,7 @@ public abstract class AbstractMaximizableSmartComponent : AbstractSmartComponent
         return IsFullScreen ? "Close full-screen" : "Open in full-screen";
     }
 
-    protected async Task ToggleMinMax()
+    protected async Task ToggleMinMaxAsync()
     {
         if (!IsFullScreen)
         {
@@ -46,7 +46,7 @@ public abstract class AbstractMaximizableSmartComponent : AbstractSmartComponent
                 BackdropClick = false
             };
             var thisType = GetType();
-            var dialog = DialogService.Show(thisType, null, parameters, options);
+            var dialog = await DialogService.ShowAsync(thisType, null, parameters, options);
             var result = await dialog.Result.ConfigureAwait(false);
             var copyToMethod = typeof(DynamicCopyHelper<,>).MakeGenericType(thisType, thisType)
                 .GetMethods(BindingFlags.Static | BindingFlags.Public)

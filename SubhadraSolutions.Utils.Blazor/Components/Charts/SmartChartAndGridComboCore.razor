@@ -98,7 +98,7 @@ else
                                 var tooltip = this.GetMinMaxIconTooltop();
                                 var icon = this.GetMinMaxIcon();
                                 <MudTooltip Duration="1000" Text="@tooltip">
-                                    <MudIconButton Color="Color.Default" Icon="@icon" OnClick="@(this.ToggleMinMax)" aria-label="@tooltip"/>
+                                    <MudIconButton Color="Color.Default" Icon="@icon" OnClick="@(this.ToggleMinMaxAsync)" aria-label="@tooltip"/>
                                 </MudTooltip>
                             }
                         }

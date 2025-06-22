@@ -8,7 +8,7 @@
 			<CardHeaderContent></CardHeaderContent>
 			<CardHeaderActions>
 				<MudTooltip Duration="1000" Text="@this.GetMinMaxIconTooltop()">
-					<MudIconButton Color="MudBlazor.Color.Default" Icon="@this.GetMinMaxIcon()" OnClick="@(this.ToggleMinMax)" aria-label="@this.GetMinMaxIconTooltop()"/>
+					<MudIconButton Color="MudBlazor.Color.Default" Icon="@this.GetMinMaxIcon()" OnClick="@(this.ToggleMinMaxAsync)" aria-label="@this.GetMinMaxIconTooltop()"/>
 				</MudTooltip>
 			</CardHeaderActions>
 		</MudCardHeader>
