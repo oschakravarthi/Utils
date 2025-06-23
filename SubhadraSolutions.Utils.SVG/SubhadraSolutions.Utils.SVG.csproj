@@ -11,4 +11,8 @@
     <PackageReference Include="VectSharp.SVG" Version="1.10.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SubhadraSolutions.Utils.Core\SubhadraSolutions.Utils.Core.csproj" />
+  </ItemGroup>
+
 </Project>
