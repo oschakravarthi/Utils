@@ -1,10 +1,5 @@
-﻿using ExCSS;
-using Microsoft.Playwright;
-using System;
-using System.Drawing;
-using System.Linq;
+﻿using Microsoft.Playwright;
 using VectSharp;
-using VectSharp.SVG;
 
 namespace SubhadraSolutions.Utils.SVG
 {
