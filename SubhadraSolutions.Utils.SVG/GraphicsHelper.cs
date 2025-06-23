@@ -1,12 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
+﻿using System.Globalization;
 using VectSharp;
+using VectSharp.SVG;
 
 namespace SubhadraSolutions.Utils.SVG
 {
-    public class GraphicsHelper
+    public static class GraphicsHelper
     {
+
+        //public static void ExportAsImage(this Document document, SvgOptions options, string fileName)
+        //{
+        //    if(options==null)
+        //    {
+        //        options=new SvgOptions();
+        //    }
+        //    var byteArray = Encoding.ASCII.GetBytes(GetDocumentAsString(document));
+        //    using (var stream = new MemoryStream(byteArray))
+        //    {
+        //        var svgDocument = SvgDocument.Open<SvgDocument>(stream, options);
+        //        var bitmap = svgDocument.Draw();
+        //        bitmap.Save(fileName, ImageFormat.Png);
+        //    }
+        //}
+        public static string GetDocumentAsString(this Document doc)
+        {
+            var xmlDoc = doc.Pages[0].SaveAsSVG(textOption: SVGContextInterpreter.TextOptions.DoNotEmbed, useStyles: false);
+            //var xmlDoc = doc.Pages[0].SaveAsSVG();
+            var attribute = xmlDoc.DocumentElement.Attributes["viewBox"];
+            if (attribute != null)
+            {
+                var ints = attribute.Value.Split(' ').Select(x => Convert.ToInt32(x)).ToList();
+                var widthAttribute = xmlDoc.CreateAttribute("width");
+                widthAttribute.Value = (ints[2] - ints[0]).ToString();
+
+                var heightAttribute = xmlDoc.CreateAttribute("height");
+                heightAttribute.Value = (ints[3] - ints[1]).ToString();
+
+                xmlDoc.DocumentElement.Attributes.Append(widthAttribute);
+                xmlDoc.DocumentElement.Attributes.Append(heightAttribute);
+                //xmlDoc.DocumentElement.Attributes.Remove(attribute);
+            }
+            return xmlDoc.LastChild.OuterXml;
+        }
         public static ExtendedGraphics BuildCircle(double centerX, double centerY, double radius, Brush brush)
         {
             var path = new GraphicsPath();
