@@ -5,7 +5,7 @@ namespace SubhadraSolutions.Utils
 {
     public static class FormatHelper
     {
-        public static string ToCustomFormat(double value, params double[] divisons)
+        public static string ToCustomFormat(double value, bool shortAndRound, params double[] divisors)
         {
             if (double.IsNaN(value))
             {
@@ -16,47 +16,67 @@ namespace SubhadraSolutions.Utils
             {
                 sb.Append('-');
             }
-            var v = Math.Abs(value);
-            for (int i = 0; i < divisons.Length; i++)
+            value = Math.Abs(value);
+            if (divisors.Length > 1 && shortAndRound)
             {
-                var x = (int)(v / divisons[i]);
-                var s = x.ToString();
-                if(s.Length==1)
+                var d = divisors[divisors.Length - 2];
+                var rem = value % d;
+                if (rem / d > 0.5)
                 {
-                    s = "0" + s;
+                    value += d;
                 }
-                sb.Append($"{s}");
-                if (i < divisons.Length - 1)
+            }
+            for (int i = 0; i < divisors.Length; i++)
+            {
+                if (divisors.Length > 1 && i == divisors.Length - 1 && shortAndRound)
+                {
+                    break;
+                }
+                if (i > 0)
                 {
                     sb.Append("-");
                 }
-                v = v - (x * divisons[i]);
+                var x = (int)(value / divisors[i]);
+                var s = x.ToString();
+                if (!shortAndRound)
+                {
+                    if (s.Length == 1)
+                    {
+                        s = "0" + s;
+                    }
+                }
+                sb.Append($"{s}");
+                
+                //v = v - (x * divisors[i]);
+                value = value % divisors[i];
             }
             //sb.Append($"{v}");
-            return sb.ToString();
+            var result = sb.ToString();
+
+            return result;
         }
 
-        //public static string ToCustomFormatWithRounding(double value, params double[] divisons)
+        //public static string ToCustomFormatWithRounding(double value, params double[] divisors)
         //{
         //    if (double.IsNaN(value))
         //    {
         //        return "nan";
         //    }
-        //    int[] result = new int[divisons.Length];
+        //    int[] result = new int[divisors.Length];
         //    var sb = new StringBuilder();
         //    if (value < 0)
         //    {
         //        sb.Append('-');
         //    }
         //    var v = Math.Abs(value);
-        //    for (int i = 0; i < divisons.Length; i++)
+        //    for (int i = 0; i < divisors.Length; i++)
         //    {
-        //        var x = (int)(v / divisons[i]);
+        //        var x = (int)(v / divisors[i]);
         //        result[i] = x;
 
         //        var s = x.ToString();
         //        sb.Append($"{s}");
-        //        v = v - (x * divisons[i]);
+        //        v = v - (x * divisors[i]);
         //    }
 
         //    //sb.Append($"{v}");

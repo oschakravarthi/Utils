@@ -32,16 +32,16 @@ namespace SubhadraSolutions.Utils.Shared.Mathematics
                 sb.Append("-");
             }
 
-            //var divisons = new double[] { 30, 1.0, 1 / 60.0, 1 / 3600.0 };
+            //var divisors = new double[] { 30, 1.0, 1 / 60.0, 1 / 3600.0 };
             //var symbols = new string[] { "☉︎", "°", "′", "″" };
-            var divisons = new[] { 1.0, 1 / 60.0, 1 / 3600.0 };
+            var divisors = new[] { 1.0, 1 / 60.0, 1 / 3600.0 };
             var symbols = new[] { "°", "′", "″" };
             var v = degrees;
-            for (int i = 0; i < divisons.Length; i++)
+            for (int i = 0; i < divisors.Length; i++)
             {
-                var x = (int)(v / divisons[i]);
+                var x = (int)(v / divisors[i]);
                 sb.Append($"{x}{symbols[i]} ");
-                v = v - x * divisons[i];
+                v = v - x * divisors[i];
             }
             //sb.Append($"{v}");
             if (sb.Length > 0)
