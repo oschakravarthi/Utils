@@ -28,6 +28,8 @@ namespace SubhadraSolutions.Utils.Geography
         public static readonly Meridian Tirupati = new Meridian(13.6277325, 79.3853037, DefaultUtcOffset, "తిరుపతి");
         public static readonly Meridian Anantapuram = new Meridian(DMSHelper.FromDMS(14, 41, 0), DMSHelper.FromDMS(77, 36, 0), DefaultUtcOffset, "అనంతపురము");
 
+        public static readonly Meridian Srikalahasti = new Meridian(13.7497409, 79.6959571, DefaultUtcOffset, "శ్రీకాళహస్తి");
+
         public Meridian(double latitude, double longitude, TimeSpan utcOffset, string name)
             : this(latitude, longitude, utcOffset, name, null, null, null)
         {
