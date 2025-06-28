@@ -172,6 +172,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubhadraSolutions.Utils.Net
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubhadraSolutions.Utils.SVG", "SubhadraSolutions.Utils.SVG\SubhadraSolutions.Utils.SVG.csproj", "{A2FE5589-1ADD-1E71-0F3E-D80A2D485DDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubhadraSolutions.Utils.Physics", "SubhadraSolutions.Utils.Physics\SubhadraSolutions.Utils.Physics.csproj", "{8EE1B537-6727-4D4D-A027-DE0D66D10C01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -474,6 +476,10 @@ Global
 		{A2FE5589-1ADD-1E71-0F3E-D80A2D485DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2FE5589-1ADD-1E71-0F3E-D80A2D485DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2FE5589-1ADD-1E71-0F3E-D80A2D485DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE1B537-6727-4D4D-A027-DE0D66D10C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE1B537-6727-4D4D-A027-DE0D66D10C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE1B537-6727-4D4D-A027-DE0D66D10C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE1B537-6727-4D4D-A027-DE0D66D10C01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -561,6 +567,7 @@ Global
 		{D1A64C02-24C3-46EF-BF28-E3C9D358B44E} = {F4839A0E-00A1-4514-9ED5-49A1BBED2762}
 		{EA2AFD62-504D-4AA2-AD34-8C4466912E97} = {D1A64C02-24C3-46EF-BF28-E3C9D358B44E}
 		{A2FE5589-1ADD-1E71-0F3E-D80A2D485DDF} = {F4839A0E-00A1-4514-9ED5-49A1BBED2762}
+		{8EE1B537-6727-4D4D-A027-DE0D66D10C01} = {F4839A0E-00A1-4514-9ED5-49A1BBED2762}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE381B1C-9E11-44B5-8FF7-8847F686488A}
