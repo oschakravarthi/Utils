@@ -11,6 +11,10 @@
         public static double CalculateTime(double u, double v, double remainingDisplacement)
         {
             var a = v - u;
+            if (a == 0)
+            {
+                return remainingDisplacement / v;
+            }
             var t = Math.Sqrt(2 * remainingDisplacement / a);
             return t;
         }
