@@ -18,7 +18,13 @@ public static class StringSeparatedExportHelper<T>
         columnNames = new string[properties.Count];
         for (var i = 0; i < properties.Count; i++) columnNames[i] = properties[i].GetPropertyColumnName();
     }
-
+    public static void ExportToFile(IEnumerable<T> objects, string file, string separator, bool writeHeaders)
+    {
+        using(var sw = new StreamWriter(file))
+        {
+            Export(objects, sw, separator, writeHeaders);
+        }
+    }
     public static void Export(IEnumerable<T> objects, TextWriter writer, string separator, bool writeHeaders)
     {
         var numberOfColumns = columnNames.Length;
