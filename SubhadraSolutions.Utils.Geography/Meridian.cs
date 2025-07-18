@@ -24,7 +24,7 @@ namespace SubhadraSolutions.Utils.Geography
         public static readonly Meridian Vijayawada = new Meridian(16.50745, 80.6466, DefaultUtcOffset,"Vijayawada");
         public static readonly Meridian Eluru = new Meridian(16.7152607, 81.0823865, DefaultUtcOffset, "Eluru");
         public static readonly Meridian Dharwada = new Meridian(21.598582, 78.2359883, DefaultUtcOffset, "ధార్వాడ");
-        public static readonly Meridian Hyderabad = new Meridian(17.38405, 78.45636, DefaultUtcOffset, "Hyderabad");
+        public static readonly Meridian Hyderabad = new Meridian(17.38405, 78.45636, DefaultUtcOffset, "హైదరాబాద్");
         public static readonly Meridian Tirupati = new Meridian(13.6277325, 79.3853037, DefaultUtcOffset, "తిరుపతి");
         public static readonly Meridian Anantapuram = new Meridian(DMSHelper.FromDMS(14, 41, 0), DMSHelper.FromDMS(77, 36, 0), DefaultUtcOffset, "అనంతపురము");
 
