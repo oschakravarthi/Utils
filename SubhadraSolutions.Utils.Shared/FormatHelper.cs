@@ -5,7 +5,7 @@ namespace SubhadraSolutions.Utils
 {
     public static class FormatHelper
     {
-        public static string ToCustomFormat(double value, bool shortAndRound, params double[] divisors)
+        public static string ToCustomFormat(double value, bool shortAndRound, string separator, params double[] divisors)
         {
             if (double.IsNaN(value))
             {
@@ -14,7 +14,7 @@ namespace SubhadraSolutions.Utils
             var sb = new StringBuilder();
             if (value < 0)
             {
-                sb.Append('-');
+                sb.Append(separator);
             }
             value = Math.Abs(value);
             if (divisors.Length > 1 && shortAndRound)
@@ -34,7 +34,7 @@ namespace SubhadraSolutions.Utils
                 }
                 if (i > 0)
                 {
-                    sb.Append("-");
+                    sb.Append(separator);
                 }
                 var x = (int)(value / divisors[i]);
                 var s = x.ToString();
