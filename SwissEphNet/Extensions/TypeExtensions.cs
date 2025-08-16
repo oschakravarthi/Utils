@@ -66,7 +66,7 @@ namespace SwissEphNet
         Int64 = 11,
         UInt64 = 12,
         Single = 13,
-        Double = 14,
+        double = 14,
         Decimal = 15,
         DateTime = 16,
         String = 18

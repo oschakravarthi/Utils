@@ -129,9 +129,9 @@ namespace SwissEphNet
         }
 
         /// <summary>
-        /// Read an Double
+        /// Read an double
         /// </summary>
-        public bool Read(ref Double result) {
+        public bool Read(ref double result) {
             var buff = BitConverter.GetBytes((Double)0);
             if (Read(buff, 0, buff.Length) != buff.Length)
                 return false;
@@ -263,9 +263,9 @@ namespace SwissEphNet
         }
 
         /// <summary>
-        /// Read an Double
+        /// Read an double
         /// </summary>
-        public Double ReadDouble() {
+        public double ReadDouble() {
             double result = 0;
             if (Read(ref result)) return result;
             return 0;
@@ -328,7 +328,7 @@ namespace SwissEphNet
         /// Read an array of double
         /// </summary>
         public double[] ReadDoubles(int count) {
-            var result = new Double[count];
+            var result = new double[count];
             var cnt = ReadDoubles(result, 0, count);
             if (EOF && cnt == 0) return null;
             return result.Take(cnt).ToArray();
@@ -338,7 +338,7 @@ namespace SwissEphNet
         /// Read an array of double
         /// </summary>
         public int ReadDoubles(Double[] buff, int offset, int count) {
-            Double b = 0; int res = 0;
+            double b = 0; int res = 0;
             for (int i = 0; i < count; i++) {
                 if (!Read(ref b)) break;
                 buff[offset + i] = b;

@@ -98,7 +98,7 @@ public partial class StatisticsCard : AbstractSmartComponent
             return Color.Primary;
         }
 
-        if (numericValue is null or Double.NaN)
+        if (numericValue is null or double.NaN)
         {
             return Color.Primary;
         }
@@ -125,7 +125,7 @@ public partial class StatisticsCard : AbstractSmartComponent
             return null;
         }
 
-        if (numericValue is null or Double.NaN)
+        if (numericValue is null or double.NaN)
         {
             return null;
         }

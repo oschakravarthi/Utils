@@ -122,14 +122,14 @@
 //                qes.delete(qe);
 //            }
 
-//            Dictionary<QuadEdge, Double> qeDistances = new Dictionary<QuadEdge, Double>();
+//            Dictionary<QuadEdge, double> qeDistances = new Dictionary<QuadEdge, double>();
 //            for (QuadEdge qe : quadEdges)
 //            {
 //                qeDistances.put(qe, qe.toLineSegment().getLength());
 //            }
 
 //            DoubleComparator dc = new DoubleComparator(qeDistances);
-//            TreeMap<QuadEdge, Double> qeSorted = new TreeMap<QuadEdge, Double>(dc);
+//            TreeMap<QuadEdge, double> qeSorted = new TreeMap<QuadEdge, double>(dc);
 //            qeSorted.putAll(qeDistances);
 
 //            // edges creation

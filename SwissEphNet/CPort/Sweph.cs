@@ -5339,7 +5339,7 @@ namespace SwissEphNet.CPort
             trg = BitConverter.ToUInt32(buff, 0);
             return res;
         }
-        int do_fread(ref Double trg, int size, int count, int corrsize, ref CFile fp, Int32 fpos, int freord, int fendian, int ifno, ref string serr)
+        int do_fread(ref double trg, int size, int count, int corrsize, ref CFile fp, Int32 fpos, int freord, int fendian, int ifno, ref string serr)
         {
             byte[] buff = BitConverter.GetBytes(trg);
             var res = do_fread(buff, size, count, corrsize, ref fp, fpos, freord, fendian, ifno, ref serr);
