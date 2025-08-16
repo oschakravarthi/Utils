@@ -48,35 +48,7 @@ public class Range<T> : IComparable<Range<T>> where T : IComparable<T>
 
     public List<Range<T>> Exclude(IEnumerable<Range<T>> others)
     {
-        var result = new Queue<Range<T>>();
-        result.Enqueue(this);
-
-        foreach (var toExclude in others)
-        {
-            var count = result.Count;
-            for (var i = 0; i < count; i++)
-            {
-                var input = result.Dequeue();
-                if (toExclude.OverlapsWith(input))
-                {
-                    if (input.From.CompareTo(toExclude.From) < 0)
-                    {
-                        result.Enqueue(new Range<T>(input.From, toExclude.From));
-                    }
-
-                    if (input.Upto.CompareTo(toExclude.Upto) > 0)
-                    {
-                        result.Enqueue(new Range<T>(toExclude.Upto, input.Upto));
-                    }
-                }
-                else
-                {
-                    result.Enqueue(input);
-                }
-            }
-        }
-
-        return result.ToList();
+        return Exclude([this], others);
     }
 
     public Range<T> GetIntersection(Range<T> other)
@@ -124,6 +96,41 @@ public class Range<T> : IComparable<Range<T>> where T : IComparable<T>
         }
         result.Add(previous);
         return result;
+    }
+    public static List<Range<T>> Exclude(IEnumerable<Range<T>> from, IEnumerable<Range<T>> rangesToExclude)
+    {
+        var result = new Queue<Range<T>>();
+
+        foreach (var f in from)
+        {
+            result.Enqueue(f);
+        }
+        foreach (var toExclude in rangesToExclude)
+        {
+            var count = result.Count;
+            for (var i = 0; i < count; i++)
+            {
+                var input = result.Dequeue();
+                if (toExclude.OverlapsWith(input))
+                {
+                    if (input.From.CompareTo(toExclude.From) < 0)
+                    {
+                        result.Enqueue(new Range<T>(input.From, toExclude.From));
+                    }
+
+                    if (input.Upto.CompareTo(toExclude.Upto) > 0)
+                    {
+                        result.Enqueue(new Range<T>(toExclude.Upto, input.Upto));
+                    }
+                }
+                else
+                {
+                    result.Enqueue(input);
+                }
+            }
+        }
+
+        return result.ToList();
     }
     public bool OverlapsWith(Range<T> other)
     {
