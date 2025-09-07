@@ -113,11 +113,11 @@ public class ExpositionLookup(string apiBaseUrl) : IExpositionLookup
             anyMethodsExposed = true;
         }
 
-        if (!anyMethodsExposed)
-        {
-            throw new AbandonedMutexException(
-                "No methods found to expose. Did you miss to decorate the method with ExposeAttribute?");
-        }
+        //if (!anyMethodsExposed)
+        //{
+        //    throw new AbandonedMutexException(
+        //        "No methods found to expose. Did you miss to decorate the method with ExposeAttribute?");
+        //}
     }
 
     private static Type GetQueryableElementType(Type type)
