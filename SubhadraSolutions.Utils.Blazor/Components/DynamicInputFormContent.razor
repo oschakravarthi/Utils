@@ -1,18 +1,36 @@
-﻿@inherits AbstractSmartComponent
+﻿@using Newtonsoft.Json.Schema
+@inherits AbstractSmartComponent
 
-@foreach (var field in Schema.Fields)
+@foreach (var property in Schema.Properties)
 {
-    if (!this.Model.ContainsKey(field.Name))
+    if (!this.Model.ContainsKey(property.Key))
     {
-        this.Model.Add(field.Name, null);
+        this.Model.Add(property.Key, null);
     }
-    switch (field.Type.ToLower())
+    var valueSchema = property.Value;
+    switch (valueSchema.Type)
     {
-        case "string":
-            <MudTextField Converter="@MudBlazorHelper.StringConverter" @bind-Value="Model[field.Name]" Label="@field.Label" HelperText="@field.Description" Required="@field.Required" />
+        case JSchemaType.Array:
+            if (valueSchema.Items.Count > 0)
+            {
+                foreach (var child in valueSchema.Items)
+                {
+                    var childPayload = new Dictionary<string, object>();
+                    this.Model[property.Key] = childPayload;
+                    <DynamicInputFormContent Schema="@child" Model="childPayload" />
+                }
+            }
             break;
-        case "integer":
-            <MudTextField Converter="@MudBlazorHelper.StringConverter" @bind-Value="Model[field.Name]" Label="@field.Label" HelperText="@field.Description" Required="@field.Required" />
+        case JSchemaType.Object:
+            {
+                var childPayload = new Dictionary<string, object>();
+                this.Model[property.Key] = childPayload;
+                <DynamicInputFormContent Schema="@valueSchema" Model="childPayload" />
+            }
+            break;
+        case JSchemaType.String:
+        case JSchemaType.Integer:
+            <MudTextField Converter="@MudBlazorHelper.StringConverter" @bind-Value="Model[property.Key]" Label="@valueSchema.Title" HelperText="@valueSchema.Description" Required="@valueSchema.Required.Contains(property.Key)" />
             break;
     }
 }
