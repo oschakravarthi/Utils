@@ -1,4 +1,6 @@
 ﻿@using Newtonsoft.Json.Schema
+@using Microsoft.AspNetCore.Components.Forms
+
 @inherits AbstractSmartComponent
 
 @foreach (var property in Schema.Properties)
@@ -29,6 +31,23 @@
             }
             break;
         case JSchemaType.String:
+            {
+                if(valueSchema.ContentEncoding!=null || valueSchema.ContentMediaType != null)
+                {
+                    @* var payload = new Dictionary<string, object>();
+                    this.Model[property.Key] = childPayload; *@
+                    <MudFileUpload T="IBrowserFile" FilesChanged="(f) => this.Model[property.Key]=f">
+                        <ActivatorContent>
+                            <MudFab Color="Color.Success" StartIcon="@Icons.Material.Filled.AttachFile" Size="Size.Small" />
+                        </ActivatorContent>
+                    </MudFileUpload>
+                }
+                else
+                {
+                    <MudTextField Converter="@MudBlazorHelper.StringConverter" @bind-Value="Model[property.Key]" Label="@valueSchema.Title" HelperText="@valueSchema.Description" Required="@valueSchema.Required.Contains(property.Key)" />
+                }
+            }
+            break;
         case JSchemaType.Integer:
             <MudTextField Converter="@MudBlazorHelper.StringConverter" @bind-Value="Model[property.Key]" Label="@valueSchema.Title" HelperText="@valueSchema.Description" Required="@valueSchema.Required.Contains(property.Key)" />
             break;
