@@ -24,12 +24,14 @@ public static class JsonSettings
             //NullValueHandling = NullValueHandling.Ignore,
             //DateTimeZoneHandling=DateTimeZoneHandling.RoundtripKind
             MaxDepth = MaxDepth,
-            DateFormatString = "o"
+            DateFormatString = "o",
+            MissingMemberHandling = MissingMemberHandling.Ignore
         }.AddConverters();
         RestSerializerSettingsForDebug = new JsonSerializerSettings
         {
             MaxDepth = MaxDepth,
             Formatting = Formatting.Indented,
+            MissingMemberHandling = MissingMemberHandling.Ignore
         }.AddConverters(true);
 
         LinqSerializerSettings = new JsonSerializerSettings
@@ -46,6 +48,7 @@ public static class JsonSettings
         RestJsonSerializerOptions = new JsonSerializerOptions()
         {
             MaxDepth = MaxDepth,
+            PropertyNameCaseInsensitive = true
         }.AddConverters();
 
         LinqJsonSerializerOptions = new JsonSerializerOptions()

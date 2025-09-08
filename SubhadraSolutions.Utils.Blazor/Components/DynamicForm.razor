@@ -1,0 +1,17 @@
+﻿@inherits AbstractSmartComponent
+
+<MudForm @ref="_form">
+    @foreach (var field in Schema.Fields)
+    {
+        switch (field.Type.ToLower())
+        {
+            case "string":
+                <MudTextField @bind-Value="model[field.Name]" Label="@field.Label" HelperText="@field.Description" Required="@field.Required" />
+                break;
+            case "integer":
+                <MudTextField @bind-Value="model[field.Name]" Label="@field.Label" HelperText="@field.Description" Required="@field.Required" />
+                break;
+        }
+    }
+    <MudButton OnClick="HandleSubmit" Variant="Variant.Filled" Color="Color.Primary">Submit</MudButton>
+</MudForm>
