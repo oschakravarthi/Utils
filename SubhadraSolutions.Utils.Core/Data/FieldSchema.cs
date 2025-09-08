@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SubhadraSolutions.Utils.Core.Data
+namespace SubhadraSolutions.Utils.Data
 {
     public class FieldSchema
     {

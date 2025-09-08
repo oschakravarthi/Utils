@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 using MudBlazor;
-using SubhadraSolutions.Utils.Core.Data;
+using SubhadraSolutions.Utils.Data;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -8,13 +8,7 @@ namespace SubhadraSolutions.Utils.Blazor.Components
 {
     public partial class DynamicInputFormDialog
     {
-        private static readonly Converter<object> StringConverter = new Converter<object>
-        {
-            SetFunc = value => value.ToString(),
-            GetFunc = text => text.ToString(),
-        };
-
-        [CascadingParameter]
+       [CascadingParameter]
         private IMudDialogInstance MudDialog { get; set; }
 
         private void Close()

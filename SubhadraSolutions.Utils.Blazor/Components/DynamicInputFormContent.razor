@@ -1,0 +1,18 @@
+﻿@inherits AbstractSmartComponent
+
+@foreach (var field in Schema.Fields)
+{
+    if (!this.Model.ContainsKey(field.Name))
+    {
+        this.Model.Add(field.Name, null);
+    }
+    switch (field.Type.ToLower())
+    {
+        case "string":
+            <MudTextField Converter="@MudBlazorHelper.StringConverter" @bind-Value="Model[field.Name]" Label="@field.Label" HelperText="@field.Description" Required="@field.Required" />
+            break;
+        case "integer":
+            <MudTextField Converter="@MudBlazorHelper.StringConverter" @bind-Value="Model[field.Name]" Label="@field.Label" HelperText="@field.Description" Required="@field.Required" />
+            break;
+    }
+}

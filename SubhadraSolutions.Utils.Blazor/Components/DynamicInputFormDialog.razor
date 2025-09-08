@@ -12,10 +12,10 @@
                 switch (field.Type.ToLower())
                 {
                     case "string":
-                        <MudTextField Converter="@StringConverter" @bind-Value="model[field.Name]" Label="@field.Label" HelperText="@field.Description" Required="@field.Required" />
+                        <MudTextField Converter="@MudBlazorHelper.StringConverter" @bind-Value="model[field.Name]" Label="@field.Label" HelperText="@field.Description" Required="@field.Required" />
                         break;
                     case "integer":
-                        <MudTextField Converter="@StringConverter" @bind-Value="model[field.Name]" Label="@field.Label" HelperText="@field.Description" Required="@field.Required" />
+                        <MudTextField Converter="@MudBlazorHelper.StringConverter" @bind-Value="model[field.Name]" Label="@field.Label" HelperText="@field.Description" Required="@field.Required" />
                         break;
                 }
             }
