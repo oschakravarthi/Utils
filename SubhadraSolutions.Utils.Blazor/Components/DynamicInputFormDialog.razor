@@ -1,0 +1,19 @@
+@using Newtonsoft.Json.Schema
+@using SubhadraSolutions.Utils.Blazor.Helpers
+@using SubhadraSolutions.Utils.Data
+@using SubhadraSolutions.Utils.Json
+@inherits AbstractSmartComponent
+
+<MudDialog>
+    <DialogContent>
+        <MudForm @ref="_form">
+            @{
+                <DynamicInputFormContent Schema="@this.Schema" Model="@this.Model"></DynamicInputFormContent>
+            }
+        </MudForm>
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="HandleSubmit" Variant="Variant.Filled" Color="Color.Primary">Submit</MudButton>
+        <MudButton Color="Color.Secondary" OnClick="Close">Cancel</MudButton>
+    </DialogActions>
+</MudDialog>

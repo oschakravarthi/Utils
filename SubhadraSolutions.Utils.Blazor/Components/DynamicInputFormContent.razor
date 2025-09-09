@@ -36,11 +36,17 @@
                 {
                     @* var payload = new Dictionary<string, object>();
                     this.Model[property.Key] = childPayload; *@
+                    <ExtendedMudField Label="@valueSchema.Title" Variant="Variant.Filled">
                     <MudFileUpload T="IBrowserFile" FilesChanged="(f) => this.Model[property.Key]=f">
                         <ActivatorContent>
-                            <MudFab Color="Color.Success" StartIcon="@Icons.Material.Filled.AttachFile" Size="Size.Small" />
+                            <MudButton Variant="Variant.Filled"
+                                       Color="Color.Primary"
+                                       StartIcon="@Icons.Material.Filled.CloudUpload">
+                                Upload File
+                            </MudButton>
                         </ActivatorContent>
                     </MudFileUpload>
+                    </ExtendedMudField>
                 }
                 else
                 {
